@@ -1,0 +1,1196 @@
+{
+  "reference_date": "2026-10-06",
+  "synthetic": true,
+  "documents": [
+    {
+      "company": {
+        "name": "Meridian Health Cloud",
+        "aliases": [],
+        "domain": "meridian-health-cloud.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Meridian Health Cloud."
+      },
+      "source_url": "https://meridian-health-cloud.example/news/1",
+      "source_name": "Meridian Health Cloud fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Meridian Health Cloud: Company announces an India market launch.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Veda Payroll",
+        "aliases": [],
+        "domain": "veda-payroll.example",
+        "country": "India",
+        "sector": "Fintech",
+        "employee_range": "501-1000",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Veda Payroll."
+      },
+      "source_url": "https://veda-payroll.example/news/2",
+      "source_name": "Veda Payroll fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-09-21",
+      "snippet": "Veda Payroll: Company opens a dedicated DPO vacancy.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Harbor Consumer Labs",
+        "aliases": [],
+        "domain": "harbor-consumer-labs.example",
+        "country": "India",
+        "sector": "Healthtech",
+        "employee_range": "51-200",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Harbor Consumer Labs."
+      },
+      "source_url": "https://harbor-consumer-labs.example/news/3",
+      "source_name": "Harbor Consumer Labs fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-08-12",
+      "snippet": "Harbor Consumer Labs: Company recruits a privacy implementation lead.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Keystone Commerce",
+        "aliases": [],
+        "domain": "keystone-commerce.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Keystone Commerce."
+      },
+      "source_url": "https://keystone-commerce.example/news/4",
+      "source_name": "Keystone Commerce fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Keystone Commerce: Company opens a contract manager vacancy.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Aster Manufacturing",
+        "aliases": [],
+        "domain": "aster-manufacturing.example",
+        "country": "India",
+        "sector": "Manufacturing",
+        "employee_range": "501-1000",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Aster Manufacturing."
+      },
+      "source_url": "https://aster-manufacturing.example/news/5",
+      "source_name": "Aster Manufacturing fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-09-21",
+      "snippet": "Aster Manufacturing: Company reports a growing contract review backlog.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Summit Sales Cloud",
+        "aliases": [],
+        "domain": "summit-sales-cloud.example",
+        "country": "India",
+        "sector": "Fintech",
+        "employee_range": "51-200",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Summit Sales Cloud."
+      },
+      "source_url": "https://summit-sales-cloud.example/news/6",
+      "source_name": "Summit Sales Cloud fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-08-12",
+      "snippet": "Summit Sales Cloud: Company reports missed commercial contract renewals.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Cedar Fintech",
+        "aliases": [],
+        "domain": "cedar-fintech.example",
+        "country": "India",
+        "sector": "Fintech",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Cedar Fintech."
+      },
+      "source_url": "https://cedar-fintech.example/news/7",
+      "source_name": "Cedar Fintech fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Cedar Fintech: Company starts a large vendor onboarding programme.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Beacon Logistics",
+        "aliases": [],
+        "domain": "beacon-logistics.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "501-1000",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Beacon Logistics."
+      },
+      "source_url": "https://beacon-logistics.example/news/8",
+      "source_name": "Beacon Logistics fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-09-21",
+      "snippet": "Beacon Logistics: Company recruits a third-party risk manager.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Saffron Retail",
+        "aliases": [],
+        "domain": "saffron-retail.example",
+        "country": "India",
+        "sector": "Healthtech",
+        "employee_range": "51-200",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Saffron Retail."
+      },
+      "source_url": "https://saffron-retail.example/news/9",
+      "source_name": "Saffron Retail fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-08-12",
+      "snippet": "Saffron Retail: Company starts migrating sensitive workloads to cloud vendors.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Atlas AI Systems",
+        "aliases": [],
+        "domain": "atlas-ai-systems.example",
+        "country": "India",
+        "sector": "Recruitment",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Atlas AI Systems."
+      },
+      "source_url": "https://atlas-ai-systems.example/news/10",
+      "source_name": "Atlas AI Systems fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Atlas AI Systems: Company launches an AI recruitment decision system.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Orion Advisory",
+        "aliases": [],
+        "domain": "orion-advisory.example",
+        "country": "India",
+        "sector": "Fintech",
+        "employee_range": "501-1000",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Orion Advisory."
+      },
+      "source_url": "https://orion-advisory.example/news/11",
+      "source_name": "Orion Advisory fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-09-21",
+      "snippet": "Orion Advisory: Company deploys generative AI across its workforce.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Nimbus Products",
+        "aliases": [],
+        "domain": "nimbus-products.example",
+        "country": "India",
+        "sector": "Recruitment",
+        "employee_range": "51-200",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Nimbus Products."
+      },
+      "source_url": "https://nimbus-products.example/news/12",
+      "source_name": "Nimbus Products fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-08-12",
+      "snippet": "Nimbus Products: Company launches an AI product processing customer records.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Northstar Industries",
+        "aliases": [],
+        "domain": "northstar-industries.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Northstar Industries."
+      },
+      "source_url": "https://northstar-industries.example/news/13",
+      "source_name": "Northstar Industries fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Northstar Industries: Company opens a legal operations head vacancy.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Juniper Group",
+        "aliases": [],
+        "domain": "juniper-group.example",
+        "country": "India",
+        "sector": "Manufacturing",
+        "employee_range": "501-1000",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Juniper Group."
+      },
+      "source_url": "https://juniper-group.example/news/14",
+      "source_name": "Juniper Group fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-09-21",
+      "snippet": "Juniper Group: Company reports a growing legal matter backlog.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Cobalt Services",
+        "aliases": [],
+        "domain": "cobalt-services.example",
+        "country": "India",
+        "sector": "Fintech",
+        "employee_range": "51-200",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Cobalt Services."
+      },
+      "source_url": "https://cobalt-services.example/news/15",
+      "source_name": "Cobalt Services fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-08-12",
+      "snippet": "Cobalt Services: Company announces an outside-counsel spend review.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Clearwater Holdings",
+        "aliases": [],
+        "domain": "clearwater-holdings.example",
+        "country": "India",
+        "sector": "Manufacturing",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Clearwater Holdings."
+      },
+      "source_url": "https://clearwater-holdings.example/news/16",
+      "source_name": "Clearwater Holdings fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Clearwater Holdings: A source reports fraud allegations concerning a company.",
+      "confidence": 0.95,
+      "assertion_type": "ALLEGATION",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Tamarind Supply",
+        "aliases": [],
+        "domain": "tamarind-supply.example",
+        "country": "India",
+        "sector": "Fintech",
+        "employee_range": "501-1000",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Tamarind Supply."
+      },
+      "source_url": "https://tamarind-supply.example/news/17",
+      "source_name": "Tamarind Supply fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-09-21",
+      "snippet": "Tamarind Supply: A source reports a whistleblower complaint.",
+      "confidence": 0.95,
+      "assertion_type": "ALLEGATION",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Granite Components",
+        "aliases": [],
+        "domain": "granite-components.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "51-200",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Granite Components."
+      },
+      "source_url": "https://granite-components.example/news/18",
+      "source_name": "Granite Components fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-08-12",
+      "snippet": "Granite Components: Company announces arbitration proceedings.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Pioneer Capital",
+        "aliases": [],
+        "domain": "pioneer-capital.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Pioneer Capital."
+      },
+      "source_url": "https://pioneer-capital.example/news/19",
+      "source_name": "Pioneer Capital fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Pioneer Capital: Company announces an acquisition agreement.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Maple Software",
+        "aliases": [],
+        "domain": "maple-software.example",
+        "country": "India",
+        "sector": "Manufacturing",
+        "employee_range": "501-1000",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Maple Software."
+      },
+      "source_url": "https://maple-software.example/news/20",
+      "source_name": "Maple Software fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-09-21",
+      "snippet": "Maple Software: Company announces a merger agreement.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Silverline Assets",
+        "aliases": [],
+        "domain": "silverline-assets.example",
+        "country": "India",
+        "sector": "Fintech",
+        "employee_range": "51-200",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Silverline Assets."
+      },
+      "source_url": "https://silverline-assets.example/news/21",
+      "source_name": "Silverline Assets fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-08-12",
+      "snippet": "Silverline Assets: Company enters a private-equity buyout transaction.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Lattice Software",
+        "aliases": [],
+        "domain": "lattice-software.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Lattice Software."
+      },
+      "source_url": "https://lattice-software.example/news/22",
+      "source_name": "Lattice Software fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Lattice Software: Company launches an enterprise SaaS sales programme.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Prism Technologies",
+        "aliases": [],
+        "domain": "prism-technologies.example",
+        "country": "India",
+        "sector": "Technology",
+        "employee_range": "501-1000",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Prism Technologies."
+      },
+      "source_url": "https://prism-technologies.example/news/23",
+      "source_name": "Prism Technologies fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-09-21",
+      "snippet": "Prism Technologies: Company launches a commercial software product.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Vector Licensing",
+        "aliases": [],
+        "domain": "vector-licensing.example",
+        "country": "India",
+        "sector": "Fintech",
+        "employee_range": "51-200",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Vector Licensing."
+      },
+      "source_url": "https://vector-licensing.example/news/24",
+      "source_name": "Vector Licensing fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-08-12",
+      "snippet": "Vector Licensing: Company introduces a software licensing programme.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Bluebird Global",
+        "aliases": [],
+        "domain": "bluebird-global.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Bluebird Global."
+      },
+      "source_url": "https://bluebird-global.example/news/25",
+      "source_name": "Bluebird Global fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Bluebird Global: Company forms an Indian subsidiary.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Horizon Entities",
+        "aliases": [],
+        "domain": "horizon-entities.example",
+        "country": "India",
+        "sector": "Fintech",
+        "employee_range": "501-1000",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Horizon Entities."
+      },
+      "source_url": "https://horizon-entities.example/news/26",
+      "source_name": "Horizon Entities fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-09-21",
+      "snippet": "Horizon Entities: Company consolidates oversight of multiple Indian entities.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Lotus Holdings",
+        "aliases": [],
+        "domain": "lotus-holdings.example",
+        "country": "India",
+        "sector": "Manufacturing",
+        "employee_range": "51-200",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Lotus Holdings."
+      },
+      "source_url": "https://lotus-holdings.example/news/27",
+      "source_name": "Lotus Holdings fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-08-12",
+      "snippet": "Lotus Holdings: Company coordinates director changes across several entities.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Quiet AI Media",
+        "aliases": [],
+        "domain": "quiet-ai-media.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Quiet AI Media."
+      },
+      "source_url": "https://quiet-ai-media.example/news/28",
+      "source_name": "Quiet AI Media fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Quiet AI Media: Publishes a blog mentioning AI. No operational change.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Funding Only Ventures",
+        "aliases": [],
+        "domain": "funding-only-ventures.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Funding Only Ventures."
+      },
+      "source_url": "https://funding-only-ventures.example/news/29",
+      "source_name": "Funding Only Ventures fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Funding Only Ventures: Announces Series B funding, without a legal operations programme.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "New CFO Enterprises",
+        "aliases": [],
+        "domain": "new-cfo-enterprises.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: New CFO Enterprises."
+      },
+      "source_url": "https://new-cfo-enterprises.example/news/30",
+      "source_name": "New CFO Enterprises fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "New CFO Enterprises: Appoints a new CFO; no governance problem is reported.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Stale Contract Works",
+        "aliases": [],
+        "domain": "stale-contract-works.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Stale Contract Works."
+      },
+      "source_url": "https://stale-contract-works.example/news/31",
+      "source_name": "Stale Contract Works fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2025-09-01",
+      "snippet": "Stale Contract Works: Company reports a growing contract review backlog.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Weak AI Rumors",
+        "aliases": [],
+        "domain": "weak-ai-rumors.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Weak AI Rumors."
+      },
+      "source_url": "https://weak-ai-rumors.example/news/32",
+      "source_name": "Weak AI Rumors fixture newsroom",
+      "source_type": "fixture_rumour",
+      "published_date": "2026-10-03",
+      "snippet": "Weak AI Rumors: Company launches an AI recruitment decision system.",
+      "confidence": 0.35,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Undated Privacy Labs",
+        "aliases": [],
+        "domain": "undated-privacy-labs.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Undated Privacy Labs."
+      },
+      "source_url": "https://undated-privacy-labs.example/news/33",
+      "source_name": "Undated Privacy Labs fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": null,
+      "snippet": "Undated Privacy Labs: Company opens a dedicated DPO vacancy.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Conflicted Vendor Co",
+        "aliases": [],
+        "domain": "conflicted-vendor-co.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Conflicted Vendor Co."
+      },
+      "source_url": "https://conflicted-vendor-co.example/news/34",
+      "source_name": "Conflicted Vendor Co fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Conflicted Vendor Co: Company starts a large vendor onboarding programme.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": true,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Wrong Entity News",
+        "aliases": [],
+        "domain": "wrong-entity-news.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Wrong Entity News."
+      },
+      "source_url": "https://wrong-entity-news.example/news/35",
+      "source_name": "Wrong Entity News fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Wrong Entity News: Unrelated Company forms an Indian subsidiary.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": false,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Empty Evidence Co",
+        "aliases": [],
+        "domain": "empty-evidence-co.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Empty Evidence Co."
+      },
+      "source_url": "https://empty-evidence-co.example/news/36",
+      "source_name": "Empty Evidence Co fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Empty Evidence Co: ",
+      "confidence": 0,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Denial AI Systems",
+        "aliases": [],
+        "domain": "denial-ai-systems.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Denial AI Systems."
+      },
+      "source_url": "https://denial-ai-systems.example/news/37",
+      "source_name": "Denial AI Systems fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Denial AI Systems: Company has not deployed an AI recruitment decision system. Event denied.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Twin Name",
+        "aliases": [],
+        "domain": "twin-name.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Twin Name."
+      },
+      "source_url": "https://twin-name.example/news/38",
+      "source_name": "Twin Name fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Twin Name: Company begins contract due diligence.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Twin Name",
+        "aliases": [],
+        "domain": "twin-name-uk.example",
+        "country": "United Kingdom",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Twin Name."
+      },
+      "source_url": "https://twin-name-uk.example/news/licensing",
+      "source_name": "Twin Name fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Twin Name: Company introduces a software licensing programme.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Multi Signal Systems",
+        "aliases": [],
+        "domain": "multi-signal-systems.example",
+        "country": "India",
+        "sector": "SaaS",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Multi Signal Systems."
+      },
+      "source_url": "https://multi-signal-systems.example/news/40",
+      "source_name": "Multi Signal Systems fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Multi Signal Systems: Company launches an AI recruitment decision system. Company forms an Indian subsidiary.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Atlas AI Systems Pvt Ltd",
+        "aliases": [
+          "Atlas AI Systems"
+        ],
+        "domain": "atlas-ai-systems.example",
+        "country": "India",
+        "sector": "Recruitment",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Atlas AI Systems."
+      },
+      "source_url": "https://atlas-ai-systems.example/news/10?utm_source=duplicate",
+      "source_name": "Atlas AI Systems fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Atlas AI Systems: Company launches an AI recruitment decision system.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Atlas AI Systems",
+        "aliases": [],
+        "domain": "atlas-ai-systems.example",
+        "country": "India",
+        "sector": "Recruitment",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Atlas AI Systems."
+      },
+      "source_url": "https://atlas-ai-systems.example/news/10",
+      "source_name": "Atlas AI Systems fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Atlas AI Systems: Company launches an AI recruitment decision system.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Atlas AI Systems",
+        "aliases": [],
+        "domain": "atlas-ai-systems.example",
+        "country": "India",
+        "sector": "Recruitment",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Atlas AI Systems."
+      },
+      "source_url": "https://market-journal.example/atlas-launch",
+      "source_name": "Mock Market Journal",
+      "source_type": "fixture_trade_press",
+      "published_date": "2026-10-03",
+      "snippet": "Atlas AI Systems: Company launches an AI recruitment decision system. The company confirmed the programme in a separate release.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    },
+    {
+      "company": {
+        "name": "Atlas AI Systems",
+        "aliases": [],
+        "domain": "atlas-ai-systems.example",
+        "country": "India",
+        "sector": "Recruitment",
+        "employee_range": "201-500",
+        "funding_stage": "Series B",
+        "locations": [
+          "Bengaluru"
+        ],
+        "description": "Synthetic fixture company: Atlas AI Systems."
+      },
+      "source_url": "not-a-url",
+      "source_name": "Atlas AI Systems fixture newsroom",
+      "source_type": "fixture_primary",
+      "published_date": "2026-10-03",
+      "snippet": "Atlas AI Systems: Company launches an AI recruitment decision system.",
+      "confidence": 0.95,
+      "assertion_type": "FACT",
+      "company_match": true,
+      "conflict": false,
+      "author": "Mock Market",
+      "jurisdiction": "India",
+      "language": "en"
+    }
+  ]
+}

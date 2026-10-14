@@ -1,0 +1,106 @@
+{
+  "id": "legal_operations",
+  "name": "Legal Operations",
+  "description": "Legal workloads and spending need repeatable intake, matter and counsel coordination.",
+  "typical_client": [
+    "SaaS",
+    "Manufacturing",
+    "Fintech",
+    "Professional services",
+    "E-commerce"
+  ],
+  "typical_problem": "Legal demand grows faster than matter visibility, counsel oversight and operational capacity.",
+  "buyer_roles": [
+    "General Counsel",
+    "Legal Operations Head",
+    "CFO",
+    "Legal Director"
+  ],
+  "services": [
+    "Legal intake",
+    "Matter tracker",
+    "Deadline tracking",
+    "Outside counsel management",
+    "Invoice review",
+    "Legal spend dashboard",
+    "Workload reporting",
+    "Legal Operations Desk"
+  ],
+  "deliverables": [
+    "Documented legal intake with owners, evidence and next actions",
+    "Documented matter tracker with owners, evidence and next actions",
+    "Documented deadline tracking with owners, evidence and next actions",
+    "Documented outside counsel management with owners, evidence and next actions",
+    "Documented invoice review with owners, evidence and next actions",
+    "Documented legal spend dashboard with owners, evidence and next actions",
+    "Documented workload reporting with owners, evidence and next actions",
+    "Documented legal operations desk with owners, evidence and next actions"
+  ],
+  "positive_signals": [
+    "LEGAL_OPS_HIRING",
+    "LEGAL_BACKLOG",
+    "OUTSIDE_COUNSEL_SPEND",
+    "LEGAL_TEAM_SCALING",
+    "MULTIPLE_LAW_FIRMS",
+    "MATTER_MANAGEMENT_PROJECT",
+    "LEGAL_TECH_PROCUREMENT",
+    "LEGAL_INTAKE_PROJECT",
+    "LEGAL_DEADLINE_GAP",
+    "LEGAL_INVOICE_REVIEW",
+    "LEGAL_WORKLOAD_GROWTH",
+    "LEGAL_REPORTING_PROJECT"
+  ],
+  "negative_signals": [
+    "Programme already completed",
+    "No operational change",
+    "Source retracts the event"
+  ],
+  "disqualifiers": [
+    "Company explicitly denies the event",
+    "Event refers to a different company"
+  ],
+  "follow_on_services": [
+    "Workload reporting",
+    "Legal Operations Desk"
+  ],
+  "related_verticals": [
+    "clm",
+    "investigations_disputes",
+    "corporate_compliance"
+  ],
+  "keywords": [
+    "legal operations head vacancy",
+    "legal matter backlog",
+    "outside-counsel spend review",
+    "in-house legal team",
+    "multiple external law firms",
+    "matter management software",
+    "legal technology platform",
+    "centralised legal request intake",
+    "fragmented legal deadline tracking",
+    "auditing external legal invoices",
+    "rise in active legal matters",
+    "legal workload reporting"
+  ],
+  "semantic_queries": [
+    "Find companies where company opens a legal operations head vacancy and identify primary-source evidence",
+    "Find companies where company reports a growing legal matter backlog and identify primary-source evidence",
+    "Find companies where company announces an outside-counsel spend review and identify primary-source evidence",
+    "Find companies where company expands its in-house legal team and identify primary-source evidence"
+  ],
+  "default_signal_weights": {
+    "LEGAL_OPS_HIRING": 22,
+    "LEGAL_BACKLOG": 25,
+    "OUTSIDE_COUNSEL_SPEND": 23,
+    "LEGAL_TEAM_SCALING": 18,
+    "MULTIPLE_LAW_FIRMS": 21,
+    "MATTER_MANAGEMENT_PROJECT": 22,
+    "LEGAL_TECH_PROCUREMENT": 21,
+    "LEGAL_INTAKE_PROJECT": 22,
+    "LEGAL_DEADLINE_GAP": 24,
+    "LEGAL_INVOICE_REVIEW": 21,
+    "LEGAL_WORKLOAD_GROWTH": 20,
+    "LEGAL_REPORTING_PROJECT": 19
+  },
+  "version": "1.0.0"
+}

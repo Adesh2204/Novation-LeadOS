@@ -1,0 +1,7 @@
+# Live activation precheck — 9 October 2026
+
+Live was deliberately stopped after v3 acceptance: `.env` disables live discovery and `data/discovery-jobs/STOP_LIVE_DISCOVERY` exists. No unfinished discovery job was found. Exa and Firecrawl keys are configured. Daily reservations were Exa 4/50 and Firecrawl 2/100; these counters are reservations, not billing. The earlier scoped acceptance ledger reached its two-search cap and will remain unchanged. This directive authorizes a new bounded acceptance window.
+
+The frontend uses the correct asynchronous `/pipeline/discover/live/jobs` endpoint through its same-origin backend proxy, but its main button opened a preview by default. Live production contains 19 genuine companies and 20 source documents; none currently passes the qualified business overview. Their research appears only in the discovery audit. The combined prospect projection will reuse canonical sources without creating unqualified Opportunities.
+
+Fresh Google Sheets health confirms accessible, valid tabs and rows, zero validation errors, and no pending write. Before editing, relevant source, private configuration (mode 0600), cache, stop marker, prior ledger and every canonical table were backed up under `data/archives/live-activation-20261009/`. Email remains disabled; n8n workflows remain inactive. Activation must preserve all prior usage and allow future emergency stops.

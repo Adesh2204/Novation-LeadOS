@@ -1,0 +1,111 @@
+{
+  "id": "vendor_governance",
+  "name": "Vendor & Third-Party Governance",
+  "description": "Vendor onboarding, risk and renewal events require coordinated third-party controls.",
+  "typical_client": [
+    "Fintech",
+    "SaaS",
+    "Healthtech",
+    "Manufacturing",
+    "E-commerce"
+  ],
+  "typical_problem": "Growing third-party dependencies lack consistent intake, reviews and remediation ownership.",
+  "buyer_roles": [
+    "Procurement Head",
+    "General Counsel",
+    "Privacy Head",
+    "Security Head",
+    "Risk Head",
+    "CISO"
+  ],
+  "services": [
+    "Vendor intake",
+    "Vendor assessment",
+    "Contract review",
+    "Privacy review",
+    "Security evidence coordination",
+    "Remediation tracker",
+    "Vendor approval workflow",
+    "Renewal/exit governance"
+  ],
+  "deliverables": [
+    "Documented vendor intake with owners, evidence and next actions",
+    "Documented vendor assessment with owners, evidence and next actions",
+    "Documented contract review with owners, evidence and next actions",
+    "Documented privacy review with owners, evidence and next actions",
+    "Documented security evidence coordination with owners, evidence and next actions",
+    "Documented remediation tracker with owners, evidence and next actions",
+    "Documented vendor approval workflow with owners, evidence and next actions",
+    "Documented renewal/exit governance with owners, evidence and next actions"
+  ],
+  "positive_signals": [
+    "VENDOR_ONBOARDING_PROGRAMME",
+    "THIRD_PARTY_RISK_HIRING",
+    "CLOUD_MIGRATION",
+    "PAYROLL_VENDOR_CHANGE",
+    "CRM_IMPLEMENTATION",
+    "OUTSOURCING_EXPANSION",
+    "VENDOR_SECURITY_REVIEWS",
+    "VENDOR_BREACH",
+    "VENDOR_REMEDIATION",
+    "SUPPLIER_RENEWALS",
+    "VENDOR_EXIT",
+    "VENDOR_BASE_GROWTH",
+    "PROCUREMENT_INTAKE"
+  ],
+  "negative_signals": [
+    "Programme already completed",
+    "No operational change",
+    "Source retracts the event"
+  ],
+  "disqualifiers": [
+    "Company explicitly denies the event",
+    "Event refers to a different company"
+  ],
+  "follow_on_services": [
+    "Vendor approval workflow",
+    "Renewal/exit governance"
+  ],
+  "related_verticals": [
+    "privacy",
+    "clm",
+    "ai_governance"
+  ],
+  "keywords": [
+    "vendor onboarding programme",
+    "third-party risk manager",
+    "sensitive workloads to cloud vendors",
+    "new payroll processing vendor",
+    "customer-data CRM implementation",
+    "outsourcing of critical business processes",
+    "mandatory vendor security reviews",
+    "breach affecting a service provider",
+    "third-party control remediation",
+    "major supplier renewal exercise",
+    "exit from a critical technology supplier",
+    "active third-party vendor base",
+    "centralised supplier intake"
+  ],
+  "semantic_queries": [
+    "Find companies where company starts a large vendor onboarding programme and identify primary-source evidence",
+    "Find companies where company recruits a third-party risk manager and identify primary-source evidence",
+    "Find companies where company starts migrating sensitive workloads to cloud vendors and identify primary-source evidence",
+    "Find companies where company appoints a new payroll processing vendor and identify primary-source evidence"
+  ],
+  "default_signal_weights": {
+    "VENDOR_ONBOARDING_PROGRAMME": 24,
+    "THIRD_PARTY_RISK_HIRING": 20,
+    "CLOUD_MIGRATION": 22,
+    "PAYROLL_VENDOR_CHANGE": 21,
+    "CRM_IMPLEMENTATION": 19,
+    "OUTSOURCING_EXPANSION": 21,
+    "VENDOR_SECURITY_REVIEWS": 22,
+    "VENDOR_BREACH": 25,
+    "VENDOR_REMEDIATION": 24,
+    "SUPPLIER_RENEWALS": 19,
+    "VENDOR_EXIT": 22,
+    "VENDOR_BASE_GROWTH": 18,
+    "PROCUREMENT_INTAKE": 20
+  },
+  "version": "1.0.0"
+}

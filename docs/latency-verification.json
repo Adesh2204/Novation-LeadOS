@@ -1,0 +1,29 @@
+{
+  "verified_on": "2026-10-08",
+  "standard_tests_passed": 341,
+  "opt_in_tests_skipped": 2,
+  "lint_types_build_workflows": "passed",
+  "dashboard_cold_ms": 651.8,
+  "dashboard_warm_samples_ms": [
+    8.1,
+    8.6,
+    9.3,
+    6.6,
+    5.7
+  ],
+  "dashboard_warm_median_ms": 8.1,
+  "cached_live_run_with_sheets_seconds": 8.46,
+  "research_rows_match_actual_google_tab": 2,
+  "research_tab": "LEADOS_DISCOVERY_RESULTS",
+  "opportunities_preserved": 46,
+  "score_components_unchanged": 368,
+  "drafts_unchanged": 36,
+  "human_approvals_unchanged": 2,
+  "projection_rows_tested": 2000,
+  "desktop_width": 1440,
+  "desktop_page_width": 1440,
+  "mobile_width": 390,
+  "mobile_page_width": 390,
+  "email_delivery": "disabled",
+  "n8n": "not_connected_optional"
+}

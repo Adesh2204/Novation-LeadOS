@@ -1,0 +1,108 @@
+{
+  "id": "corporate_compliance",
+  "name": "Corporate Compliance & Entity Coordination",
+  "description": "Entity growth and reporting changes require organised calendars and professional coordination.",
+  "typical_client": [
+    "SaaS",
+    "Fintech",
+    "Manufacturing",
+    "Professional services",
+    "Foreign subsidiary"
+  ],
+  "typical_problem": "Multiple entities, advisers and deadlines obscure accountability and filing evidence.",
+  "buyer_roles": [
+    "India Country Head",
+    "CFO",
+    "Finance Head",
+    "Company Secretary",
+    "General Counsel",
+    "Parent-company Legal"
+  ],
+  "services": [
+    "Entity register",
+    "Compliance calendar",
+    "Responsibility matrix",
+    "Professional coordination",
+    "Approval tracking",
+    "Filing evidence",
+    "Deadline tracking",
+    "Monthly compliance reporting"
+  ],
+  "deliverables": [
+    "Documented entity register with owners, evidence and next actions",
+    "Documented compliance calendar with owners, evidence and next actions",
+    "Documented responsibility matrix with owners, evidence and next actions",
+    "Documented professional coordination with owners, evidence and next actions",
+    "Documented approval tracking with owners, evidence and next actions",
+    "Documented filing evidence with owners, evidence and next actions",
+    "Documented deadline tracking with owners, evidence and next actions",
+    "Documented monthly compliance reporting with owners, evidence and next actions"
+  ],
+  "positive_signals": [
+    "INDIA_SUBSIDIARY",
+    "MULTIPLE_INDIAN_ENTITIES",
+    "DIRECTOR_CHANGE_PROGRAMME",
+    "CORPORATE_RESTRUCTURING",
+    "FILING_PROBLEMS",
+    "ENTITY_RECORD_FRAGMENTATION",
+    "COMPLIANCE_HIRING",
+    "RAPID_ENTITY_GROWTH",
+    "NEW_STATE_OFFICE",
+    "PARENT_REPORTING",
+    "ADVISER_COORDINATION",
+    "COMPLIANCE_CALENDAR_GAP"
+  ],
+  "negative_signals": [
+    "Programme already completed",
+    "No operational change",
+    "Source retracts the event"
+  ],
+  "disqualifiers": [
+    "Company explicitly denies the event",
+    "Event refers to a different company"
+  ],
+  "follow_on_services": [
+    "Deadline tracking",
+    "Monthly compliance reporting"
+  ],
+  "related_verticals": [
+    "privacy",
+    "transaction_integration",
+    "legal_operations"
+  ],
+  "keywords": [
+    "forms an Indian subsidiary",
+    "multiple Indian entities",
+    "director changes across several entities",
+    "group entity restructuring",
+    "missed corporate filing deadlines",
+    "fragmented entity records",
+    "corporate compliance manager",
+    "new operating entities",
+    "offices across new Indian states",
+    "parent-company entity reporting",
+    "coordination of corporate advisers",
+    "gaps in its compliance calendar"
+  ],
+  "semantic_queries": [
+    "Find companies where company forms an indian subsidiary and identify primary-source evidence",
+    "Find companies where company consolidates oversight of multiple indian entities and identify primary-source evidence",
+    "Find companies where company coordinates director changes across several entities and identify primary-source evidence",
+    "Find companies where company announces a group entity restructuring and identify primary-source evidence"
+  ],
+  "default_signal_weights": {
+    "INDIA_SUBSIDIARY": 25,
+    "MULTIPLE_INDIAN_ENTITIES": 22,
+    "DIRECTOR_CHANGE_PROGRAMME": 18,
+    "CORPORATE_RESTRUCTURING": 23,
+    "FILING_PROBLEMS": 25,
+    "ENTITY_RECORD_FRAGMENTATION": 24,
+    "COMPLIANCE_HIRING": 20,
+    "RAPID_ENTITY_GROWTH": 21,
+    "NEW_STATE_OFFICE": 18,
+    "PARENT_REPORTING": 21,
+    "ADVISER_COORDINATION": 20,
+    "COMPLIANCE_CALENDAR_GAP": 24
+  },
+  "version": "1.0.0"
+}

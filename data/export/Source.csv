@@ -1,0 +1,42 @@
+id,created_at,name,source_type,origin,reliability
+pub_715824e3-7b78-423b-946e-a42c536bcb86,2026-10-07T08:30:28.336967Z,Meridian Health Cloud fixture newsroom,fixture_primary,meridian-health-cloud.example,0.95
+pub_8d7c1965-f79a-44a7-b1b2-0e15cc81f821,2026-10-07T08:30:28.343383Z,Veda Payroll fixture newsroom,fixture_primary,veda-payroll.example,0.95
+pub_785c7bfb-c369-4d2e-924a-20fecee6b415,2026-10-07T08:30:28.349807Z,Harbor Consumer Labs fixture newsroom,fixture_primary,harbor-consumer-labs.example,0.95
+pub_9a6b63ad-8e34-4643-b0b0-813d8084759e,2026-10-07T08:30:28.356004Z,Keystone Commerce fixture newsroom,fixture_primary,keystone-commerce.example,0.95
+pub_b61dd7e3-6ee1-4c69-9c0b-b77bc62ab3e3,2026-10-07T08:30:28.362028Z,Aster Manufacturing fixture newsroom,fixture_primary,aster-manufacturing.example,0.95
+pub_dbd7e553-5f04-47e0-b570-03db425d6d94,2026-10-07T08:30:28.368025Z,Summit Sales Cloud fixture newsroom,fixture_primary,summit-sales-cloud.example,0.95
+pub_0509e13f-c5fc-4e1e-9346-530c8b7a4d86,2026-10-07T08:30:28.374026Z,Cedar Fintech fixture newsroom,fixture_primary,cedar-fintech.example,0.95
+pub_d21b1000-dcd5-4329-8465-7b7e876c2d5c,2026-10-07T08:30:28.380146Z,Beacon Logistics fixture newsroom,fixture_primary,beacon-logistics.example,0.95
+pub_a4a0fe92-aafa-4d5d-b046-cd04dddef1e2,2026-10-07T08:30:28.386387Z,Saffron Retail fixture newsroom,fixture_primary,saffron-retail.example,0.95
+pub_d0406aa4-96a7-4e1b-9e43-1abf00225975,2026-10-07T08:30:28.392439Z,Atlas AI Systems fixture newsroom,fixture_primary,atlas-ai-systems.example,0.95
+pub_152cb8f0-4467-4698-acfc-94fb93d12174,2026-10-07T08:30:28.398630Z,Orion Advisory fixture newsroom,fixture_primary,orion-advisory.example,0.95
+pub_4924fb49-6013-40f5-b761-5929f2eb8b98,2026-10-07T08:30:28.404981Z,Nimbus Products fixture newsroom,fixture_primary,nimbus-products.example,0.95
+pub_19fcde4c-283f-44d2-8f01-b2800717d5f8,2026-10-07T08:30:28.411658Z,Northstar Industries fixture newsroom,fixture_primary,northstar-industries.example,0.95
+pub_15a098b9-93d0-4d5f-be29-99fb1d3f8fe7,2026-10-07T08:30:28.418298Z,Juniper Group fixture newsroom,fixture_primary,juniper-group.example,0.95
+pub_c686ef43-ab85-4291-8e10-389f2f904d89,2026-10-07T08:30:28.425184Z,Cobalt Services fixture newsroom,fixture_primary,cobalt-services.example,0.95
+pub_40d69b03-19f5-488d-82be-75e5f676c25d,2026-10-07T08:30:28.432289Z,Clearwater Holdings fixture newsroom,fixture_primary,clearwater-holdings.example,0.95
+pub_2b761ff4-fecb-43dc-a04e-6fa012970021,2026-10-07T08:30:28.439579Z,Tamarind Supply fixture newsroom,fixture_primary,tamarind-supply.example,0.95
+pub_e71bf21e-76b9-4290-9cfd-2da2fe6d2d9d,2026-10-07T08:30:28.446928Z,Granite Components fixture newsroom,fixture_primary,granite-components.example,0.95
+pub_516ab7e2-bdbe-47fc-a444-918d3f926e9c,2026-10-07T08:30:28.454430Z,Pioneer Capital fixture newsroom,fixture_primary,pioneer-capital.example,0.95
+pub_782df42d-01d8-4d95-b5f3-d6e8505fb587,2026-10-07T08:30:28.462144Z,Maple Software fixture newsroom,fixture_primary,maple-software.example,0.95
+pub_962718eb-315a-4f74-9fa9-167ebff1be41,2026-10-07T08:30:28.469946Z,Silverline Assets fixture newsroom,fixture_primary,silverline-assets.example,0.95
+pub_73ea8b67-4e2f-4c7a-8554-4fe0c9943ac6,2026-10-07T08:30:28.478007Z,Lattice Software fixture newsroom,fixture_primary,lattice-software.example,0.95
+pub_8f3d1b0e-8846-4d59-8bc2-8e55e2d3bdca,2026-10-07T08:30:28.486166Z,Prism Technologies fixture newsroom,fixture_primary,prism-technologies.example,0.95
+pub_a2171e57-06a3-46f6-9db8-33193ac7c94a,2026-10-07T08:30:28.494616Z,Vector Licensing fixture newsroom,fixture_primary,vector-licensing.example,0.95
+pub_ad92e577-fd59-47f5-a981-561f4e2c240a,2026-10-07T08:30:28.503132Z,Bluebird Global fixture newsroom,fixture_primary,bluebird-global.example,0.95
+pub_f80e7907-2f07-417a-9d51-d3dd6e85698c,2026-10-07T08:30:28.511744Z,Horizon Entities fixture newsroom,fixture_primary,horizon-entities.example,0.95
+pub_9e37a2a5-e882-49ca-a9c6-65c0d4b2db1f,2026-10-07T08:30:28.520513Z,Lotus Holdings fixture newsroom,fixture_primary,lotus-holdings.example,0.95
+pub_129c36f3-bf68-4604-84ca-2cd13754b5f7,2026-10-07T08:30:28.529576Z,Quiet AI Media fixture newsroom,fixture_primary,quiet-ai-media.example,0.95
+pub_e521af7f-8b52-434f-9d19-5d52ac88a532,2026-10-07T08:30:28.538724Z,Funding Only Ventures fixture newsroom,fixture_primary,funding-only-ventures.example,0.95
+pub_77ed2472-d4dd-4d85-9764-acec6e75d733,2026-10-07T08:30:28.548024Z,New CFO Enterprises fixture newsroom,fixture_primary,new-cfo-enterprises.example,0.95
+pub_2043eb71-bcb8-4d2a-a11a-982854771b05,2026-10-07T08:30:28.557479Z,Stale Contract Works fixture newsroom,fixture_primary,stale-contract-works.example,0.95
+pub_506e4f74-3921-4010-b675-9f3412e47b2f,2026-10-07T08:30:28.567195Z,Weak AI Rumors fixture newsroom,fixture_rumour,weak-ai-rumors.example,0.35
+pub_7d435b36-8d52-498f-bb5f-e6584a12b496,2026-10-07T08:30:28.576957Z,Undated Privacy Labs fixture newsroom,fixture_primary,undated-privacy-labs.example,0.95
+pub_5e86c6b6-0b42-4507-b91f-20eaf1b916ef,2026-10-07T08:30:28.586985Z,Conflicted Vendor Co fixture newsroom,fixture_primary,conflicted-vendor-co.example,0.95
+pub_5600ffab-7f77-4f3a-8cda-0d05074bcbd8,2026-10-07T08:30:28.597145Z,Wrong Entity News fixture newsroom,fixture_primary,wrong-entity-news.example,0.95
+pub_3031a874-6547-4709-bd71-e925715f2efc,2026-10-07T08:30:28.607534Z,Empty Evidence Co fixture newsroom,fixture_primary,empty-evidence-co.example,0.0
+pub_6cf9e95a-add3-408c-a4e3-d09d686d676a,2026-10-07T08:30:28.623346Z,Denial AI Systems fixture newsroom,fixture_primary,denial-ai-systems.example,0.95
+pub_cb82f90d-a596-4f17-b922-94293a469090,2026-10-07T08:30:28.634074Z,Twin Name fixture newsroom,fixture_primary,twin-name.example,0.95
+pub_a5bde9bb-d1af-4803-b1ee-0b8846af2cfb,2026-10-07T08:30:28.644890Z,Twin Name fixture newsroom,fixture_primary,twin-name-uk.example,0.95
+pub_be7faeac-b663-42ad-a671-e2050c945dcb,2026-10-07T08:30:28.655870Z,Multi Signal Systems fixture newsroom,fixture_primary,multi-signal-systems.example,0.95
+pub_0157ee77-443f-4da4-9d62-5e80ef66c640,2026-10-07T08:30:28.667581Z,Mock Market Journal,fixture_trade_press,market-journal.example,0.95

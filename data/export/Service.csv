@@ -1,0 +1,72 @@
+id,created_at,vertical_id,name
+ai_governance:0,2026-10-07T09:29:50.613569Z,ai_governance,AI inventory
+ai_governance:1,2026-10-07T09:29:50.613573Z,ai_governance,AI risk classification
+ai_governance:2,2026-10-07T09:29:50.613575Z,ai_governance,AI-use assessment
+ai_governance:3,2026-10-07T09:29:50.613577Z,ai_governance,Acceptable-use policy
+ai_governance:4,2026-10-07T09:29:50.613578Z,ai_governance,Human oversight framework
+ai_governance:5,2026-10-07T09:29:50.613580Z,ai_governance,Vendor AI review
+ai_governance:6,2026-10-07T09:29:50.613581Z,ai_governance,AI approval process
+ai_governance:7,2026-10-07T09:29:50.613583Z,ai_governance,AI incident/reassessment programme
+clm:0,2026-10-07T09:29:50.613590Z,clm,Contract repository
+clm:1,2026-10-07T09:29:50.613592Z,clm,Contract register
+clm:2,2026-10-07T09:29:50.613593Z,clm,Template standardisation
+clm:3,2026-10-07T09:29:50.613594Z,clm,Negotiation playbook
+clm:4,2026-10-07T09:29:50.613596Z,clm,Contract workflow
+clm:5,2026-10-07T09:29:50.613597Z,clm,Obligation tracking
+clm:6,2026-10-07T09:29:50.613598Z,clm,Renewal tracking
+clm:7,2026-10-07T09:29:50.613599Z,clm,Managed Contract Desk
+corporate_compliance:0,2026-10-07T09:29:50.613605Z,corporate_compliance,Entity register
+corporate_compliance:1,2026-10-07T09:29:50.613607Z,corporate_compliance,Compliance calendar
+corporate_compliance:2,2026-10-07T09:29:50.613608Z,corporate_compliance,Responsibility matrix
+corporate_compliance:3,2026-10-07T09:29:50.613609Z,corporate_compliance,Professional coordination
+corporate_compliance:4,2026-10-07T09:29:50.613611Z,corporate_compliance,Approval tracking
+corporate_compliance:5,2026-10-07T09:29:50.613612Z,corporate_compliance,Filing evidence
+corporate_compliance:6,2026-10-07T09:29:50.613614Z,corporate_compliance,Deadline tracking
+corporate_compliance:7,2026-10-07T09:29:50.613616Z,corporate_compliance,Monthly compliance reporting
+investigations_disputes:0,2026-10-07T09:29:50.613621Z,investigations_disputes,Evidence organisation
+investigations_disputes:1,2026-10-07T09:29:50.613623Z,investigations_disputes,Document review
+investigations_disputes:2,2026-10-07T09:29:50.613624Z,investigations_disputes,Chronology
+investigations_disputes:3,2026-10-07T09:29:50.613625Z,investigations_disputes,Evidence matrix
+investigations_disputes:4,2026-10-07T09:29:50.613626Z,investigations_disputes,Interview support
+investigations_disputes:5,2026-10-07T09:29:50.613628Z,investigations_disputes,Investigation support
+investigations_disputes:6,2026-10-07T09:29:50.613629Z,investigations_disputes,Counsel briefing
+investigations_disputes:7,2026-10-07T09:29:50.613630Z,investigations_disputes,Action tracking
+legal_operations:0,2026-10-07T09:29:50.613635Z,legal_operations,Legal intake
+legal_operations:1,2026-10-07T09:29:50.613637Z,legal_operations,Matter tracker
+legal_operations:2,2026-10-07T09:29:50.613638Z,legal_operations,Deadline tracking
+legal_operations:3,2026-10-07T09:29:50.613639Z,legal_operations,Outside counsel management
+legal_operations:4,2026-10-07T09:29:50.613640Z,legal_operations,Invoice review
+legal_operations:5,2026-10-07T09:29:50.613642Z,legal_operations,Legal spend dashboard
+legal_operations:6,2026-10-07T09:29:50.613643Z,legal_operations,Workload reporting
+legal_operations:7,2026-10-07T09:29:50.613644Z,legal_operations,Legal Operations Desk
+privacy:0,2026-10-07T09:29:50.613649Z,privacy,Privacy readiness assessment
+privacy:1,2026-10-07T09:29:50.613651Z,privacy,Data inventory
+privacy:2,2026-10-07T09:29:50.613652Z,privacy,Data-flow mapping
+privacy:3,2026-10-07T09:29:50.613654Z,privacy,DPDP gap assessment
+privacy:4,2026-10-07T09:29:50.613656Z,privacy,Privacy implementation
+privacy:5,2026-10-07T09:29:50.613657Z,privacy,Managed Privacy Desk
+technology_ip:0,2026-10-07T09:29:50.613663Z,technology_ip,Software licence
+technology_ip:1,2026-10-07T09:29:50.613664Z,technology_ip,SaaS agreements
+technology_ip:2,2026-10-07T09:29:50.613665Z,technology_ip,Cloud agreements
+technology_ip:3,2026-10-07T09:29:50.613666Z,technology_ip,IP licensing
+technology_ip:4,2026-10-07T09:29:50.613668Z,technology_ip,IP assignments
+technology_ip:5,2026-10-07T09:29:50.613669Z,technology_ip,Development agreements
+technology_ip:6,2026-10-07T09:29:50.613670Z,technology_ip,Statements of work
+technology_ip:7,2026-10-07T09:29:50.613671Z,technology_ip,Reseller agreements
+technology_ip:8,2026-10-07T09:29:50.613673Z,technology_ip,Open-source licence review
+technology_ip:9,2026-10-07T09:29:50.613674Z,technology_ip,Technology contracting desk
+transaction_integration:0,2026-10-07T09:29:50.613679Z,transaction_integration,Contract diligence
+transaction_integration:1,2026-10-07T09:29:50.613681Z,transaction_integration,Data-room organisation
+transaction_integration:2,2026-10-07T09:29:50.613682Z,transaction_integration,Missing-document tracker
+transaction_integration:3,2026-10-07T09:29:50.613683Z,transaction_integration,Consent analysis
+transaction_integration:4,2026-10-07T09:29:50.613684Z,transaction_integration,Amendment tracking
+transaction_integration:5,2026-10-07T09:29:50.613686Z,transaction_integration,Integration checklist
+transaction_integration:6,2026-10-07T09:29:50.613687Z,transaction_integration,Post-closing contract integration
+vendor_governance:0,2026-10-07T09:29:50.613692Z,vendor_governance,Vendor intake
+vendor_governance:1,2026-10-07T09:29:50.613694Z,vendor_governance,Vendor assessment
+vendor_governance:2,2026-10-07T09:29:50.613695Z,vendor_governance,Contract review
+vendor_governance:3,2026-10-07T09:29:50.613696Z,vendor_governance,Privacy review
+vendor_governance:4,2026-10-07T09:29:50.613697Z,vendor_governance,Security evidence coordination
+vendor_governance:5,2026-10-07T09:29:50.613698Z,vendor_governance,Remediation tracker
+vendor_governance:6,2026-10-07T09:29:50.613700Z,vendor_governance,Vendor approval workflow
+vendor_governance:7,2026-10-07T09:29:50.613701Z,vendor_governance,Renewal/exit governance

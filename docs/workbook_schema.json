@@ -1,0 +1,380 @@
+{
+  "workbook": "NOVATION_LEADOS_MASTER",
+  "required_tabs": [
+    "COMPANIES",
+    "COMPANY_ALIASES",
+    "SOURCES",
+    "SIGNALS",
+    "COMPANY_SIGNALS",
+    "OPPORTUNITIES",
+    "OPPORTUNITY_EVIDENCE",
+    "SCORE_COMPONENTS",
+    "BUYER_ROLES",
+    "OUTREACH_DRAFTS",
+    "HUMAN_REVIEWS",
+    "FEEDBACK",
+    "SUPPRESSION_LIST",
+    "PROVIDER_RUNS",
+    "AUDIT_LOG",
+    "SYSTEM_CONFIG"
+  ],
+  "tabs": {
+    "COMPANIES": {
+      "entity": "Company",
+      "columns": [
+        "company_id",
+        "canonical_name",
+        "domain",
+        "country",
+        "industry",
+        "employee_range",
+        "funding_stage",
+        "description",
+        "primary_location",
+        "website",
+        "linkedin_url",
+        "status",
+        "created_at",
+        "updated_at",
+        "last_seen_at",
+        "identity_key",
+        "locations",
+        "entity_resolution_confidence"
+      ]
+    },
+    "COMPANY_ALIASES": {
+      "entity": "CompanyAlias",
+      "columns": [
+        "alias_id",
+        "company_id",
+        "alias_name",
+        "alias_domain",
+        "source",
+        "confidence",
+        "created_at",
+        "normalized_name",
+        "country"
+      ]
+    },
+    "SOURCES": {
+      "entity": "SourceDocument",
+      "columns": [
+        "source_id",
+        "source_url",
+        "source_name",
+        "source_type",
+        "published_date",
+        "retrieved_at",
+        "content_hash",
+        "company_id",
+        "title",
+        "snippet",
+        "raw_text_reference",
+        "confidence",
+        "created_at",
+        "publisher_id",
+        "url_hash",
+        "assertion_type",
+        "company_match",
+        "conflict",
+        "author",
+        "jurisdiction",
+        "language",
+        "last_seen_at"
+      ]
+    },
+    "SIGNALS": {
+      "entity": "Signal",
+      "columns": [
+        "signal_id",
+        "signal_name",
+        "description",
+        "vertical_ids",
+        "base_strength",
+        "recency_policy",
+        "source_requirement",
+        "status",
+        "knowledge_version",
+        "created_at",
+        "definition",
+        "signal_key"
+      ]
+    },
+    "COMPANY_SIGNALS": {
+      "entity": "CompanySignal",
+      "columns": [
+        "company_signal_id",
+        "company_id",
+        "signal_id",
+        "source_id",
+        "detected_at",
+        "event_date",
+        "confidence",
+        "status",
+        "first_seen_at",
+        "last_seen_at",
+        "detection_version",
+        "event_key",
+        "evidence_ids",
+        "signal_key"
+      ]
+    },
+    "OPPORTUNITIES": {
+      "entity": "Opportunity",
+      "columns": [
+        "opportunity_id",
+        "company_id",
+        "company_name",
+        "primary_vertical",
+        "secondary_verticals",
+        "opportunity_type",
+        "trigger",
+        "trigger_date",
+        "recommended_service",
+        "why_now",
+        "decision_maker_roles",
+        "need_score",
+        "icp_fit_score",
+        "trigger_strength_score",
+        "recency_score",
+        "mandate_value_score",
+        "decision_maker_score",
+        "expertise_match_score",
+        "evidence_quality_score",
+        "total_score",
+        "score_band",
+        "confidence",
+        "evidence_status",
+        "human_status",
+        "recommended_action",
+        "outreach_angle",
+        "knowledge_version",
+        "signal_version",
+        "score_version",
+        "created_at",
+        "updated_at",
+        "opportunity_fingerprint",
+        "company_signal_id",
+        "service_id",
+        "facts",
+        "allegations",
+        "inferences",
+        "commercial_thesis",
+        "audit_reasons"
+      ]
+    },
+    "OPPORTUNITY_EVIDENCE": {
+      "entity": "OpportunityEvidence",
+      "columns": [
+        "evidence_id",
+        "opportunity_id",
+        "company_id",
+        "source_id",
+        "fact_type",
+        "fact_text",
+        "inference_text",
+        "source_url",
+        "source_name",
+        "published_date",
+        "retrieved_at",
+        "evidence_confidence",
+        "verification_status",
+        "created_at"
+      ]
+    },
+    "SCORE_COMPONENTS": {
+      "entity": "ScoreComponent",
+      "columns": [
+        "score_component_id",
+        "opportunity_id",
+        "component_name",
+        "points",
+        "maximum",
+        "rationale",
+        "created_at"
+      ]
+    },
+    "BUYER_ROLES": {
+      "entity": "DecisionMakerRole",
+      "columns": [
+        "buyer_role_id",
+        "opportunity_id",
+        "company_id",
+        "role_title",
+        "role_priority",
+        "reason",
+        "person_name",
+        "contact_status",
+        "contact_source",
+        "confidence",
+        "created_at",
+        "contact_email"
+      ]
+    },
+    "OUTREACH_DRAFTS": {
+      "entity": "OutreachDraft",
+      "columns": [
+        "outreach_id",
+        "opportunity_id",
+        "company_id",
+        "subject",
+        "message",
+        "outreach_angle",
+        "recommended_service",
+        "generated_at",
+        "generation_version",
+        "human_approved",
+        "approved_by",
+        "approved_at",
+        "send_status",
+        "sent_at",
+        "subjects",
+        "verified_fact_ids"
+      ]
+    },
+    "HUMAN_REVIEWS": {
+      "entity": "HumanReview",
+      "columns": [
+        "review_id",
+        "opportunity_id",
+        "reviewer",
+        "decision",
+        "notes",
+        "reviewed_at"
+      ]
+    },
+    "FEEDBACK": {
+      "entity": "FeedbackEvent",
+      "columns": [
+        "feedback_id",
+        "opportunity_id",
+        "company_id",
+        "status",
+        "reason",
+        "notes",
+        "recorded_by",
+        "recorded_at",
+        "score_snapshot",
+        "score_version",
+        "knowledge_version",
+        "signal_version",
+        "buyer_role"
+      ]
+    },
+    "SUPPRESSION_LIST": {
+      "entity": "Suppression",
+      "columns": [
+        "suppression_id",
+        "company_id",
+        "domain",
+        "email",
+        "reason",
+        "created_at",
+        "created_by",
+        "active",
+        "do_not_contact",
+        "opted_out",
+        "bounced"
+      ]
+    },
+    "PROVIDER_RUNS": {
+      "entity": "ProviderRun",
+      "columns": [
+        "snapshot_id",
+        "run_id",
+        "provider",
+        "operation",
+        "started_at",
+        "completed_at",
+        "status",
+        "items_processed",
+        "items_created",
+        "duplicates_skipped",
+        "errors",
+        "duration_ms",
+        "revision",
+        "model",
+        "state",
+        "metrics",
+        "error",
+        "state_2",
+        "state_3",
+        "state_4",
+        "state_5",
+        "state_6",
+        "state_7",
+        "state_8",
+        "state_9",
+        "state_10",
+        "state_11",
+        "state_12",
+        "state_13",
+        "state_14",
+        "state_15",
+        "state_16"
+      ]
+    },
+    "AUDIT_LOG": {
+      "entity": "AuditLog",
+      "columns": [
+        "audit_id",
+        "timestamp",
+        "actor",
+        "module",
+        "action",
+        "entity_type",
+        "entity_id",
+        "input_reference",
+        "output_reference",
+        "result",
+        "error_message",
+        "run_id",
+        "provider",
+        "model",
+        "duration_ms",
+        "success"
+      ]
+    },
+    "SYSTEM_CONFIG": {
+      "entity": "SystemConfig",
+      "columns": [
+        "config_id",
+        "key",
+        "value",
+        "created_at"
+      ]
+    },
+    "SOURCE_PUBLISHERS": {
+      "entity": "Source",
+      "columns": [
+        "publisher_id",
+        "name",
+        "source_type",
+        "origin",
+        "reliability",
+        "created_at"
+      ]
+    },
+    "HUMAN_REVIEW_TASKS": {
+      "entity": "HumanReviewTask",
+      "columns": [
+        "task_id",
+        "opportunity_id",
+        "status",
+        "reason",
+        "created_at"
+      ]
+    },
+    "CONTACT_EVENTS": {
+      "entity": "ContactEvent",
+      "columns": [
+        "contact_event_id",
+        "company_id",
+        "opportunity_id",
+        "status",
+        "channel",
+        "created_at"
+      ]
+    }
+  }
+}

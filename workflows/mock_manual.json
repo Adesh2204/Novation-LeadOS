@@ -1,0 +1,382 @@
+{
+  "id": "LeadOSMockManual",
+  "name": "LeadOS Mock Manual",
+  "nodes": [
+    {
+      "id": "7d77e38d-7d4e-5d2a-8a09-2c7cc6532089",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "e83fda80-2c37-540b-a18c-d6e4a0a26978",
+      "name": "Start Mock Run",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        220,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "http://backend:8000/pipeline/start",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{}",
+        "options": {
+          "timeout": 60000
+        }
+      }
+    },
+    {
+      "id": "b3f56320-9ef6-5ed5-9653-11e999edc3ce",
+      "name": "Mock Market Search",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        440,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=http://backend:8000/pipeline/runs/{{$json.run_id}}/discovery",
+        "options": {
+          "timeout": 60000
+        }
+      }
+    },
+    {
+      "id": "0ac92009-cbe4-591e-9cae-b693255d4855",
+      "name": "Normalise",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        660,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=http://backend:8000/pipeline/runs/{{$json.run_id}}/normalise",
+        "options": {
+          "timeout": 60000
+        }
+      }
+    },
+    {
+      "id": "cc169d94-9b55-5ee2-86b1-2a7642cf8f39",
+      "name": "Entity Resolve",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        880,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=http://backend:8000/pipeline/runs/{{$json.run_id}}/resolve",
+        "options": {
+          "timeout": 60000
+        }
+      }
+    },
+    {
+      "id": "53fac48a-49ba-5fea-a48a-c13a0e8ef06f",
+      "name": "Signal Detect",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1100,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=http://backend:8000/pipeline/runs/{{$json.run_id}}/detect",
+        "options": {
+          "timeout": 60000
+        }
+      }
+    },
+    {
+      "id": "a8c9e3bb-badb-5064-b592-ed86b7d3ce74",
+      "name": "Vertical Route",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1320,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=http://backend:8000/pipeline/runs/{{$json.run_id}}/route",
+        "options": {
+          "timeout": 60000
+        }
+      }
+    },
+    {
+      "id": "4f1d1a22-c38d-58fb-a784-8cbab379466a",
+      "name": "RAG Opportunity Analysis",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1540,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=http://backend:8000/pipeline/runs/{{$json.run_id}}/research",
+        "options": {
+          "timeout": 60000
+        }
+      }
+    },
+    {
+      "id": "5701b51f-5e03-5c46-a332-eaac1f913844",
+      "name": "Score",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1760,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=http://backend:8000/pipeline/runs/{{$json.run_id}}/score",
+        "options": {
+          "timeout": 60000
+        }
+      }
+    },
+    {
+      "id": "492cc782-adbe-5ce4-8041-b82c4a772516",
+      "name": "Evidence Audit",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1980,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=http://backend:8000/pipeline/runs/{{$json.run_id}}/audit",
+        "options": {
+          "timeout": 60000
+        }
+      }
+    },
+    {
+      "id": "da417aa4-14df-52ed-baa3-33d9e9c303b8",
+      "name": "Store Opportunity",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2200,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=http://backend:8000/pipeline/runs/{{$json.run_id}}/store",
+        "options": {
+          "timeout": 60000
+        }
+      }
+    },
+    {
+      "id": "06f78113-8d11-5e46-b98a-2f02479a743b",
+      "name": "IF Score at Least 80 and Verified",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        2420,
+        0
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "eligible-reviews",
+              "leftValue": "={{ $json.human_review_ids.length }}",
+              "rightValue": 0,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "4ebab88a-7fb9-53ea-b4ec-01e2131eae32",
+      "name": "Create Human Review Task",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2640,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=http://backend:8000/pipeline/runs/{{$json.run_id}}/review-tasks/create",
+        "options": {
+          "timeout": 60000
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Start Mock Run",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Start Mock Run": {
+      "main": [
+        [
+          {
+            "node": "Mock Market Search",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Mock Market Search": {
+      "main": [
+        [
+          {
+            "node": "Normalise",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalise": {
+      "main": [
+        [
+          {
+            "node": "Entity Resolve",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Entity Resolve": {
+      "main": [
+        [
+          {
+            "node": "Signal Detect",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Signal Detect": {
+      "main": [
+        [
+          {
+            "node": "Vertical Route",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Vertical Route": {
+      "main": [
+        [
+          {
+            "node": "RAG Opportunity Analysis",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "RAG Opportunity Analysis": {
+      "main": [
+        [
+          {
+            "node": "Score",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Score": {
+      "main": [
+        [
+          {
+            "node": "Evidence Audit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Evidence Audit": {
+      "main": [
+        [
+          {
+            "node": "Store Opportunity",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Store Opportunity": {
+      "main": [
+        [
+          {
+            "node": "IF Score at Least 80 and Verified",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IF Score at Least 80 and Verified": {
+      "main": [
+        [
+          {
+            "node": "Create Human Review Task",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata"
+  },
+  "pinData": {},
+  "tags": []
+}

@@ -1,0 +1,67 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4.1-mini}
+      EXA_API_KEY: ${EXA_API_KEY:-}
+      FIRECRAWL_API_KEY: ${FIRECRAWL_API_KEY:-}
+      CONTACT_OUT_API_KEY: ${CONTACT_OUT_API_KEY:-}
+      SNOVIO_USER_ID: ${SNOVIO_USER_ID:-}
+      SNOVIO_SECRET: ${SNOVIO_SECRET:-}
+      HUBSPOT_ACCESS_TOKEN: ${HUBSPOT_ACCESS_TOKEN:-}
+      LLM_PROVIDER: ${LLM_PROVIDER:-mock}
+      EMBEDDING_PROVIDER: ${EMBEDDING_PROVIDER:-mock}
+      CONTACT_PROVIDER: ${CONTACT_PROVIDER:-mock}
+      CRM_PROVIDER: ${CRM_PROVIDER:-mock}
+      LIVE_DISCOVERY_ENABLED: ${LIVE_DISCOVERY_ENABLED:-false}
+      LIVE_PROVIDER_DRY_RUN: ${LIVE_PROVIDER_DRY_RUN:-true}
+      LIVE_RESEARCH_MODE: ${LIVE_RESEARCH_MODE:-EXA_FIRECRAWL}
+      PROVIDER_TIMEOUT_SECONDS: ${PROVIDER_TIMEOUT_SECONDS:-30}
+      LEADOS_STORAGE: ${LEADOS_STORAGE:-mock}
+      MOCK_STORAGE_PATH: /app/data/leados.json
+      GOOGLE_SHEETS_ENABLED: ${GOOGLE_SHEETS_ENABLED:-false}
+      SHOW_TECHNICAL_SHEETS: ${SHOW_TECHNICAL_SHEETS:-false}
+      GOOGLE_SPREADSHEET_ID: ${GOOGLE_SPREADSHEET_ID:-}
+      GOOGLE_SERVICE_ACCOUNT_JSON_PATH: ${GOOGLE_SERVICE_ACCOUNT_JSON_PATH:-}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${GOOGLE_SERVICE_ACCOUNT_JSON:-}
+      STORAGE_LOCK_PATH: /app/data/storage-writer.lock
+      STORAGE_OUTBOX_PATH: /app/data/sheets-outbox.json
+      LEADOS_MODE: mock
+      ENABLE_EMAIL_SEND: "false"
+      CORS_ORIGINS: http://localhost:3000
+    ports: ["127.0.0.1:8000:8000"]
+    volumes: ["leados_data:/app/data"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+  frontend:
+    build:
+      context: ./frontend
+      args: {NEXT_PUBLIC_API_URL: "/api/backend"}
+    environment:
+      LEADOS_API_URL: http://backend:8000
+    ports: ["127.0.0.1:3000:3000"]
+    depends_on:
+      backend: {condition: service_healthy}
+  n8n:
+    profiles: ["automation"]
+    image: docker.n8n.io/n8nio/n8n:2.42.3
+    environment:
+      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY:-}
+      N8N_SECURE_COOKIE: ${N8N_SECURE_COOKIE:-false}
+      N8N_DIAGNOSTICS_ENABLED: "false"
+      N8N_VERSION_NOTIFICATIONS_ENABLED: "false"
+      N8N_PERSONALIZATION_ENABLED: "false"
+      GENERIC_TIMEZONE: Asia/Kolkata
+    ports: ["127.0.0.1:5678:5678"]
+    volumes: ["n8n_data:/home/node/.n8n", "./workflows:/workflows:ro"]
+    depends_on:
+      backend: {condition: service_healthy}
+volumes:
+  leados_data:
+  n8n_data:

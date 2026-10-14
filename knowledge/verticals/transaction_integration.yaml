@@ -1,0 +1,106 @@
+{
+  "id": "transaction_integration",
+  "name": "Transaction Diligence & Integration",
+  "description": "A transaction or integration event requires contract and document coordination.",
+  "typical_client": [
+    "SaaS",
+    "Manufacturing",
+    "Fintech",
+    "Professional services",
+    "Private equity"
+  ],
+  "typical_problem": "Transactions expose missing documents, consent requirements and post-closing obligations.",
+  "buyer_roles": [
+    "Deal Counsel",
+    "Corporate Development",
+    "PE Investment Team",
+    "General Counsel",
+    "CFO",
+    "Integration Lead"
+  ],
+  "services": [
+    "Contract diligence",
+    "Data-room organisation",
+    "Missing-document tracker",
+    "Consent analysis",
+    "Amendment tracking",
+    "Integration checklist",
+    "Post-closing contract integration"
+  ],
+  "deliverables": [
+    "Documented contract diligence with owners, evidence and next actions",
+    "Documented data-room organisation with owners, evidence and next actions",
+    "Documented missing-document tracker with owners, evidence and next actions",
+    "Documented consent analysis with owners, evidence and next actions",
+    "Documented amendment tracking with owners, evidence and next actions",
+    "Documented integration checklist with owners, evidence and next actions",
+    "Documented post-closing contract integration with owners, evidence and next actions"
+  ],
+  "positive_signals": [
+    "ACQUISITION_ANNOUNCEMENT",
+    "MERGER_ANNOUNCEMENT",
+    "PE_TRANSACTION",
+    "PORTFOLIO_ACQUISITION",
+    "ASSET_PURCHASE",
+    "STRATEGIC_INVESTMENT",
+    "DUE_DILIGENCE_PROJECT",
+    "POST_CLOSING_INTEGRATION",
+    "CHANGE_OF_CONTROL_CONSENTS",
+    "DATA_ROOM_PROJECT",
+    "TRANSACTION_RESTRUCTURING",
+    "MISSING_DILIGENCE_DOCUMENTS"
+  ],
+  "negative_signals": [
+    "Programme already completed",
+    "No operational change",
+    "Source retracts the event"
+  ],
+  "disqualifiers": [
+    "Company explicitly denies the event",
+    "Event refers to a different company"
+  ],
+  "follow_on_services": [
+    "Integration checklist",
+    "Post-closing contract integration"
+  ],
+  "related_verticals": [
+    "clm",
+    "corporate_compliance",
+    "technology_ip"
+  ],
+  "keywords": [
+    "acquisition agreement",
+    "merger agreement",
+    "private-equity buyout transaction",
+    "bolt-on acquisition",
+    "business asset purchase",
+    "strategic investment with diligence",
+    "contract due diligence",
+    "post-closing contract integration",
+    "change-of-control consents",
+    "transaction data room",
+    "transaction-related business restructuring",
+    "missing documents during diligence"
+  ],
+  "semantic_queries": [
+    "Find companies where company announces an acquisition agreement and identify primary-source evidence",
+    "Find companies where company announces a merger agreement and identify primary-source evidence",
+    "Find companies where company enters a private-equity buyout transaction and identify primary-source evidence",
+    "Find companies where a portfolio company announces a bolt-on acquisition and identify primary-source evidence"
+  ],
+  "default_signal_weights": {
+    "ACQUISITION_ANNOUNCEMENT": 25,
+    "MERGER_ANNOUNCEMENT": 25,
+    "PE_TRANSACTION": 24,
+    "PORTFOLIO_ACQUISITION": 23,
+    "ASSET_PURCHASE": 22,
+    "STRATEGIC_INVESTMENT": 20,
+    "DUE_DILIGENCE_PROJECT": 24,
+    "POST_CLOSING_INTEGRATION": 25,
+    "CHANGE_OF_CONTROL_CONSENTS": 24,
+    "DATA_ROOM_PROJECT": 23,
+    "TRANSACTION_RESTRUCTURING": 21,
+    "MISSING_DILIGENCE_DOCUMENTS": 24
+  },
+  "version": "1.0.0"
+}

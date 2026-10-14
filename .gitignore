@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+coverage.xml
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*service_account*.json
+*service-account*.json
+*credentials*.json
+credentials*.json
+
+# Dependencies & Build artifacts
+node_modules/
+.next/
+*.tsbuildinfo
+.DS_Store
+
+# Local SQLite databases & locks
+*.db
+*.db-*
+*.lock
+
+# Local runtime data & caches (keeps data directory tracked)
+data/archives/
+data/discovery-jobs/
+data/provider_cache.json
+data/sheets-outbox*.json

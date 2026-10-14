@@ -1,0 +1,114 @@
+{
+  "id": "ai_governance",
+  "name": "AI Governance",
+  "description": "A concrete AI deployment or control programme creates an AI governance opportunity.",
+  "typical_client": [
+    "SaaS",
+    "Fintech",
+    "Recruitment",
+    "Healthtech",
+    "Edtech",
+    "Professional services"
+  ],
+  "typical_problem": "AI deployment introduces decisions and sensitive-data processing without documented oversight.",
+  "buyer_roles": [
+    "General Counsel",
+    "Chief Risk Officer",
+    "CISO",
+    "CTO",
+    "AI Governance Lead",
+    "HR Head",
+    "Product Head",
+    "Privacy Head"
+  ],
+  "services": [
+    "AI inventory",
+    "AI risk classification",
+    "AI-use assessment",
+    "Acceptable-use policy",
+    "Human oversight framework",
+    "Vendor AI review",
+    "AI approval process",
+    "AI incident/reassessment programme"
+  ],
+  "deliverables": [
+    "Documented ai inventory with owners, evidence and next actions",
+    "Documented ai risk classification with owners, evidence and next actions",
+    "Documented ai-use assessment with owners, evidence and next actions",
+    "Documented acceptable-use policy with owners, evidence and next actions",
+    "Documented human oversight framework with owners, evidence and next actions",
+    "Documented vendor ai review with owners, evidence and next actions",
+    "Documented ai approval process with owners, evidence and next actions",
+    "Documented ai incident/reassessment programme with owners, evidence and next actions"
+  ],
+  "positive_signals": [
+    "AI_RECRUITMENT_SYSTEM",
+    "GENERATIVE_AI_ROLLOUT",
+    "AI_PRODUCT_LAUNCH",
+    "AI_CUSTOMER_SERVICE",
+    "RESPONSIBLE_AI_HIRING",
+    "AI_GOVERNANCE_HIRING",
+    "AI_POLICY_PROGRAMME",
+    "AI_CUSTOMER_CONTROLS",
+    "AI_VENDOR_ADOPTION",
+    "AI_SENSITIVE_DATA",
+    "AUTOMATED_DECISIONS",
+    "AI_INCIDENT",
+    "AI_MODEL_INTEGRATION"
+  ],
+  "negative_signals": [
+    "Programme already completed",
+    "No operational change",
+    "Source retracts the event"
+  ],
+  "disqualifiers": [
+    "Company explicitly denies the event",
+    "Event refers to a different company"
+  ],
+  "follow_on_services": [
+    "AI approval process",
+    "AI incident/reassessment programme"
+  ],
+  "related_verticals": [
+    "privacy",
+    "vendor_governance",
+    "technology_ip"
+  ],
+  "keywords": [
+    "AI recruitment decision system",
+    "deploys generative AI",
+    "AI product processing customer records",
+    "AI customer-service automation",
+    "responsible AI lead",
+    "AI governance vacancy",
+    "AI acceptable-use policy programme",
+    "enterprise requests for AI controls",
+    "external AI processing vendor",
+    "sensitive personal data with AI",
+    "automated customer eligibility decisions",
+    "AI system incident",
+    "third-party model into production"
+  ],
+  "semantic_queries": [
+    "Find companies where company launches an ai recruitment decision system and identify primary-source evidence",
+    "Find companies where company deploys generative ai across its workforce and identify primary-source evidence",
+    "Find companies where company launches an ai product processing customer records and identify primary-source evidence",
+    "Find companies where company deploys ai customer-service automation and identify primary-source evidence"
+  ],
+  "default_signal_weights": {
+    "AI_RECRUITMENT_SYSTEM": 25,
+    "GENERATIVE_AI_ROLLOUT": 23,
+    "AI_PRODUCT_LAUNCH": 22,
+    "AI_CUSTOMER_SERVICE": 21,
+    "RESPONSIBLE_AI_HIRING": 20,
+    "AI_GOVERNANCE_HIRING": 20,
+    "AI_POLICY_PROGRAMME": 22,
+    "AI_CUSTOMER_CONTROLS": 24,
+    "AI_VENDOR_ADOPTION": 21,
+    "AI_SENSITIVE_DATA": 25,
+    "AUTOMATED_DECISIONS": 24,
+    "AI_INCIDENT": 25,
+    "AI_MODEL_INTEGRATION": 20
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "components": {
+    "identifiable_need": 25,
+    "icp_fit": 20,
+    "trigger_strength": 20,
+    "trigger_recency": 10,
+    "mandate_value": 10,
+    "buyer_reachability": 5,
+    "expertise_match": 5,
+    "evidence_quality": 5
+  },
+  "signal_strength_max": 25,
+  "recency": [
+    {
+      "max_days": 7,
+      "factor": 1
+    },
+    {
+      "max_days": 30,
+      "factor": 0.8
+    },
+    {
+      "max_days": 90,
+      "factor": 0.5
+    },
+    {
+      "max_days": 180,
+      "factor": 0.2
+    },
+    {
+      "max_days": 1000000,
+      "factor": 0
+    }
+  ],
+  "bands": [
+    {
+      "min": 80,
+      "name": "HOT"
+    },
+    {
+      "min": 65,
+      "name": "STRONG"
+    },
+    {
+      "min": 50,
+      "name": "MONITOR"
+    },
+    {
+      "min": 0,
+      "name": "IGNORE"
+    }
+  ],
+  "verified_confidence_min": 0.7,
+  "high_confidence_min": 0.85
+}

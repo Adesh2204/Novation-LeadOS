@@ -1,0 +1,111 @@
+{
+  "id": "investigations_disputes",
+  "name": "Investigations & Disputes Support",
+  "description": "Reported disputes or allegations create a need for careful evidence and counsel support.",
+  "typical_client": [
+    "Manufacturing",
+    "Fintech",
+    "SaaS",
+    "Professional services",
+    "E-commerce"
+  ],
+  "typical_problem": "Complex records and contested assertions need a traceable chronology and counsel-ready evidence.",
+  "buyer_roles": [
+    "General Counsel",
+    "Management",
+    "Compliance Head",
+    "Risk Head",
+    "External Counsel",
+    "Board / Audit Committee"
+  ],
+  "services": [
+    "Evidence organisation",
+    "Document review",
+    "Chronology",
+    "Evidence matrix",
+    "Interview support",
+    "Investigation support",
+    "Counsel briefing",
+    "Action tracking"
+  ],
+  "deliverables": [
+    "Documented evidence organisation with owners, evidence and next actions",
+    "Documented document review with owners, evidence and next actions",
+    "Documented chronology with owners, evidence and next actions",
+    "Documented evidence matrix with owners, evidence and next actions",
+    "Documented interview support with owners, evidence and next actions",
+    "Documented investigation support with owners, evidence and next actions",
+    "Documented counsel briefing with owners, evidence and next actions",
+    "Documented action tracking with owners, evidence and next actions"
+  ],
+  "positive_signals": [
+    "FRAUD_ALLEGATION",
+    "WHISTLEBLOWER_COMPLAINT",
+    "EMPLOYEE_MISCONDUCT_ALLEGATION",
+    "SUPPLIER_INVOICE_IRREGULARITY",
+    "AUDITOR_RESIGNATION",
+    "COMMERCIAL_DISPUTE",
+    "ARBITRATION_ANNOUNCEMENT",
+    "TERMINATION_DISPUTE",
+    "SHAREHOLDER_DISPUTE",
+    "REGULATORY_INVESTIGATION",
+    "INTERNAL_COMPLAINT_REVIEW",
+    "URGENT_EVIDENCE_REVIEW",
+    "LITIGATION_ANNOUNCEMENT"
+  ],
+  "negative_signals": [
+    "Programme already completed",
+    "No operational change",
+    "Source retracts the event"
+  ],
+  "disqualifiers": [
+    "Company explicitly denies the event",
+    "Event refers to a different company"
+  ],
+  "follow_on_services": [
+    "Counsel briefing",
+    "Action tracking"
+  ],
+  "related_verticals": [
+    "legal_operations",
+    "vendor_governance",
+    "corporate_compliance"
+  ],
+  "keywords": [
+    "fraud allegations",
+    "whistleblower complaint",
+    "employee misconduct allegations",
+    "supplier invoice irregularities",
+    "auditor resigns citing unresolved records",
+    "commercial contract dispute",
+    "arbitration proceedings",
+    "contract termination dispute",
+    "shareholder dispute",
+    "regulatory investigation",
+    "internal complaint evidence review",
+    "urgent dispute evidence review",
+    "material litigation proceedings"
+  ],
+  "semantic_queries": [
+    "Find companies where a source reports fraud allegations concerning a company and identify primary-source evidence",
+    "Find companies where a source reports a whistleblower complaint and identify primary-source evidence",
+    "Find companies where a source reports employee misconduct allegations and identify primary-source evidence",
+    "Find companies where company announces review of supplier invoice irregularities and identify primary-source evidence"
+  ],
+  "default_signal_weights": {
+    "FRAUD_ALLEGATION": 22,
+    "WHISTLEBLOWER_COMPLAINT": 22,
+    "EMPLOYEE_MISCONDUCT_ALLEGATION": 20,
+    "SUPPLIER_INVOICE_IRREGULARITY": 21,
+    "AUDITOR_RESIGNATION": 20,
+    "COMMERCIAL_DISPUTE": 23,
+    "ARBITRATION_ANNOUNCEMENT": 24,
+    "TERMINATION_DISPUTE": 23,
+    "SHAREHOLDER_DISPUTE": 22,
+    "REGULATORY_INVESTIGATION": 24,
+    "INTERNAL_COMPLAINT_REVIEW": 21,
+    "URGENT_EVIDENCE_REVIEW": 25,
+    "LITIGATION_ANNOUNCEMENT": 23
+  },
+  "version": "1.0.0"
+}

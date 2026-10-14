@@ -1,0 +1,111 @@
+{
+  "id": "clm",
+  "name": "Contract Lifecycle Management",
+  "description": "Growing contract volume or fragmented commercial workflows call for contract operations support.",
+  "typical_client": [
+    "SaaS",
+    "Manufacturing",
+    "Fintech",
+    "E-commerce",
+    "Professional services"
+  ],
+  "typical_problem": "Contracts, renewals and obligations are scattered and commercial throughput is constrained.",
+  "buyer_roles": [
+    "General Counsel",
+    "CFO",
+    "Procurement Head",
+    "Legal Operations",
+    "Sales Operations",
+    "Commercial Head"
+  ],
+  "services": [
+    "Contract repository",
+    "Contract register",
+    "Template standardisation",
+    "Negotiation playbook",
+    "Contract workflow",
+    "Obligation tracking",
+    "Renewal tracking",
+    "Managed Contract Desk"
+  ],
+  "deliverables": [
+    "Documented contract repository with owners, evidence and next actions",
+    "Documented contract register with owners, evidence and next actions",
+    "Documented template standardisation with owners, evidence and next actions",
+    "Documented negotiation playbook with owners, evidence and next actions",
+    "Documented contract workflow with owners, evidence and next actions",
+    "Documented obligation tracking with owners, evidence and next actions",
+    "Documented renewal tracking with owners, evidence and next actions",
+    "Documented managed contract desk with owners, evidence and next actions"
+  ],
+  "positive_signals": [
+    "CONTRACT_MANAGER_HIRING",
+    "CONTRACT_BACKLOG",
+    "RENEWAL_FAILURES",
+    "CONTRACT_VOLUME_SURGE",
+    "INTERNATIONAL_CUSTOMERS",
+    "PROCUREMENT_TRANSFORMATION",
+    "CONTRACT_REPOSITORY_PROJECT",
+    "TEMPLATE_STANDARDISATION",
+    "OBLIGATION_TRACKING_GAP",
+    "SALES_CONTRACT_EXPANSION",
+    "CONTRACT_TEAM_SCALING",
+    "MULTI_OFFICE_CONTRACTS",
+    "FUNDED_CONTRACT_SCALE"
+  ],
+  "negative_signals": [
+    "Programme already completed",
+    "No operational change",
+    "Source retracts the event"
+  ],
+  "disqualifiers": [
+    "Company explicitly denies the event",
+    "Event refers to a different company"
+  ],
+  "follow_on_services": [
+    "Renewal tracking",
+    "Managed Contract Desk"
+  ],
+  "related_verticals": [
+    "legal_operations",
+    "technology_ip",
+    "vendor_governance"
+  ],
+  "keywords": [
+    "contract manager vacancy",
+    "contract review backlog",
+    "missed commercial contract renewals",
+    "increase in contract volume",
+    "first international enterprise customers",
+    "procurement workflow transformation",
+    "contract repository consolidation",
+    "standardising commercial contract templates",
+    "untracked contractual obligations",
+    "enterprise sales contracting operations",
+    "contract operations team",
+    "contracts across multiple offices",
+    "funding to scale contract operations"
+  ],
+  "semantic_queries": [
+    "Find companies where company opens a contract manager vacancy and identify primary-source evidence",
+    "Find companies where company reports a growing contract review backlog and identify primary-source evidence",
+    "Find companies where company reports missed commercial contract renewals and identify primary-source evidence",
+    "Find companies where company reports a sharp increase in contract volume and identify primary-source evidence"
+  ],
+  "default_signal_weights": {
+    "CONTRACT_MANAGER_HIRING": 20,
+    "CONTRACT_BACKLOG": 25,
+    "RENEWAL_FAILURES": 24,
+    "CONTRACT_VOLUME_SURGE": 22,
+    "INTERNATIONAL_CUSTOMERS": 18,
+    "PROCUREMENT_TRANSFORMATION": 21,
+    "CONTRACT_REPOSITORY_PROJECT": 22,
+    "TEMPLATE_STANDARDISATION": 21,
+    "OBLIGATION_TRACKING_GAP": 24,
+    "SALES_CONTRACT_EXPANSION": 20,
+    "CONTRACT_TEAM_SCALING": 18,
+    "MULTI_OFFICE_CONTRACTS": 19,
+    "FUNDED_CONTRACT_SCALE": 18
+  },
+  "version": "1.0.0"
+}

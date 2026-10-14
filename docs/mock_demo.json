@@ -1,0 +1,612 @@
+{
+  "synthetic": true,
+  "first_run": {
+    "companies_discovered": 40,
+    "signals_found": 36,
+    "opportunities_created": 44,
+    "duplicates_avoided": 6,
+    "rejections": 7,
+    "errors": 1,
+    "processed": 44,
+    "successful": 44,
+    "failed": 0,
+    "average_score": 90.8
+  },
+  "repeat_run": {
+    "companies_discovered": 0,
+    "signals_found": 0,
+    "opportunities_created": 0,
+    "duplicates_avoided": 167,
+    "rejections": 5,
+    "errors": 1,
+    "processed": 0,
+    "successful": 0,
+    "failed": 0,
+    "average_score": 0
+  },
+  "examples": [
+    {
+      "company": "Atlas AI Systems",
+      "sector": "Recruitment",
+      "vertical_id": "ai_governance",
+      "vertical_name": "AI Governance",
+      "trigger": "Company launches an AI recruitment decision system.",
+      "trigger_date": "2026-10-03",
+      "novation_service": "AI-use assessment",
+      "decision_maker_roles": [
+        "General Counsel",
+        "HR Head",
+        "CISO",
+        "Privacy Head"
+      ],
+      "score": 96,
+      "score_band": "HOT",
+      "score_components": {
+        "identifiable_need": {
+          "points": 25,
+          "maximum": 25,
+          "rationale": "Catalog need intensity; a hypothesis, not confirmed demand"
+        },
+        "icp_fit": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Sector Recruitment: core ICP"
+        },
+        "trigger_strength": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Signal weight 25/25 normalized to 20; never added directly"
+        },
+        "trigger_recency": {
+          "points": 10,
+          "maximum": 10,
+          "rationale": "Published event age under the versioned recency decay schedule"
+        },
+        "mandate_value": {
+          "points": 8,
+          "maximum": 10,
+          "rationale": "Mock scope assessment; no confirmed budget"
+        },
+        "buyer_reachability": {
+          "points": 3,
+          "maximum": 5,
+          "rationale": "Role mapped only; no verified personal contact"
+        },
+        "expertise_match": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Event maps to a defined Novation vertical"
+        },
+        "evidence_quality": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Best non-conflicting, company-matched source confidence"
+        }
+      },
+      "audit_status": "VERIFIED",
+      "human_status": "PENDING_REVIEW"
+    },
+    {
+      "company": "Aster Manufacturing",
+      "sector": "Manufacturing",
+      "vertical_id": "clm",
+      "vertical_name": "Contract Lifecycle Management",
+      "trigger": "Company reports a growing contract review backlog.",
+      "trigger_date": "2026-09-21",
+      "novation_service": "Contract workflow",
+      "decision_maker_roles": [
+        "General Counsel",
+        "CFO",
+        "Procurement Head",
+        "Legal Operations"
+      ],
+      "score": 94,
+      "score_band": "HOT",
+      "score_components": {
+        "identifiable_need": {
+          "points": 25,
+          "maximum": 25,
+          "rationale": "Catalog need intensity; a hypothesis, not confirmed demand"
+        },
+        "icp_fit": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Sector Manufacturing: core ICP"
+        },
+        "trigger_strength": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Signal weight 25/25 normalized to 20; never added directly"
+        },
+        "trigger_recency": {
+          "points": 8,
+          "maximum": 10,
+          "rationale": "Published event age under the versioned recency decay schedule"
+        },
+        "mandate_value": {
+          "points": 8,
+          "maximum": 10,
+          "rationale": "Mock scope assessment; no confirmed budget"
+        },
+        "buyer_reachability": {
+          "points": 3,
+          "maximum": 5,
+          "rationale": "Role mapped only; no verified personal contact"
+        },
+        "expertise_match": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Event maps to a defined Novation vertical"
+        },
+        "evidence_quality": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Best non-conflicting, company-matched source confidence"
+        }
+      },
+      "audit_status": "VERIFIED",
+      "human_status": "PENDING_REVIEW"
+    },
+    {
+      "company": "Multi Signal Systems",
+      "sector": "SaaS",
+      "vertical_id": "corporate_compliance",
+      "vertical_name": "Corporate Compliance & Entity Coordination",
+      "trigger": "Company forms an Indian subsidiary.",
+      "trigger_date": "2026-10-03",
+      "novation_service": "Entity register",
+      "decision_maker_roles": [
+        "India Country Head",
+        "CFO",
+        "Finance Head",
+        "Company Secretary"
+      ],
+      "score": 96,
+      "score_band": "HOT",
+      "score_components": {
+        "identifiable_need": {
+          "points": 25,
+          "maximum": 25,
+          "rationale": "Catalog need intensity; a hypothesis, not confirmed demand"
+        },
+        "icp_fit": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Sector SaaS: core ICP"
+        },
+        "trigger_strength": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Signal weight 25/25 normalized to 20; never added directly"
+        },
+        "trigger_recency": {
+          "points": 10,
+          "maximum": 10,
+          "rationale": "Published event age under the versioned recency decay schedule"
+        },
+        "mandate_value": {
+          "points": 8,
+          "maximum": 10,
+          "rationale": "Mock scope assessment; no confirmed budget"
+        },
+        "buyer_reachability": {
+          "points": 3,
+          "maximum": 5,
+          "rationale": "Role mapped only; no verified personal contact"
+        },
+        "expertise_match": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Event maps to a defined Novation vertical"
+        },
+        "evidence_quality": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Best non-conflicting, company-matched source confidence"
+        }
+      },
+      "audit_status": "VERIFIED",
+      "human_status": "PENDING_REVIEW"
+    },
+    {
+      "company": "Granite Components",
+      "sector": "SaaS",
+      "vertical_id": "investigations_disputes",
+      "vertical_name": "Investigations & Disputes Support",
+      "trigger": "Company announces arbitration proceedings.",
+      "trigger_date": "2026-08-12",
+      "novation_service": "Counsel briefing",
+      "decision_maker_roles": [
+        "General Counsel",
+        "Management",
+        "Compliance Head",
+        "Risk Head"
+      ],
+      "score": 89,
+      "score_band": "HOT",
+      "score_components": {
+        "identifiable_need": {
+          "points": 24,
+          "maximum": 25,
+          "rationale": "Catalog need intensity; a hypothesis, not confirmed demand"
+        },
+        "icp_fit": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Sector SaaS: core ICP"
+        },
+        "trigger_strength": {
+          "points": 19,
+          "maximum": 20,
+          "rationale": "Signal weight 24/25 normalized to 20; never added directly"
+        },
+        "trigger_recency": {
+          "points": 5,
+          "maximum": 10,
+          "rationale": "Published event age under the versioned recency decay schedule"
+        },
+        "mandate_value": {
+          "points": 8,
+          "maximum": 10,
+          "rationale": "Mock scope assessment; no confirmed budget"
+        },
+        "buyer_reachability": {
+          "points": 3,
+          "maximum": 5,
+          "rationale": "Role mapped only; no verified personal contact"
+        },
+        "expertise_match": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Event maps to a defined Novation vertical"
+        },
+        "evidence_quality": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Best non-conflicting, company-matched source confidence"
+        }
+      },
+      "audit_status": "VERIFIED",
+      "human_status": "PENDING_REVIEW"
+    },
+    {
+      "company": "Juniper Group",
+      "sector": "Manufacturing",
+      "vertical_id": "legal_operations",
+      "vertical_name": "Legal Operations",
+      "trigger": "Company reports a growing legal matter backlog.",
+      "trigger_date": "2026-09-21",
+      "novation_service": "Matter tracker",
+      "decision_maker_roles": [
+        "General Counsel",
+        "Legal Operations Head",
+        "CFO",
+        "Legal Director"
+      ],
+      "score": 94,
+      "score_band": "HOT",
+      "score_components": {
+        "identifiable_need": {
+          "points": 25,
+          "maximum": 25,
+          "rationale": "Catalog need intensity; a hypothesis, not confirmed demand"
+        },
+        "icp_fit": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Sector Manufacturing: core ICP"
+        },
+        "trigger_strength": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Signal weight 25/25 normalized to 20; never added directly"
+        },
+        "trigger_recency": {
+          "points": 8,
+          "maximum": 10,
+          "rationale": "Published event age under the versioned recency decay schedule"
+        },
+        "mandate_value": {
+          "points": 8,
+          "maximum": 10,
+          "rationale": "Mock scope assessment; no confirmed budget"
+        },
+        "buyer_reachability": {
+          "points": 3,
+          "maximum": 5,
+          "rationale": "Role mapped only; no verified personal contact"
+        },
+        "expertise_match": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Event maps to a defined Novation vertical"
+        },
+        "evidence_quality": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Best non-conflicting, company-matched source confidence"
+        }
+      },
+      "audit_status": "VERIFIED",
+      "human_status": "PENDING_REVIEW"
+    },
+    {
+      "company": "Meridian Health Cloud",
+      "sector": "SaaS",
+      "vertical_id": "privacy",
+      "vertical_name": "Privacy & Data Protection",
+      "trigger": "Company announces an India market launch.",
+      "trigger_date": "2026-10-03",
+      "novation_service": "Privacy readiness assessment",
+      "decision_maker_roles": [
+        "General Counsel",
+        "Privacy Head",
+        "DPO",
+        "CISO"
+      ],
+      "score": 96,
+      "score_band": "HOT",
+      "score_components": {
+        "identifiable_need": {
+          "points": 25,
+          "maximum": 25,
+          "rationale": "Catalog need intensity; a hypothesis, not confirmed demand"
+        },
+        "icp_fit": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Sector SaaS: core ICP"
+        },
+        "trigger_strength": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Signal weight 25/25 normalized to 20; never added directly"
+        },
+        "trigger_recency": {
+          "points": 10,
+          "maximum": 10,
+          "rationale": "Published event age under the versioned recency decay schedule"
+        },
+        "mandate_value": {
+          "points": 8,
+          "maximum": 10,
+          "rationale": "Mock scope assessment; no confirmed budget"
+        },
+        "buyer_reachability": {
+          "points": 3,
+          "maximum": 5,
+          "rationale": "Role mapped only; no verified personal contact"
+        },
+        "expertise_match": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Event maps to a defined Novation vertical"
+        },
+        "evidence_quality": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Best non-conflicting, company-matched source confidence"
+        }
+      },
+      "audit_status": "VERIFIED",
+      "human_status": "PENDING_REVIEW"
+    },
+    {
+      "company": "Twin Name",
+      "sector": "SaaS",
+      "vertical_id": "technology_ip",
+      "vertical_name": "Technology Contracts & IP",
+      "trigger": "Company introduces a software licensing programme.",
+      "trigger_date": "2026-10-03",
+      "novation_service": "Software licence",
+      "decision_maker_roles": [
+        "Founder",
+        "General Counsel",
+        "Commercial Head",
+        "Product Head"
+      ],
+      "score": 94,
+      "score_band": "HOT",
+      "score_components": {
+        "identifiable_need": {
+          "points": 24,
+          "maximum": 25,
+          "rationale": "Catalog need intensity; a hypothesis, not confirmed demand"
+        },
+        "icp_fit": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Sector SaaS: core ICP"
+        },
+        "trigger_strength": {
+          "points": 19,
+          "maximum": 20,
+          "rationale": "Signal weight 24/25 normalized to 20; never added directly"
+        },
+        "trigger_recency": {
+          "points": 10,
+          "maximum": 10,
+          "rationale": "Published event age under the versioned recency decay schedule"
+        },
+        "mandate_value": {
+          "points": 8,
+          "maximum": 10,
+          "rationale": "Mock scope assessment; no confirmed budget"
+        },
+        "buyer_reachability": {
+          "points": 3,
+          "maximum": 5,
+          "rationale": "Role mapped only; no verified personal contact"
+        },
+        "expertise_match": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Event maps to a defined Novation vertical"
+        },
+        "evidence_quality": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Best non-conflicting, company-matched source confidence"
+        }
+      },
+      "audit_status": "VERIFIED",
+      "human_status": "PENDING_REVIEW"
+    },
+    {
+      "company": "Pioneer Capital",
+      "sector": "SaaS",
+      "vertical_id": "transaction_integration",
+      "vertical_name": "Transaction Diligence & Integration",
+      "trigger": "Company announces an acquisition agreement.",
+      "trigger_date": "2026-10-03",
+      "novation_service": "Contract diligence",
+      "decision_maker_roles": [
+        "Deal Counsel",
+        "Corporate Development",
+        "PE Investment Team",
+        "General Counsel"
+      ],
+      "score": 96,
+      "score_band": "HOT",
+      "score_components": {
+        "identifiable_need": {
+          "points": 25,
+          "maximum": 25,
+          "rationale": "Catalog need intensity; a hypothesis, not confirmed demand"
+        },
+        "icp_fit": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Sector SaaS: core ICP"
+        },
+        "trigger_strength": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Signal weight 25/25 normalized to 20; never added directly"
+        },
+        "trigger_recency": {
+          "points": 10,
+          "maximum": 10,
+          "rationale": "Published event age under the versioned recency decay schedule"
+        },
+        "mandate_value": {
+          "points": 8,
+          "maximum": 10,
+          "rationale": "Mock scope assessment; no confirmed budget"
+        },
+        "buyer_reachability": {
+          "points": 3,
+          "maximum": 5,
+          "rationale": "Role mapped only; no verified personal contact"
+        },
+        "expertise_match": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Event maps to a defined Novation vertical"
+        },
+        "evidence_quality": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Best non-conflicting, company-matched source confidence"
+        }
+      },
+      "audit_status": "VERIFIED",
+      "human_status": "PENDING_REVIEW"
+    },
+    {
+      "company": "Cedar Fintech",
+      "sector": "Fintech",
+      "vertical_id": "vendor_governance",
+      "vertical_name": "Vendor & Third-Party Governance",
+      "trigger": "Company starts a large vendor onboarding programme.",
+      "trigger_date": "2026-10-03",
+      "novation_service": "Vendor intake",
+      "decision_maker_roles": [
+        "Procurement Head",
+        "General Counsel",
+        "Privacy Head",
+        "Security Head"
+      ],
+      "score": 94,
+      "score_band": "HOT",
+      "score_components": {
+        "identifiable_need": {
+          "points": 24,
+          "maximum": 25,
+          "rationale": "Catalog need intensity; a hypothesis, not confirmed demand"
+        },
+        "icp_fit": {
+          "points": 20,
+          "maximum": 20,
+          "rationale": "Sector Fintech: core ICP"
+        },
+        "trigger_strength": {
+          "points": 19,
+          "maximum": 20,
+          "rationale": "Signal weight 24/25 normalized to 20; never added directly"
+        },
+        "trigger_recency": {
+          "points": 10,
+          "maximum": 10,
+          "rationale": "Published event age under the versioned recency decay schedule"
+        },
+        "mandate_value": {
+          "points": 8,
+          "maximum": 10,
+          "rationale": "Mock scope assessment; no confirmed budget"
+        },
+        "buyer_reachability": {
+          "points": 3,
+          "maximum": 5,
+          "rationale": "Role mapped only; no verified personal contact"
+        },
+        "expertise_match": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Event maps to a defined Novation vertical"
+        },
+        "evidence_quality": {
+          "points": 5,
+          "maximum": 5,
+          "rationale": "Best non-conflicting, company-matched source confidence"
+        }
+      },
+      "audit_status": "VERIFIED",
+      "human_status": "PENDING_REVIEW"
+    }
+  ],
+  "review": "APPROVED",
+  "feedback": "Meeting",
+  "send_denied": "email_send_disabled",
+  "metrics": {
+    "companies": 40,
+    "opportunities": 44,
+    "hot": 35,
+    "pending_review": 35,
+    "needs_research": 8,
+    "average_score": 90.8,
+    "by_vertical": {
+      "privacy": 10,
+      "corporate_compliance": 6,
+      "clm": 5,
+      "vendor_governance": 4,
+      "ai_governance": 5,
+      "legal_operations": 3,
+      "investigations_disputes": 3,
+      "transaction_integration": 4,
+      "technology_ip": 4
+    },
+    "by_band": {
+      "HOT": 35,
+      "MONITOR": 6,
+      "STRONG": 1,
+      "IGNORE": 2
+    },
+    "pipeline_runs": 2,
+    "duplicates_avoided": 173,
+    "errors": 2,
+    "rejections": 12,
+    "processing_ms": 1783,
+    "email_send_enabled": false
+  }
+}

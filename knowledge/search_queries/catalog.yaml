@@ -1,0 +1,233 @@
+version: 2.0.0
+groups:
+- id: privacy_demand
+  name: Privacy external assessment and implementation
+  vertical_ids:
+  - privacy
+  signal_ids:
+  - INDIA_MARKET_ENTRY
+  - DPO_HIRING
+  - PRIVACY_HIRING
+  - DATA_INTENSIVE_SERVICE
+  - CONSUMER_APP_LAUNCH
+  - EMPLOYEE_DATA_GROWTH
+  - CROSS_BORDER_DATA
+  - PRIVACY_POLICY_GAP
+  - OUTDATED_PRIVACY_DOCUMENTS
+  - PRIVACY_QUESTIONNAIRES
+  - PERSONAL_DATA_INCIDENT
+  - SENSITIVE_DATA_PROCESSOR
+  - PRIVACY_CONTROL_PROGRAMME
+  query: recent India company procurement notices tenders RFP requirements for external
+    DPDP privacy readiness assessment data protection implementation advisory
+  priority: 1
+  system_prompt: Identify the organization issuing the requirement, exact supporting
+    source URL, service scope and stated timing. Prioritize official tenders, RFPs
+    and company requirements over jobs, press releases and reporting. Distinguish
+    service buyers from vendors selling a product. Omit inferred outsourcing demand
+    and unknown details.
+- id: clm_demand
+  name: Contract review and lifecycle support
+  vertical_ids:
+  - clm
+  signal_ids:
+  - CONTRACT_MANAGER_HIRING
+  - CONTRACT_BACKLOG
+  - RENEWAL_FAILURES
+  - CONTRACT_VOLUME_SURGE
+  - INTERNATIONAL_CUSTOMERS
+  - PROCUREMENT_TRANSFORMATION
+  - CONTRACT_REPOSITORY_PROJECT
+  - TEMPLATE_STANDARDISATION
+  - OBLIGATION_TRACKING_GAP
+  - SALES_CONTRACT_EXPANSION
+  - CONTRACT_TEAM_SCALING
+  - MULTI_OFFICE_CONTRACTS
+  - FUNDED_CONTRACT_SCALE
+  query: recent India enterprise procurement RFP external contract review backlog
+    remediation contract lifecycle management legal services requirements
+  priority: 2
+  system_prompt: Identify the organization issuing the requirement, exact supporting
+    source URL, service scope and stated timing. Prioritize official tenders, RFPs
+    and company requirements over jobs, press releases and reporting. Distinguish
+    service buyers from vendors selling a product. Omit inferred outsourcing demand
+    and unknown details.
+- id: ai_governance_demand
+  name: AI governance assessments
+  vertical_ids:
+  - ai_governance
+  signal_ids:
+  - AI_RECRUITMENT_SYSTEM
+  - GENERATIVE_AI_ROLLOUT
+  - AI_PRODUCT_LAUNCH
+  - AI_CUSTOMER_SERVICE
+  - RESPONSIBLE_AI_HIRING
+  - AI_GOVERNANCE_HIRING
+  - AI_POLICY_PROGRAMME
+  - AI_CUSTOMER_CONTROLS
+  - AI_VENDOR_ADOPTION
+  - AI_SENSITIVE_DATA
+  - AUTOMATED_DECISIONS
+  - AI_INCIDENT
+  - AI_MODEL_INTEGRATION
+  query: recent India enterprise RFP tender request independent responsible AI governance
+    risk assessment AI policy advisory services
+  priority: 3
+  system_prompt: Identify the organization issuing the requirement, exact supporting
+    source URL, service scope and stated timing. Prioritize official tenders, RFPs
+    and company requirements over jobs, press releases and reporting. Distinguish
+    service buyers from vendors selling a product. Omit inferred outsourcing demand
+    and unknown details.
+- id: legal_operations_demand
+  name: Legal operations support
+  vertical_ids:
+  - legal_operations
+  signal_ids:
+  - LEGAL_OPS_HIRING
+  - LEGAL_BACKLOG
+  - OUTSIDE_COUNSEL_SPEND
+  - LEGAL_TEAM_SCALING
+  - MULTIPLE_LAW_FIRMS
+  - MATTER_MANAGEMENT_PROJECT
+  - LEGAL_TECH_PROCUREMENT
+  - LEGAL_INTAKE_PROJECT
+  - LEGAL_DEADLINE_GAP
+  - LEGAL_INVOICE_REVIEW
+  - LEGAL_WORKLOAD_GROWTH
+  - LEGAL_REPORTING_PROJECT
+  query: recent India company external legal operations workflow matter backlog outside
+    counsel spend review consulting procurement RFP
+  priority: 4
+  system_prompt: Identify the organization issuing the requirement, exact supporting
+    source URL, service scope and stated timing. Prioritize official tenders, RFPs
+    and company requirements over jobs, press releases and reporting. Distinguish
+    service buyers from vendors selling a product. Omit inferred outsourcing demand
+    and unknown details.
+- id: corporate_compliance_demand
+  name: Entity and corporate compliance coordination
+  vertical_ids:
+  - corporate_compliance
+  signal_ids:
+  - INDIA_SUBSIDIARY
+  - MULTIPLE_INDIAN_ENTITIES
+  - DIRECTOR_CHANGE_PROGRAMME
+  - CORPORATE_RESTRUCTURING
+  - FILING_PROBLEMS
+  - ENTITY_RECORD_FRAGMENTATION
+  - COMPLIANCE_HIRING
+  - RAPID_ENTITY_GROWTH
+  - NEW_STATE_OFFICE
+  - PARENT_REPORTING
+  - ADVISER_COORDINATION
+  - COMPLIANCE_CALENDAR_GAP
+  query: recent India enterprise RFP tender external corporate compliance filing remediation
+    multi entity coordination secretarial support requirements
+  priority: 5
+  system_prompt: Identify the organization issuing the requirement, exact supporting
+    source URL, service scope and stated timing. Prioritize official tenders, RFPs
+    and company requirements over jobs, press releases and reporting. Distinguish
+    service buyers from vendors selling a product. Omit inferred outsourcing demand
+    and unknown details.
+- id: vendor_governance_demand
+  name: Third-party assessments and remediation
+  vertical_ids:
+  - vendor_governance
+  signal_ids:
+  - VENDOR_ONBOARDING_PROGRAMME
+  - THIRD_PARTY_RISK_HIRING
+  - CLOUD_MIGRATION
+  - PAYROLL_VENDOR_CHANGE
+  - CRM_IMPLEMENTATION
+  - OUTSOURCING_EXPANSION
+  - VENDOR_SECURITY_REVIEWS
+  - VENDOR_BREACH
+  - VENDOR_REMEDIATION
+  - SUPPLIER_RENEWALS
+  - VENDOR_EXIT
+  - VENDOR_BASE_GROWTH
+  - PROCUREMENT_INTAKE
+  query: recent India enterprise tender RFP vendor third party risk assessment remediation
+    independent supplier governance consulting requirements
+  priority: 6
+  system_prompt: Identify the organization issuing the requirement, exact supporting
+    source URL, service scope and stated timing. Prioritize official tenders, RFPs
+    and company requirements over jobs, press releases and reporting. Distinguish
+    service buyers from vendors selling a product. Omit inferred outsourcing demand
+    and unknown details.
+- id: transaction_integration_demand
+  name: Transaction diligence and integration
+  vertical_ids:
+  - transaction_integration
+  signal_ids:
+  - ACQUISITION_ANNOUNCEMENT
+  - MERGER_ANNOUNCEMENT
+  - PE_TRANSACTION
+  - PORTFOLIO_ACQUISITION
+  - ASSET_PURCHASE
+  - STRATEGIC_INVESTMENT
+  - DUE_DILIGENCE_PROJECT
+  - POST_CLOSING_INTEGRATION
+  - CHANGE_OF_CONTROL_CONSENTS
+  - DATA_ROOM_PROJECT
+  - TRANSACTION_RESTRUCTURING
+  - MISSING_DILIGENCE_DOCUMENTS
+  query: recent India company request external legal contract due diligence acquisition
+    post merger integration advisory tender RFP requirements
+  priority: 7
+  system_prompt: Identify the organization issuing the requirement, exact supporting
+    source URL, service scope and stated timing. Prioritize official tenders, RFPs
+    and company requirements over jobs, press releases and reporting. Distinguish
+    service buyers from vendors selling a product. Omit inferred outsourcing demand
+    and unknown details.
+- id: technology_ip_demand
+  name: Technology contracting and licensing advice
+  vertical_ids:
+  - technology_ip
+  signal_ids:
+  - ENTERPRISE_SAAS_SALES
+  - SOFTWARE_PRODUCT_LAUNCH
+  - LICENSING_PROGRAMME
+  - RESELLER_PARTNERSHIP
+  - TECH_INTERNATIONAL_EXPANSION
+  - DEVELOPMENT_OUTSOURCING
+  - DEVELOPMENT_CONTRACT
+  - IP_OWNERSHIP_REVIEW
+  - OPEN_SOURCE_REVIEW
+  - WHITE_LABEL_AGREEMENT
+  - ROYALTY_ARRANGEMENT
+  - ENTERPRISE_TECH_NEGOTIATION
+  - SAAS_PRICING_CHANGE
+  query: recent India company tender RFP outside software licensing technology contracts
+    intellectual property legal advisory support requirements
+  priority: 8
+  system_prompt: Identify the organization issuing the requirement, exact supporting
+    source URL, service scope and stated timing. Prioritize official tenders, RFPs
+    and company requirements over jobs, press releases and reporting. Distinguish
+    service buyers from vendors selling a product. Omit inferred outsourcing demand
+    and unknown details.
+- id: investigations_disputes_demand
+  name: Investigation and dispute support
+  vertical_ids:
+  - investigations_disputes
+  signal_ids:
+  - FRAUD_ALLEGATION
+  - WHISTLEBLOWER_COMPLAINT
+  - EMPLOYEE_MISCONDUCT_ALLEGATION
+  - SUPPLIER_INVOICE_IRREGULARITY
+  - AUDITOR_RESIGNATION
+  - COMMERCIAL_DISPUTE
+  - ARBITRATION_ANNOUNCEMENT
+  - TERMINATION_DISPUTE
+  - SHAREHOLDER_DISPUTE
+  - REGULATORY_INVESTIGATION
+  - INTERNAL_COMPLAINT_REVIEW
+  - URGENT_EVIDENCE_REVIEW
+  - LITIGATION_ANNOUNCEMENT
+  query: recent India company procurement tender RFP external forensic investigation
+    dispute arbitration assistance advisory services requirements
+  priority: 9
+  system_prompt: Identify the organization issuing the requirement, exact supporting
+    source URL, service scope and stated timing. Prioritize official tenders, RFPs
+    and company requirements over jobs, press releases and reporting. Distinguish
+    service buyers from vendors selling a product. Omit inferred outsourcing demand
+    and unknown details.

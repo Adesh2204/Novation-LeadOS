@@ -1,0 +1,4180 @@
+[
+  {
+    "signal_id": "INDIA_MARKET_ENTRY",
+    "name": "India Market Entry",
+    "description": "Company announces an India market launch.",
+    "vertical_ids": [
+      "privacy",
+      "corporate_compliance",
+      "clm"
+    ],
+    "keywords": [
+      "India market launch"
+    ],
+    "semantic_description": "An actual announced business event: company announces an india market launch. General discussion of the topic is insufficient.",
+    "base_strength": 25,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Privacy Head",
+      "DPO",
+      "CISO"
+    ],
+    "possible_services": [
+      "Privacy readiness assessment",
+      "Data inventory",
+      "Data-flow mapping"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: announces an India market launch."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "DPO_HIRING",
+    "name": "Dpo Hiring",
+    "description": "Company opens a dedicated DPO vacancy.",
+    "vertical_ids": [
+      "privacy"
+    ],
+    "keywords": [
+      "DPO vacancy"
+    ],
+    "semantic_description": "An actual announced business event: company opens a dedicated dpo vacancy. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Privacy Head",
+      "DPO",
+      "CISO"
+    ],
+    "possible_services": [
+      "Managed Privacy Desk",
+      "Privacy readiness assessment",
+      "Data inventory",
+      "Data-flow mapping"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: opens a dedicated DPO vacancy."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "PRIVACY_HIRING",
+    "name": "Privacy Hiring",
+    "description": "Company recruits a privacy implementation lead.",
+    "vertical_ids": [
+      "privacy"
+    ],
+    "keywords": [
+      "privacy implementation lead"
+    ],
+    "semantic_description": "An actual announced business event: company recruits a privacy implementation lead. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Privacy Head",
+      "DPO",
+      "CISO"
+    ],
+    "possible_services": [
+      "Privacy implementation",
+      "Privacy readiness assessment",
+      "Data inventory",
+      "Data-flow mapping"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: recruits a privacy implementation lead."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "DATA_INTENSIVE_SERVICE",
+    "name": "Data Intensive Service",
+    "description": "Company launches a personal-data-intensive service.",
+    "vertical_ids": [
+      "privacy"
+    ],
+    "keywords": [
+      "personal-data-intensive service"
+    ],
+    "semantic_description": "An actual announced business event: company launches a personal-data-intensive service. General discussion of the topic is insufficient.",
+    "base_strength": 23,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Privacy Head",
+      "DPO",
+      "CISO"
+    ],
+    "possible_services": [
+      "Data inventory",
+      "Privacy readiness assessment",
+      "Data-flow mapping"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: launches a personal-data-intensive service."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "CONSUMER_APP_LAUNCH",
+    "name": "Consumer App Launch",
+    "description": "Company launches a consumer application collecting profiles.",
+    "vertical_ids": [
+      "privacy"
+    ],
+    "keywords": [
+      "consumer application collecting profiles"
+    ],
+    "semantic_description": "An actual announced business event: company launches a consumer application collecting profiles. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Privacy Head",
+      "DPO",
+      "CISO"
+    ],
+    "possible_services": [
+      "Data-flow mapping",
+      "Privacy readiness assessment",
+      "Data inventory"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: launches a consumer application collecting profiles."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "EMPLOYEE_DATA_GROWTH",
+    "name": "Employee Data Growth",
+    "description": "Company doubles its employee data processing footprint.",
+    "vertical_ids": [
+      "privacy"
+    ],
+    "keywords": [
+      "employee data processing footprint"
+    ],
+    "semantic_description": "An actual announced business event: company doubles its employee data processing footprint. General discussion of the topic is insufficient.",
+    "base_strength": 16,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Privacy Head",
+      "DPO",
+      "CISO"
+    ],
+    "possible_services": [
+      "Data inventory",
+      "Privacy readiness assessment",
+      "Data-flow mapping"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: doubles its employee data processing footprint."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "CROSS_BORDER_DATA",
+    "name": "Cross Border Data",
+    "description": "Company begins cross-border customer-data processing.",
+    "vertical_ids": [
+      "privacy"
+    ],
+    "keywords": [
+      "cross-border customer-data processing"
+    ],
+    "semantic_description": "An actual announced business event: company begins cross-border customer-data processing. General discussion of the topic is insufficient.",
+    "base_strength": 23,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Privacy Head",
+      "DPO",
+      "CISO"
+    ],
+    "possible_services": [
+      "Data-flow mapping",
+      "Privacy readiness assessment",
+      "Data inventory"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: begins cross-border customer-data processing."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "PRIVACY_POLICY_GAP",
+    "name": "Privacy Policy Gap",
+    "description": "Company acknowledges gaps in its published privacy policy.",
+    "vertical_ids": [
+      "privacy"
+    ],
+    "keywords": [
+      "gaps in its published privacy policy"
+    ],
+    "semantic_description": "An actual announced business event: company acknowledges gaps in its published privacy policy. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Privacy Head",
+      "DPO",
+      "CISO"
+    ],
+    "possible_services": [
+      "DPDP gap assessment",
+      "Privacy readiness assessment",
+      "Data inventory",
+      "Data-flow mapping"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: acknowledges gaps in its published privacy policy."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "OUTDATED_PRIVACY_DOCUMENTS",
+    "name": "Outdated Privacy Documents",
+    "description": "Company reports materially outdated privacy documentation.",
+    "vertical_ids": [
+      "privacy"
+    ],
+    "keywords": [
+      "outdated privacy documentation"
+    ],
+    "semantic_description": "An actual announced business event: company reports materially outdated privacy documentation. General discussion of the topic is insufficient.",
+    "base_strength": 18,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Privacy Head",
+      "DPO",
+      "CISO"
+    ],
+    "possible_services": [
+      "DPDP gap assessment",
+      "Privacy readiness assessment",
+      "Data inventory",
+      "Data-flow mapping"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: reports materially outdated privacy documentation."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "PRIVACY_QUESTIONNAIRES",
+    "name": "Privacy Questionnaires",
+    "description": "Company receives enterprise privacy questionnaires.",
+    "vertical_ids": [
+      "privacy"
+    ],
+    "keywords": [
+      "enterprise privacy questionnaires"
+    ],
+    "semantic_description": "An actual announced business event: company receives enterprise privacy questionnaires. General discussion of the topic is insufficient.",
+    "base_strength": 19,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Privacy Head",
+      "DPO",
+      "CISO"
+    ],
+    "possible_services": [
+      "Managed Privacy Desk",
+      "Privacy readiness assessment",
+      "Data inventory",
+      "Data-flow mapping"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: receives enterprise privacy questionnaires."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "PERSONAL_DATA_INCIDENT",
+    "name": "Personal Data Incident",
+    "description": "Company confirms a personal-data exposure incident.",
+    "vertical_ids": [
+      "privacy"
+    ],
+    "keywords": [
+      "personal-data exposure incident"
+    ],
+    "semantic_description": "An actual announced business event: company confirms a personal-data exposure incident. General discussion of the topic is insufficient.",
+    "base_strength": 25,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Privacy Head",
+      "DPO",
+      "CISO"
+    ],
+    "possible_services": [
+      "Privacy implementation",
+      "Privacy readiness assessment",
+      "Data inventory",
+      "Data-flow mapping"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: confirms a personal-data exposure incident."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "SENSITIVE_DATA_PROCESSOR",
+    "name": "Sensitive Data Processor",
+    "description": "Company appoints a new sensitive-data processor.",
+    "vertical_ids": [
+      "privacy",
+      "vendor_governance"
+    ],
+    "keywords": [
+      "new sensitive-data processor"
+    ],
+    "semantic_description": "An actual announced business event: company appoints a new sensitive-data processor. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Privacy Head",
+      "DPO",
+      "CISO"
+    ],
+    "possible_services": [
+      "Data-flow mapping",
+      "Privacy readiness assessment",
+      "Data inventory"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: appoints a new sensitive-data processor."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "PRIVACY_CONTROL_PROGRAMME",
+    "name": "Privacy Control Programme",
+    "description": "Company starts a privacy control implementation programme.",
+    "vertical_ids": [
+      "privacy"
+    ],
+    "keywords": [
+      "privacy control implementation programme"
+    ],
+    "semantic_description": "An actual announced business event: company starts a privacy control implementation programme. General discussion of the topic is insufficient.",
+    "base_strength": 23,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Privacy Head",
+      "DPO",
+      "CISO"
+    ],
+    "possible_services": [
+      "Privacy implementation",
+      "Privacy readiness assessment",
+      "Data inventory",
+      "Data-flow mapping"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: starts a privacy control implementation programme."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "CONTRACT_MANAGER_HIRING",
+    "name": "Contract Manager Hiring",
+    "description": "Company opens a contract manager vacancy.",
+    "vertical_ids": [
+      "clm"
+    ],
+    "keywords": [
+      "contract manager vacancy"
+    ],
+    "semantic_description": "An actual announced business event: company opens a contract manager vacancy. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "CFO",
+      "Procurement Head",
+      "Legal Operations"
+    ],
+    "possible_services": [
+      "Managed Contract Desk",
+      "Contract repository",
+      "Contract register",
+      "Template standardisation"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: opens a contract manager vacancy."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "CONTRACT_BACKLOG",
+    "name": "Contract Backlog",
+    "description": "Company reports a growing contract review backlog.",
+    "vertical_ids": [
+      "clm"
+    ],
+    "keywords": [
+      "contract review backlog"
+    ],
+    "semantic_description": "An actual announced business event: company reports a growing contract review backlog. General discussion of the topic is insufficient.",
+    "base_strength": 25,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "CFO",
+      "Procurement Head",
+      "Legal Operations"
+    ],
+    "possible_services": [
+      "Contract workflow",
+      "Contract repository",
+      "Contract register",
+      "Template standardisation"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: reports a growing contract review backlog."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "RENEWAL_FAILURES",
+    "name": "Renewal Failures",
+    "description": "Company reports missed commercial contract renewals.",
+    "vertical_ids": [
+      "clm"
+    ],
+    "keywords": [
+      "missed commercial contract renewals"
+    ],
+    "semantic_description": "An actual announced business event: company reports missed commercial contract renewals. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "CFO",
+      "Procurement Head",
+      "Legal Operations"
+    ],
+    "possible_services": [
+      "Renewal tracking",
+      "Contract repository",
+      "Contract register",
+      "Template standardisation"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: reports missed commercial contract renewals."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "CONTRACT_VOLUME_SURGE",
+    "name": "Contract Volume Surge",
+    "description": "Company reports a sharp increase in contract volume.",
+    "vertical_ids": [
+      "clm"
+    ],
+    "keywords": [
+      "increase in contract volume"
+    ],
+    "semantic_description": "An actual announced business event: company reports a sharp increase in contract volume. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "CFO",
+      "Procurement Head",
+      "Legal Operations"
+    ],
+    "possible_services": [
+      "Contract register",
+      "Contract repository",
+      "Template standardisation"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: reports a sharp increase in contract volume."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "INTERNATIONAL_CUSTOMERS",
+    "name": "International Customers",
+    "description": "Company signs its first international enterprise customers.",
+    "vertical_ids": [
+      "clm"
+    ],
+    "keywords": [
+      "first international enterprise customers"
+    ],
+    "semantic_description": "An actual announced business event: company signs its first international enterprise customers. General discussion of the topic is insufficient.",
+    "base_strength": 18,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "CFO",
+      "Procurement Head",
+      "Legal Operations"
+    ],
+    "possible_services": [
+      "Negotiation playbook",
+      "Contract repository",
+      "Contract register",
+      "Template standardisation"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: signs its first international enterprise customers."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "PROCUREMENT_TRANSFORMATION",
+    "name": "Procurement Transformation",
+    "description": "Company begins a procurement workflow transformation.",
+    "vertical_ids": [
+      "clm"
+    ],
+    "keywords": [
+      "procurement workflow transformation"
+    ],
+    "semantic_description": "An actual announced business event: company begins a procurement workflow transformation. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "CFO",
+      "Procurement Head",
+      "Legal Operations"
+    ],
+    "possible_services": [
+      "Contract workflow",
+      "Contract repository",
+      "Contract register",
+      "Template standardisation"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: begins a procurement workflow transformation."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "CONTRACT_REPOSITORY_PROJECT",
+    "name": "Contract Repository Project",
+    "description": "Company launches a contract repository consolidation project.",
+    "vertical_ids": [
+      "clm"
+    ],
+    "keywords": [
+      "contract repository consolidation"
+    ],
+    "semantic_description": "An actual announced business event: company launches a contract repository consolidation project. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "CFO",
+      "Procurement Head",
+      "Legal Operations"
+    ],
+    "possible_services": [
+      "Contract repository",
+      "Contract register",
+      "Template standardisation"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: launches a contract repository consolidation project."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "TEMPLATE_STANDARDISATION",
+    "name": "Template Standardisation",
+    "description": "Company begins standardising commercial contract templates.",
+    "vertical_ids": [
+      "clm"
+    ],
+    "keywords": [
+      "standardising commercial contract templates"
+    ],
+    "semantic_description": "An actual announced business event: company begins standardising commercial contract templates. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "CFO",
+      "Procurement Head",
+      "Legal Operations"
+    ],
+    "possible_services": [
+      "Template standardisation",
+      "Contract repository",
+      "Contract register"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: begins standardising commercial contract templates."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "OBLIGATION_TRACKING_GAP",
+    "name": "Obligation Tracking Gap",
+    "description": "Company acknowledges untracked contractual obligations.",
+    "vertical_ids": [
+      "clm"
+    ],
+    "keywords": [
+      "untracked contractual obligations"
+    ],
+    "semantic_description": "An actual announced business event: company acknowledges untracked contractual obligations. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "CFO",
+      "Procurement Head",
+      "Legal Operations"
+    ],
+    "possible_services": [
+      "Obligation tracking",
+      "Contract repository",
+      "Contract register",
+      "Template standardisation"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: acknowledges untracked contractual obligations."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "SALES_CONTRACT_EXPANSION",
+    "name": "Sales Contract Expansion",
+    "description": "Company expands enterprise sales contracting operations.",
+    "vertical_ids": [
+      "clm"
+    ],
+    "keywords": [
+      "enterprise sales contracting operations"
+    ],
+    "semantic_description": "An actual announced business event: company expands enterprise sales contracting operations. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "CFO",
+      "Procurement Head",
+      "Legal Operations"
+    ],
+    "possible_services": [
+      "Contract workflow",
+      "Contract repository",
+      "Contract register",
+      "Template standardisation"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: expands enterprise sales contracting operations."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "CONTRACT_TEAM_SCALING",
+    "name": "Contract Team Scaling",
+    "description": "Company expands its contract operations team.",
+    "vertical_ids": [
+      "clm"
+    ],
+    "keywords": [
+      "contract operations team"
+    ],
+    "semantic_description": "An actual announced business event: company expands its contract operations team. General discussion of the topic is insufficient.",
+    "base_strength": 18,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "CFO",
+      "Procurement Head",
+      "Legal Operations"
+    ],
+    "possible_services": [
+      "Managed Contract Desk",
+      "Contract repository",
+      "Contract register",
+      "Template standardisation"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: expands its contract operations team."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "MULTI_OFFICE_CONTRACTS",
+    "name": "Multi Office Contracts",
+    "description": "Company consolidates contracts across multiple offices.",
+    "vertical_ids": [
+      "clm"
+    ],
+    "keywords": [
+      "contracts across multiple offices"
+    ],
+    "semantic_description": "An actual announced business event: company consolidates contracts across multiple offices. General discussion of the topic is insufficient.",
+    "base_strength": 19,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "CFO",
+      "Procurement Head",
+      "Legal Operations"
+    ],
+    "possible_services": [
+      "Contract repository",
+      "Contract register",
+      "Template standardisation"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: consolidates contracts across multiple offices."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "FUNDED_CONTRACT_SCALE",
+    "name": "Funded Contract Scale",
+    "description": "Company allocates new funding to scale contract operations.",
+    "vertical_ids": [
+      "clm"
+    ],
+    "keywords": [
+      "funding to scale contract operations"
+    ],
+    "semantic_description": "An actual announced business event: company allocates new funding to scale contract operations. General discussion of the topic is insufficient.",
+    "base_strength": 18,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "CFO",
+      "Procurement Head",
+      "Legal Operations"
+    ],
+    "possible_services": [
+      "Contract register",
+      "Contract repository",
+      "Template standardisation"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: allocates new funding to scale contract operations."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "VENDOR_ONBOARDING_PROGRAMME",
+    "name": "Vendor Onboarding Programme",
+    "description": "Company starts a large vendor onboarding programme.",
+    "vertical_ids": [
+      "vendor_governance"
+    ],
+    "keywords": [
+      "vendor onboarding programme"
+    ],
+    "semantic_description": "An actual announced business event: company starts a large vendor onboarding programme. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Procurement Head",
+      "General Counsel",
+      "Privacy Head",
+      "Security Head"
+    ],
+    "possible_services": [
+      "Vendor intake",
+      "Vendor assessment",
+      "Contract review"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: starts a large vendor onboarding programme."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "THIRD_PARTY_RISK_HIRING",
+    "name": "Third Party Risk Hiring",
+    "description": "Company recruits a third-party risk manager.",
+    "vertical_ids": [
+      "vendor_governance"
+    ],
+    "keywords": [
+      "third-party risk manager"
+    ],
+    "semantic_description": "An actual announced business event: company recruits a third-party risk manager. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Procurement Head",
+      "General Counsel",
+      "Privacy Head",
+      "Security Head"
+    ],
+    "possible_services": [
+      "Vendor assessment",
+      "Vendor intake",
+      "Contract review"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: recruits a third-party risk manager."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "CLOUD_MIGRATION",
+    "name": "Cloud Migration",
+    "description": "Company starts migrating sensitive workloads to cloud vendors.",
+    "vertical_ids": [
+      "vendor_governance"
+    ],
+    "keywords": [
+      "sensitive workloads to cloud vendors"
+    ],
+    "semantic_description": "An actual announced business event: company starts migrating sensitive workloads to cloud vendors. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Procurement Head",
+      "General Counsel",
+      "Privacy Head",
+      "Security Head"
+    ],
+    "possible_services": [
+      "Vendor assessment",
+      "Vendor intake",
+      "Contract review"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: starts migrating sensitive workloads to cloud vendors."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "PAYROLL_VENDOR_CHANGE",
+    "name": "Payroll Vendor Change",
+    "description": "Company appoints a new payroll processing vendor.",
+    "vertical_ids": [
+      "vendor_governance",
+      "privacy"
+    ],
+    "keywords": [
+      "new payroll processing vendor"
+    ],
+    "semantic_description": "An actual announced business event: company appoints a new payroll processing vendor. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Procurement Head",
+      "General Counsel",
+      "Privacy Head",
+      "Security Head"
+    ],
+    "possible_services": [
+      "Privacy review",
+      "Vendor intake",
+      "Vendor assessment",
+      "Contract review"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: appoints a new payroll processing vendor."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "CRM_IMPLEMENTATION",
+    "name": "Crm Implementation",
+    "description": "Company begins a customer-data CRM implementation.",
+    "vertical_ids": [
+      "vendor_governance"
+    ],
+    "keywords": [
+      "customer-data CRM implementation"
+    ],
+    "semantic_description": "An actual announced business event: company begins a customer-data crm implementation. General discussion of the topic is insufficient.",
+    "base_strength": 19,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Procurement Head",
+      "General Counsel",
+      "Privacy Head",
+      "Security Head"
+    ],
+    "possible_services": [
+      "Privacy review",
+      "Vendor intake",
+      "Vendor assessment",
+      "Contract review"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: begins a customer-data CRM implementation."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "OUTSOURCING_EXPANSION",
+    "name": "Outsourcing Expansion",
+    "description": "Company expands outsourcing of critical business processes.",
+    "vertical_ids": [
+      "vendor_governance"
+    ],
+    "keywords": [
+      "outsourcing of critical business processes"
+    ],
+    "semantic_description": "An actual announced business event: company expands outsourcing of critical business processes. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Procurement Head",
+      "General Counsel",
+      "Privacy Head",
+      "Security Head"
+    ],
+    "possible_services": [
+      "Contract review",
+      "Vendor intake",
+      "Vendor assessment"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: expands outsourcing of critical business processes."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "VENDOR_SECURITY_REVIEWS",
+    "name": "Vendor Security Reviews",
+    "description": "Company introduces mandatory vendor security reviews.",
+    "vertical_ids": [
+      "vendor_governance"
+    ],
+    "keywords": [
+      "mandatory vendor security reviews"
+    ],
+    "semantic_description": "An actual announced business event: company introduces mandatory vendor security reviews. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Procurement Head",
+      "General Counsel",
+      "Privacy Head",
+      "Security Head"
+    ],
+    "possible_services": [
+      "Security evidence coordination",
+      "Vendor intake",
+      "Vendor assessment",
+      "Contract review"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: introduces mandatory vendor security reviews."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "VENDOR_BREACH",
+    "name": "Vendor Breach",
+    "description": "Company confirms a breach affecting a service provider.",
+    "vertical_ids": [
+      "vendor_governance"
+    ],
+    "keywords": [
+      "breach affecting a service provider"
+    ],
+    "semantic_description": "An actual announced business event: company confirms a breach affecting a service provider. General discussion of the topic is insufficient.",
+    "base_strength": 25,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Procurement Head",
+      "General Counsel",
+      "Privacy Head",
+      "Security Head"
+    ],
+    "possible_services": [
+      "Remediation tracker",
+      "Vendor intake",
+      "Vendor assessment",
+      "Contract review"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: confirms a breach affecting a service provider."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "VENDOR_REMEDIATION",
+    "name": "Vendor Remediation",
+    "description": "Company starts a third-party control remediation programme.",
+    "vertical_ids": [
+      "vendor_governance"
+    ],
+    "keywords": [
+      "third-party control remediation"
+    ],
+    "semantic_description": "An actual announced business event: company starts a third-party control remediation programme. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Procurement Head",
+      "General Counsel",
+      "Privacy Head",
+      "Security Head"
+    ],
+    "possible_services": [
+      "Remediation tracker",
+      "Vendor intake",
+      "Vendor assessment",
+      "Contract review"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: starts a third-party control remediation programme."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "SUPPLIER_RENEWALS",
+    "name": "Supplier Renewals",
+    "description": "Company launches a major supplier renewal exercise.",
+    "vertical_ids": [
+      "vendor_governance"
+    ],
+    "keywords": [
+      "major supplier renewal exercise"
+    ],
+    "semantic_description": "An actual announced business event: company launches a major supplier renewal exercise. General discussion of the topic is insufficient.",
+    "base_strength": 19,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Procurement Head",
+      "General Counsel",
+      "Privacy Head",
+      "Security Head"
+    ],
+    "possible_services": [
+      "Renewal/exit governance",
+      "Vendor intake",
+      "Vendor assessment",
+      "Contract review"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: launches a major supplier renewal exercise."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "VENDOR_EXIT",
+    "name": "Vendor Exit",
+    "description": "Company announces exit from a critical technology supplier.",
+    "vertical_ids": [
+      "vendor_governance"
+    ],
+    "keywords": [
+      "exit from a critical technology supplier"
+    ],
+    "semantic_description": "An actual announced business event: company announces exit from a critical technology supplier. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Procurement Head",
+      "General Counsel",
+      "Privacy Head",
+      "Security Head"
+    ],
+    "possible_services": [
+      "Renewal/exit governance",
+      "Vendor intake",
+      "Vendor assessment",
+      "Contract review"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: announces exit from a critical technology supplier."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "VENDOR_BASE_GROWTH",
+    "name": "Vendor Base Growth",
+    "description": "Company doubles its active third-party vendor base.",
+    "vertical_ids": [
+      "vendor_governance"
+    ],
+    "keywords": [
+      "active third-party vendor base"
+    ],
+    "semantic_description": "An actual announced business event: company doubles its active third-party vendor base. General discussion of the topic is insufficient.",
+    "base_strength": 18,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Procurement Head",
+      "General Counsel",
+      "Privacy Head",
+      "Security Head"
+    ],
+    "possible_services": [
+      "Vendor intake",
+      "Vendor assessment",
+      "Contract review"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: doubles its active third-party vendor base."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "PROCUREMENT_INTAKE",
+    "name": "Procurement Intake",
+    "description": "Company introduces centralised supplier intake.",
+    "vertical_ids": [
+      "vendor_governance"
+    ],
+    "keywords": [
+      "centralised supplier intake"
+    ],
+    "semantic_description": "An actual announced business event: company introduces centralised supplier intake. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Procurement Head",
+      "General Counsel",
+      "Privacy Head",
+      "Security Head"
+    ],
+    "possible_services": [
+      "Vendor approval workflow",
+      "Vendor intake",
+      "Vendor assessment",
+      "Contract review"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: introduces centralised supplier intake."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "AI_RECRUITMENT_SYSTEM",
+    "name": "Ai Recruitment System",
+    "description": "Company launches an AI recruitment decision system.",
+    "vertical_ids": [
+      "ai_governance",
+      "privacy"
+    ],
+    "keywords": [
+      "AI recruitment decision system"
+    ],
+    "semantic_description": "An actual announced business event: company launches an ai recruitment decision system. General discussion of the topic is insufficient.",
+    "base_strength": 25,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "HR Head",
+      "CISO",
+      "Privacy Head"
+    ],
+    "possible_services": [
+      "AI-use assessment",
+      "AI inventory",
+      "AI risk classification"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: launches an AI recruitment decision system."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "GENERATIVE_AI_ROLLOUT",
+    "name": "Generative Ai Rollout",
+    "description": "Company deploys generative AI across its workforce.",
+    "vertical_ids": [
+      "ai_governance"
+    ],
+    "keywords": [
+      "deploys generative AI"
+    ],
+    "semantic_description": "An actual announced business event: company deploys generative ai across its workforce. General discussion of the topic is insufficient.",
+    "base_strength": 23,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Chief Risk Officer",
+      "CISO",
+      "CTO"
+    ],
+    "possible_services": [
+      "Acceptable-use policy",
+      "AI inventory",
+      "AI risk classification",
+      "AI-use assessment"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: deploys generative AI across its workforce."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "AI_PRODUCT_LAUNCH",
+    "name": "Ai Product Launch",
+    "description": "Company launches an AI product processing customer records.",
+    "vertical_ids": [
+      "ai_governance"
+    ],
+    "keywords": [
+      "AI product processing customer records"
+    ],
+    "semantic_description": "An actual announced business event: company launches an ai product processing customer records. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Chief Risk Officer",
+      "CISO",
+      "CTO"
+    ],
+    "possible_services": [
+      "AI risk classification",
+      "AI inventory",
+      "AI-use assessment"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: launches an AI product processing customer records."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "AI_CUSTOMER_SERVICE",
+    "name": "Ai Customer Service",
+    "description": "Company deploys AI customer-service automation.",
+    "vertical_ids": [
+      "ai_governance"
+    ],
+    "keywords": [
+      "AI customer-service automation"
+    ],
+    "semantic_description": "An actual announced business event: company deploys ai customer-service automation. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Chief Risk Officer",
+      "CISO",
+      "CTO"
+    ],
+    "possible_services": [
+      "Human oversight framework",
+      "AI inventory",
+      "AI risk classification",
+      "AI-use assessment"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: deploys AI customer-service automation."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "RESPONSIBLE_AI_HIRING",
+    "name": "Responsible Ai Hiring",
+    "description": "Company recruits a responsible AI lead.",
+    "vertical_ids": [
+      "ai_governance"
+    ],
+    "keywords": [
+      "responsible AI lead"
+    ],
+    "semantic_description": "An actual announced business event: company recruits a responsible ai lead. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Chief Risk Officer",
+      "CISO",
+      "CTO"
+    ],
+    "possible_services": [
+      "Acceptable-use policy",
+      "AI inventory",
+      "AI risk classification",
+      "AI-use assessment"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: recruits a responsible AI lead."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "AI_GOVERNANCE_HIRING",
+    "name": "Ai Governance Hiring",
+    "description": "Company opens an AI governance vacancy.",
+    "vertical_ids": [
+      "ai_governance"
+    ],
+    "keywords": [
+      "AI governance vacancy"
+    ],
+    "semantic_description": "An actual announced business event: company opens an ai governance vacancy. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Chief Risk Officer",
+      "CISO",
+      "CTO"
+    ],
+    "possible_services": [
+      "AI inventory",
+      "AI risk classification",
+      "AI-use assessment"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: opens an AI governance vacancy."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "AI_POLICY_PROGRAMME",
+    "name": "Ai Policy Programme",
+    "description": "Company announces an AI acceptable-use policy programme.",
+    "vertical_ids": [
+      "ai_governance"
+    ],
+    "keywords": [
+      "AI acceptable-use policy programme"
+    ],
+    "semantic_description": "An actual announced business event: company announces an ai acceptable-use policy programme. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Chief Risk Officer",
+      "CISO",
+      "CTO"
+    ],
+    "possible_services": [
+      "Acceptable-use policy",
+      "AI inventory",
+      "AI risk classification",
+      "AI-use assessment"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: announces an AI acceptable-use policy programme."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "AI_CUSTOMER_CONTROLS",
+    "name": "Ai Customer Controls",
+    "description": "Company receives enterprise requests for AI controls.",
+    "vertical_ids": [
+      "ai_governance"
+    ],
+    "keywords": [
+      "enterprise requests for AI controls"
+    ],
+    "semantic_description": "An actual announced business event: company receives enterprise requests for ai controls. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Chief Risk Officer",
+      "CISO",
+      "CTO"
+    ],
+    "possible_services": [
+      "AI approval process",
+      "AI inventory",
+      "AI risk classification",
+      "AI-use assessment"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: receives enterprise requests for AI controls."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "AI_VENDOR_ADOPTION",
+    "name": "Ai Vendor Adoption",
+    "description": "Company adopts an external AI processing vendor.",
+    "vertical_ids": [
+      "ai_governance"
+    ],
+    "keywords": [
+      "external AI processing vendor"
+    ],
+    "semantic_description": "An actual announced business event: company adopts an external ai processing vendor. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Chief Risk Officer",
+      "CISO",
+      "CTO"
+    ],
+    "possible_services": [
+      "Vendor AI review",
+      "AI inventory",
+      "AI risk classification",
+      "AI-use assessment"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: adopts an external AI processing vendor."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "AI_SENSITIVE_DATA",
+    "name": "Ai Sensitive Data",
+    "description": "Company starts using sensitive personal data with AI.",
+    "vertical_ids": [
+      "ai_governance",
+      "privacy"
+    ],
+    "keywords": [
+      "sensitive personal data with AI"
+    ],
+    "semantic_description": "An actual announced business event: company starts using sensitive personal data with ai. General discussion of the topic is insufficient.",
+    "base_strength": 25,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Chief Risk Officer",
+      "CISO",
+      "CTO"
+    ],
+    "possible_services": [
+      "AI-use assessment",
+      "AI inventory",
+      "AI risk classification"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: starts using sensitive personal data with AI."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "AUTOMATED_DECISIONS",
+    "name": "Automated Decisions",
+    "description": "Company deploys automated customer eligibility decisions.",
+    "vertical_ids": [
+      "ai_governance"
+    ],
+    "keywords": [
+      "automated customer eligibility decisions"
+    ],
+    "semantic_description": "An actual announced business event: company deploys automated customer eligibility decisions. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Chief Risk Officer",
+      "CISO",
+      "CTO"
+    ],
+    "possible_services": [
+      "Human oversight framework",
+      "AI inventory",
+      "AI risk classification",
+      "AI-use assessment"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: deploys automated customer eligibility decisions."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "AI_INCIDENT",
+    "name": "Ai Incident",
+    "description": "Company discloses an AI system incident.",
+    "vertical_ids": [
+      "ai_governance"
+    ],
+    "keywords": [
+      "AI system incident"
+    ],
+    "semantic_description": "An actual announced business event: company discloses an ai system incident. General discussion of the topic is insufficient.",
+    "base_strength": 25,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Chief Risk Officer",
+      "CISO",
+      "CTO"
+    ],
+    "possible_services": [
+      "AI incident/reassessment programme",
+      "AI inventory",
+      "AI risk classification",
+      "AI-use assessment"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: discloses an AI system incident."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "AI_MODEL_INTEGRATION",
+    "name": "Ai Model Integration",
+    "description": "Company integrates a third-party model into production.",
+    "vertical_ids": [
+      "ai_governance"
+    ],
+    "keywords": [
+      "third-party model into production"
+    ],
+    "semantic_description": "An actual announced business event: company integrates a third-party model into production. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Chief Risk Officer",
+      "CISO",
+      "CTO"
+    ],
+    "possible_services": [
+      "Vendor AI review",
+      "AI inventory",
+      "AI risk classification",
+      "AI-use assessment"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: integrates a third-party model into production."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "LEGAL_OPS_HIRING",
+    "name": "Legal Ops Hiring",
+    "description": "Company opens a legal operations head vacancy.",
+    "vertical_ids": [
+      "legal_operations"
+    ],
+    "keywords": [
+      "legal operations head vacancy"
+    ],
+    "semantic_description": "An actual announced business event: company opens a legal operations head vacancy. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Legal Operations Head",
+      "CFO",
+      "Legal Director"
+    ],
+    "possible_services": [
+      "Legal Operations Desk",
+      "Legal intake",
+      "Matter tracker",
+      "Deadline tracking"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: opens a legal operations head vacancy."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "LEGAL_BACKLOG",
+    "name": "Legal Backlog",
+    "description": "Company reports a growing legal matter backlog.",
+    "vertical_ids": [
+      "legal_operations"
+    ],
+    "keywords": [
+      "legal matter backlog"
+    ],
+    "semantic_description": "An actual announced business event: company reports a growing legal matter backlog. General discussion of the topic is insufficient.",
+    "base_strength": 25,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Legal Operations Head",
+      "CFO",
+      "Legal Director"
+    ],
+    "possible_services": [
+      "Matter tracker",
+      "Legal intake",
+      "Deadline tracking"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: reports a growing legal matter backlog."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "OUTSIDE_COUNSEL_SPEND",
+    "name": "Outside Counsel Spend",
+    "description": "Company announces an outside-counsel spend review.",
+    "vertical_ids": [
+      "legal_operations"
+    ],
+    "keywords": [
+      "outside-counsel spend review"
+    ],
+    "semantic_description": "An actual announced business event: company announces an outside-counsel spend review. General discussion of the topic is insufficient.",
+    "base_strength": 23,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Legal Operations Head",
+      "CFO",
+      "Legal Director"
+    ],
+    "possible_services": [
+      "Legal spend dashboard",
+      "Legal intake",
+      "Matter tracker",
+      "Deadline tracking"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: announces an outside-counsel spend review."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "LEGAL_TEAM_SCALING",
+    "name": "Legal Team Scaling",
+    "description": "Company expands its in-house legal team.",
+    "vertical_ids": [
+      "legal_operations"
+    ],
+    "keywords": [
+      "in-house legal team"
+    ],
+    "semantic_description": "An actual announced business event: company expands its in-house legal team. General discussion of the topic is insufficient.",
+    "base_strength": 18,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Legal Operations Head",
+      "CFO",
+      "Legal Director"
+    ],
+    "possible_services": [
+      "Workload reporting",
+      "Legal intake",
+      "Matter tracker",
+      "Deadline tracking"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: expands its in-house legal team."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "MULTIPLE_LAW_FIRMS",
+    "name": "Multiple Law Firms",
+    "description": "Company launches coordination across multiple external law firms.",
+    "vertical_ids": [
+      "legal_operations"
+    ],
+    "keywords": [
+      "multiple external law firms"
+    ],
+    "semantic_description": "An actual announced business event: company launches coordination across multiple external law firms. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Legal Operations Head",
+      "CFO",
+      "Legal Director"
+    ],
+    "possible_services": [
+      "Outside counsel management",
+      "Legal intake",
+      "Matter tracker",
+      "Deadline tracking"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: launches coordination across multiple external law firms."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "MATTER_MANAGEMENT_PROJECT",
+    "name": "Matter Management Project",
+    "description": "Company starts implementing matter management software.",
+    "vertical_ids": [
+      "legal_operations"
+    ],
+    "keywords": [
+      "matter management software"
+    ],
+    "semantic_description": "An actual announced business event: company starts implementing matter management software. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Legal Operations Head",
+      "CFO",
+      "Legal Director"
+    ],
+    "possible_services": [
+      "Matter tracker",
+      "Legal intake",
+      "Deadline tracking"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: starts implementing matter management software."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "LEGAL_TECH_PROCUREMENT",
+    "name": "Legal Tech Procurement",
+    "description": "Company tenders for a legal technology platform.",
+    "vertical_ids": [
+      "legal_operations"
+    ],
+    "keywords": [
+      "legal technology platform"
+    ],
+    "semantic_description": "An actual announced business event: company tenders for a legal technology platform. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Legal Operations Head",
+      "CFO",
+      "Legal Director"
+    ],
+    "possible_services": [
+      "Legal intake",
+      "Matter tracker",
+      "Deadline tracking"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: tenders for a legal technology platform."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "LEGAL_INTAKE_PROJECT",
+    "name": "Legal Intake Project",
+    "description": "Company launches centralised legal request intake.",
+    "vertical_ids": [
+      "legal_operations"
+    ],
+    "keywords": [
+      "centralised legal request intake"
+    ],
+    "semantic_description": "An actual announced business event: company launches centralised legal request intake. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Legal Operations Head",
+      "CFO",
+      "Legal Director"
+    ],
+    "possible_services": [
+      "Legal intake",
+      "Matter tracker",
+      "Deadline tracking"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: launches centralised legal request intake."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "LEGAL_DEADLINE_GAP",
+    "name": "Legal Deadline Gap",
+    "description": "Company reports fragmented legal deadline tracking.",
+    "vertical_ids": [
+      "legal_operations"
+    ],
+    "keywords": [
+      "fragmented legal deadline tracking"
+    ],
+    "semantic_description": "An actual announced business event: company reports fragmented legal deadline tracking. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Legal Operations Head",
+      "CFO",
+      "Legal Director"
+    ],
+    "possible_services": [
+      "Deadline tracking",
+      "Legal intake",
+      "Matter tracker"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: reports fragmented legal deadline tracking."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "LEGAL_INVOICE_REVIEW",
+    "name": "Legal Invoice Review",
+    "description": "Company starts auditing external legal invoices.",
+    "vertical_ids": [
+      "legal_operations"
+    ],
+    "keywords": [
+      "auditing external legal invoices"
+    ],
+    "semantic_description": "An actual announced business event: company starts auditing external legal invoices. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Legal Operations Head",
+      "CFO",
+      "Legal Director"
+    ],
+    "possible_services": [
+      "Invoice review",
+      "Legal intake",
+      "Matter tracker",
+      "Deadline tracking"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: starts auditing external legal invoices."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "LEGAL_WORKLOAD_GROWTH",
+    "name": "Legal Workload Growth",
+    "description": "Company reports a material rise in active legal matters.",
+    "vertical_ids": [
+      "legal_operations"
+    ],
+    "keywords": [
+      "rise in active legal matters"
+    ],
+    "semantic_description": "An actual announced business event: company reports a material rise in active legal matters. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Legal Operations Head",
+      "CFO",
+      "Legal Director"
+    ],
+    "possible_services": [
+      "Workload reporting",
+      "Legal intake",
+      "Matter tracker",
+      "Deadline tracking"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: reports a material rise in active legal matters."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "LEGAL_REPORTING_PROJECT",
+    "name": "Legal Reporting Project",
+    "description": "Company introduces board-level legal workload reporting.",
+    "vertical_ids": [
+      "legal_operations"
+    ],
+    "keywords": [
+      "legal workload reporting"
+    ],
+    "semantic_description": "An actual announced business event: company introduces board-level legal workload reporting. General discussion of the topic is insufficient.",
+    "base_strength": 19,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Legal Operations Head",
+      "CFO",
+      "Legal Director"
+    ],
+    "possible_services": [
+      "Workload reporting",
+      "Legal intake",
+      "Matter tracker",
+      "Deadline tracking"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: introduces board-level legal workload reporting."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "FRAUD_ALLEGATION",
+    "name": "Fraud Allegation",
+    "description": "A source reports fraud allegations concerning a company.",
+    "vertical_ids": [
+      "investigations_disputes"
+    ],
+    "keywords": [
+      "fraud allegations"
+    ],
+    "semantic_description": "An actual announced business event: a source reports fraud allegations concerning a company. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Management",
+      "Compliance Head",
+      "Risk Head"
+    ],
+    "possible_services": [
+      "Evidence organisation",
+      "Document review",
+      "Chronology"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: fraud allegations concerning a company."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "WHISTLEBLOWER_COMPLAINT",
+    "name": "Whistleblower Complaint",
+    "description": "A source reports a whistleblower complaint.",
+    "vertical_ids": [
+      "investigations_disputes"
+    ],
+    "keywords": [
+      "whistleblower complaint"
+    ],
+    "semantic_description": "An actual announced business event: a source reports a whistleblower complaint. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Management",
+      "Compliance Head",
+      "Risk Head"
+    ],
+    "possible_services": [
+      "Investigation support",
+      "Evidence organisation",
+      "Document review",
+      "Chronology"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: a whistleblower complaint."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "EMPLOYEE_MISCONDUCT_ALLEGATION",
+    "name": "Employee Misconduct Allegation",
+    "description": "A source reports employee misconduct allegations.",
+    "vertical_ids": [
+      "investigations_disputes"
+    ],
+    "keywords": [
+      "employee misconduct allegations"
+    ],
+    "semantic_description": "An actual announced business event: a source reports employee misconduct allegations. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Management",
+      "Compliance Head",
+      "Risk Head"
+    ],
+    "possible_services": [
+      "Interview support",
+      "Evidence organisation",
+      "Document review",
+      "Chronology"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: employee misconduct allegations."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "SUPPLIER_INVOICE_IRREGULARITY",
+    "name": "Supplier Invoice Irregularity",
+    "description": "Company announces review of supplier invoice irregularities.",
+    "vertical_ids": [
+      "investigations_disputes"
+    ],
+    "keywords": [
+      "supplier invoice irregularities"
+    ],
+    "semantic_description": "An actual announced business event: company announces review of supplier invoice irregularities. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Management",
+      "Compliance Head",
+      "Risk Head"
+    ],
+    "possible_services": [
+      "Evidence matrix",
+      "Evidence organisation",
+      "Document review",
+      "Chronology"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: announces review of supplier invoice irregularities."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "AUDITOR_RESIGNATION",
+    "name": "Auditor Resignation",
+    "description": "An auditor resigns citing unresolved records.",
+    "vertical_ids": [
+      "investigations_disputes"
+    ],
+    "keywords": [
+      "auditor resigns citing unresolved records"
+    ],
+    "semantic_description": "An actual announced business event: an auditor resigns citing unresolved records. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Management",
+      "Compliance Head",
+      "Risk Head"
+    ],
+    "possible_services": [
+      "Document review",
+      "Evidence organisation",
+      "Chronology"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: An auditor resigns citing unresolved records."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "COMMERCIAL_DISPUTE",
+    "name": "Commercial Dispute",
+    "description": "Company announces a commercial contract dispute.",
+    "vertical_ids": [
+      "investigations_disputes"
+    ],
+    "keywords": [
+      "commercial contract dispute"
+    ],
+    "semantic_description": "An actual announced business event: company announces a commercial contract dispute. General discussion of the topic is insufficient.",
+    "base_strength": 23,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Management",
+      "Compliance Head",
+      "Risk Head"
+    ],
+    "possible_services": [
+      "Chronology",
+      "Evidence organisation",
+      "Document review"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: announces a commercial contract dispute."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "ARBITRATION_ANNOUNCEMENT",
+    "name": "Arbitration Announcement",
+    "description": "Company announces arbitration proceedings.",
+    "vertical_ids": [
+      "investigations_disputes"
+    ],
+    "keywords": [
+      "arbitration proceedings"
+    ],
+    "semantic_description": "An actual announced business event: company announces arbitration proceedings. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Management",
+      "Compliance Head",
+      "Risk Head"
+    ],
+    "possible_services": [
+      "Counsel briefing",
+      "Evidence organisation",
+      "Document review",
+      "Chronology"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: announces arbitration proceedings."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "TERMINATION_DISPUTE",
+    "name": "Termination Dispute",
+    "description": "Company reports a contract termination dispute.",
+    "vertical_ids": [
+      "investigations_disputes"
+    ],
+    "keywords": [
+      "contract termination dispute"
+    ],
+    "semantic_description": "An actual announced business event: company reports a contract termination dispute. General discussion of the topic is insufficient.",
+    "base_strength": 23,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Management",
+      "Compliance Head",
+      "Risk Head"
+    ],
+    "possible_services": [
+      "Evidence matrix",
+      "Evidence organisation",
+      "Document review",
+      "Chronology"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: reports a contract termination dispute."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "SHAREHOLDER_DISPUTE",
+    "name": "Shareholder Dispute",
+    "description": "Company reports a shareholder dispute.",
+    "vertical_ids": [
+      "investigations_disputes"
+    ],
+    "keywords": [
+      "shareholder dispute"
+    ],
+    "semantic_description": "An actual announced business event: company reports a shareholder dispute. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Management",
+      "Compliance Head",
+      "Risk Head"
+    ],
+    "possible_services": [
+      "Counsel briefing",
+      "Evidence organisation",
+      "Document review",
+      "Chronology"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: reports a shareholder dispute."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "REGULATORY_INVESTIGATION",
+    "name": "Regulatory Investigation",
+    "description": "An authority announces a regulatory investigation.",
+    "vertical_ids": [
+      "investigations_disputes"
+    ],
+    "keywords": [
+      "regulatory investigation"
+    ],
+    "semantic_description": "An actual announced business event: an authority announces a regulatory investigation. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Management",
+      "Compliance Head",
+      "Risk Head"
+    ],
+    "possible_services": [
+      "Investigation support",
+      "Evidence organisation",
+      "Document review",
+      "Chronology"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: An authority announces a regulatory investigation."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "INTERNAL_COMPLAINT_REVIEW",
+    "name": "Internal Complaint Review",
+    "description": "Company starts an internal complaint evidence review.",
+    "vertical_ids": [
+      "investigations_disputes"
+    ],
+    "keywords": [
+      "internal complaint evidence review"
+    ],
+    "semantic_description": "An actual announced business event: company starts an internal complaint evidence review. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Management",
+      "Compliance Head",
+      "Risk Head"
+    ],
+    "possible_services": [
+      "Interview support",
+      "Evidence organisation",
+      "Document review",
+      "Chronology"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: starts an internal complaint evidence review."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "URGENT_EVIDENCE_REVIEW",
+    "name": "Urgent Evidence Review",
+    "description": "Company commissions urgent dispute evidence review.",
+    "vertical_ids": [
+      "investigations_disputes"
+    ],
+    "keywords": [
+      "urgent dispute evidence review"
+    ],
+    "semantic_description": "An actual announced business event: company commissions urgent dispute evidence review. General discussion of the topic is insufficient.",
+    "base_strength": 25,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Management",
+      "Compliance Head",
+      "Risk Head"
+    ],
+    "possible_services": [
+      "Document review",
+      "Evidence organisation",
+      "Chronology"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: commissions urgent dispute evidence review."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "LITIGATION_ANNOUNCEMENT",
+    "name": "Litigation Announcement",
+    "description": "Company announces material litigation proceedings.",
+    "vertical_ids": [
+      "investigations_disputes"
+    ],
+    "keywords": [
+      "material litigation proceedings"
+    ],
+    "semantic_description": "An actual announced business event: company announces material litigation proceedings. General discussion of the topic is insufficient.",
+    "base_strength": 23,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "General Counsel",
+      "Management",
+      "Compliance Head",
+      "Risk Head"
+    ],
+    "possible_services": [
+      "Action tracking",
+      "Evidence organisation",
+      "Document review",
+      "Chronology"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: announces material litigation proceedings."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "ACQUISITION_ANNOUNCEMENT",
+    "name": "Acquisition Announcement",
+    "description": "Company announces an acquisition agreement.",
+    "vertical_ids": [
+      "transaction_integration"
+    ],
+    "keywords": [
+      "acquisition agreement"
+    ],
+    "semantic_description": "An actual announced business event: company announces an acquisition agreement. General discussion of the topic is insufficient.",
+    "base_strength": 25,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Deal Counsel",
+      "Corporate Development",
+      "PE Investment Team",
+      "General Counsel"
+    ],
+    "possible_services": [
+      "Contract diligence",
+      "Data-room organisation",
+      "Missing-document tracker"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: announces an acquisition agreement."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "MERGER_ANNOUNCEMENT",
+    "name": "Merger Announcement",
+    "description": "Company announces a merger agreement.",
+    "vertical_ids": [
+      "transaction_integration"
+    ],
+    "keywords": [
+      "merger agreement"
+    ],
+    "semantic_description": "An actual announced business event: company announces a merger agreement. General discussion of the topic is insufficient.",
+    "base_strength": 25,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Deal Counsel",
+      "Corporate Development",
+      "PE Investment Team",
+      "General Counsel"
+    ],
+    "possible_services": [
+      "Consent analysis",
+      "Contract diligence",
+      "Data-room organisation",
+      "Missing-document tracker"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: announces a merger agreement."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "PE_TRANSACTION",
+    "name": "Pe Transaction",
+    "description": "Company enters a private-equity buyout transaction.",
+    "vertical_ids": [
+      "transaction_integration"
+    ],
+    "keywords": [
+      "private-equity buyout transaction"
+    ],
+    "semantic_description": "An actual announced business event: company enters a private-equity buyout transaction. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Deal Counsel",
+      "Corporate Development",
+      "PE Investment Team",
+      "General Counsel"
+    ],
+    "possible_services": [
+      "Data-room organisation",
+      "Contract diligence",
+      "Missing-document tracker"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: enters a private-equity buyout transaction."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "PORTFOLIO_ACQUISITION",
+    "name": "Portfolio Acquisition",
+    "description": "A portfolio company announces a bolt-on acquisition.",
+    "vertical_ids": [
+      "transaction_integration"
+    ],
+    "keywords": [
+      "bolt-on acquisition"
+    ],
+    "semantic_description": "An actual announced business event: a portfolio company announces a bolt-on acquisition. General discussion of the topic is insufficient.",
+    "base_strength": 23,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Deal Counsel",
+      "Corporate Development",
+      "PE Investment Team",
+      "General Counsel"
+    ],
+    "possible_services": [
+      "Post-closing contract integration",
+      "Contract diligence",
+      "Data-room organisation",
+      "Missing-document tracker"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: A portfolio company announces a bolt-on acquisition."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "ASSET_PURCHASE",
+    "name": "Asset Purchase",
+    "description": "Company announces a business asset purchase.",
+    "vertical_ids": [
+      "transaction_integration"
+    ],
+    "keywords": [
+      "business asset purchase"
+    ],
+    "semantic_description": "An actual announced business event: company announces a business asset purchase. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Deal Counsel",
+      "Corporate Development",
+      "PE Investment Team",
+      "General Counsel"
+    ],
+    "possible_services": [
+      "Contract diligence",
+      "Data-room organisation",
+      "Missing-document tracker"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: announces a business asset purchase."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "STRATEGIC_INVESTMENT",
+    "name": "Strategic Investment",
+    "description": "Company announces strategic investment with diligence underway.",
+    "vertical_ids": [
+      "transaction_integration"
+    ],
+    "keywords": [
+      "strategic investment with diligence"
+    ],
+    "semantic_description": "An actual announced business event: company announces strategic investment with diligence underway. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Deal Counsel",
+      "Corporate Development",
+      "PE Investment Team",
+      "General Counsel"
+    ],
+    "possible_services": [
+      "Contract diligence",
+      "Data-room organisation",
+      "Missing-document tracker"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: announces strategic investment with diligence underway."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "DUE_DILIGENCE_PROJECT",
+    "name": "Due Diligence Project",
+    "description": "Company begins contract due diligence.",
+    "vertical_ids": [
+      "transaction_integration"
+    ],
+    "keywords": [
+      "contract due diligence"
+    ],
+    "semantic_description": "An actual announced business event: company begins contract due diligence. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Deal Counsel",
+      "Corporate Development",
+      "PE Investment Team",
+      "General Counsel"
+    ],
+    "possible_services": [
+      "Contract diligence",
+      "Data-room organisation",
+      "Missing-document tracker"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: begins contract due diligence."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "POST_CLOSING_INTEGRATION",
+    "name": "Post Closing Integration",
+    "description": "Company launches post-closing contract integration.",
+    "vertical_ids": [
+      "transaction_integration",
+      "clm"
+    ],
+    "keywords": [
+      "post-closing contract integration"
+    ],
+    "semantic_description": "An actual announced business event: company launches post-closing contract integration. General discussion of the topic is insufficient.",
+    "base_strength": 25,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Deal Counsel",
+      "Corporate Development",
+      "PE Investment Team",
+      "General Counsel"
+    ],
+    "possible_services": [
+      "Post-closing contract integration",
+      "Contract diligence",
+      "Data-room organisation",
+      "Missing-document tracker"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: launches post-closing contract integration."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "CHANGE_OF_CONTROL_CONSENTS",
+    "name": "Change Of Control Consents",
+    "description": "Company starts obtaining change-of-control consents.",
+    "vertical_ids": [
+      "transaction_integration"
+    ],
+    "keywords": [
+      "change-of-control consents"
+    ],
+    "semantic_description": "An actual announced business event: company starts obtaining change-of-control consents. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Deal Counsel",
+      "Corporate Development",
+      "PE Investment Team",
+      "General Counsel"
+    ],
+    "possible_services": [
+      "Consent analysis",
+      "Contract diligence",
+      "Data-room organisation",
+      "Missing-document tracker"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: starts obtaining change-of-control consents."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "DATA_ROOM_PROJECT",
+    "name": "Data Room Project",
+    "description": "Company opens a transaction data room.",
+    "vertical_ids": [
+      "transaction_integration"
+    ],
+    "keywords": [
+      "transaction data room"
+    ],
+    "semantic_description": "An actual announced business event: company opens a transaction data room. General discussion of the topic is insufficient.",
+    "base_strength": 23,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Deal Counsel",
+      "Corporate Development",
+      "PE Investment Team",
+      "General Counsel"
+    ],
+    "possible_services": [
+      "Data-room organisation",
+      "Contract diligence",
+      "Missing-document tracker"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: opens a transaction data room."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "TRANSACTION_RESTRUCTURING",
+    "name": "Transaction Restructuring",
+    "description": "Company starts a transaction-related business restructuring.",
+    "vertical_ids": [
+      "transaction_integration"
+    ],
+    "keywords": [
+      "transaction-related business restructuring"
+    ],
+    "semantic_description": "An actual announced business event: company starts a transaction-related business restructuring. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Deal Counsel",
+      "Corporate Development",
+      "PE Investment Team",
+      "General Counsel"
+    ],
+    "possible_services": [
+      "Integration checklist",
+      "Contract diligence",
+      "Data-room organisation",
+      "Missing-document tracker"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: starts a transaction-related business restructuring."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "MISSING_DILIGENCE_DOCUMENTS",
+    "name": "Missing Diligence Documents",
+    "description": "Company identifies missing documents during diligence.",
+    "vertical_ids": [
+      "transaction_integration"
+    ],
+    "keywords": [
+      "missing documents during diligence"
+    ],
+    "semantic_description": "An actual announced business event: company identifies missing documents during diligence. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Deal Counsel",
+      "Corporate Development",
+      "PE Investment Team",
+      "General Counsel"
+    ],
+    "possible_services": [
+      "Missing-document tracker",
+      "Contract diligence",
+      "Data-room organisation"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: identifies missing documents during diligence."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "ENTERPRISE_SAAS_SALES",
+    "name": "Enterprise Saas Sales",
+    "description": "Company launches an enterprise SaaS sales programme.",
+    "vertical_ids": [
+      "technology_ip"
+    ],
+    "keywords": [
+      "enterprise SaaS sales programme"
+    ],
+    "semantic_description": "An actual announced business event: company launches an enterprise saas sales programme. General discussion of the topic is insufficient.",
+    "base_strength": 23,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Founder",
+      "General Counsel",
+      "Commercial Head",
+      "Product Head"
+    ],
+    "possible_services": [
+      "SaaS agreements",
+      "Software licence",
+      "Cloud agreements"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: launches an enterprise SaaS sales programme."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "SOFTWARE_PRODUCT_LAUNCH",
+    "name": "Software Product Launch",
+    "description": "Company launches a commercial software product.",
+    "vertical_ids": [
+      "technology_ip"
+    ],
+    "keywords": [
+      "commercial software product"
+    ],
+    "semantic_description": "An actual announced business event: company launches a commercial software product. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Founder",
+      "General Counsel",
+      "Commercial Head",
+      "Product Head"
+    ],
+    "possible_services": [
+      "Software licence",
+      "SaaS agreements",
+      "Cloud agreements"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: launches a commercial software product."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "LICENSING_PROGRAMME",
+    "name": "Licensing Programme",
+    "description": "Company introduces a software licensing programme.",
+    "vertical_ids": [
+      "technology_ip"
+    ],
+    "keywords": [
+      "software licensing programme"
+    ],
+    "semantic_description": "An actual announced business event: company introduces a software licensing programme. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Founder",
+      "General Counsel",
+      "Commercial Head",
+      "Product Head"
+    ],
+    "possible_services": [
+      "Software licence",
+      "SaaS agreements",
+      "Cloud agreements"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: introduces a software licensing programme."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "RESELLER_PARTNERSHIP",
+    "name": "Reseller Partnership",
+    "description": "Company signs a software reseller partnership.",
+    "vertical_ids": [
+      "technology_ip"
+    ],
+    "keywords": [
+      "software reseller partnership"
+    ],
+    "semantic_description": "An actual announced business event: company signs a software reseller partnership. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Founder",
+      "General Counsel",
+      "Commercial Head",
+      "Product Head"
+    ],
+    "possible_services": [
+      "Reseller agreements",
+      "Software licence",
+      "SaaS agreements",
+      "Cloud agreements"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: signs a software reseller partnership."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "TECH_INTERNATIONAL_EXPANSION",
+    "name": "Tech International Expansion",
+    "description": "Company expands software licensing into foreign markets.",
+    "vertical_ids": [
+      "technology_ip"
+    ],
+    "keywords": [
+      "software licensing into foreign markets"
+    ],
+    "semantic_description": "An actual announced business event: company expands software licensing into foreign markets. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Founder",
+      "General Counsel",
+      "Commercial Head",
+      "Product Head"
+    ],
+    "possible_services": [
+      "IP licensing",
+      "Software licence",
+      "SaaS agreements",
+      "Cloud agreements"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: expands software licensing into foreign markets."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "DEVELOPMENT_OUTSOURCING",
+    "name": "Development Outsourcing",
+    "description": "Company outsources a major software development project.",
+    "vertical_ids": [
+      "technology_ip"
+    ],
+    "keywords": [
+      "major software development project"
+    ],
+    "semantic_description": "An actual announced business event: company outsources a major software development project. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Founder",
+      "General Counsel",
+      "Commercial Head",
+      "Product Head"
+    ],
+    "possible_services": [
+      "Development agreements",
+      "Software licence",
+      "SaaS agreements",
+      "Cloud agreements"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: outsources a major software development project."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "DEVELOPMENT_CONTRACT",
+    "name": "Development Contract",
+    "description": "Company signs a major custom development contract.",
+    "vertical_ids": [
+      "technology_ip"
+    ],
+    "keywords": [
+      "major custom development contract"
+    ],
+    "semantic_description": "An actual announced business event: company signs a major custom development contract. General discussion of the topic is insufficient.",
+    "base_strength": 23,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Founder",
+      "General Counsel",
+      "Commercial Head",
+      "Product Head"
+    ],
+    "possible_services": [
+      "Statements of work",
+      "Software licence",
+      "SaaS agreements",
+      "Cloud agreements"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: signs a major custom development contract."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "IP_OWNERSHIP_REVIEW",
+    "name": "Ip Ownership Review",
+    "description": "Company announces review of software IP ownership.",
+    "vertical_ids": [
+      "technology_ip"
+    ],
+    "keywords": [
+      "software IP ownership"
+    ],
+    "semantic_description": "An actual announced business event: company announces review of software ip ownership. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Founder",
+      "General Counsel",
+      "Commercial Head",
+      "Product Head"
+    ],
+    "possible_services": [
+      "IP assignments",
+      "Software licence",
+      "SaaS agreements",
+      "Cloud agreements"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: announces review of software IP ownership."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "OPEN_SOURCE_REVIEW",
+    "name": "Open Source Review",
+    "description": "Company starts an open-source licence compliance review.",
+    "vertical_ids": [
+      "technology_ip"
+    ],
+    "keywords": [
+      "open-source licence compliance review"
+    ],
+    "semantic_description": "An actual announced business event: company starts an open-source licence compliance review. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Founder",
+      "General Counsel",
+      "Commercial Head",
+      "Product Head"
+    ],
+    "possible_services": [
+      "Open-source licence review",
+      "Software licence",
+      "SaaS agreements",
+      "Cloud agreements"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: starts an open-source licence compliance review."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "WHITE_LABEL_AGREEMENT",
+    "name": "White Label Agreement",
+    "description": "Company enters a white-label software agreement.",
+    "vertical_ids": [
+      "technology_ip"
+    ],
+    "keywords": [
+      "white-label software agreement"
+    ],
+    "semantic_description": "An actual announced business event: company enters a white-label software agreement. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Founder",
+      "General Counsel",
+      "Commercial Head",
+      "Product Head"
+    ],
+    "possible_services": [
+      "SaaS agreements",
+      "Software licence",
+      "Cloud agreements"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: enters a white-label software agreement."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "ROYALTY_ARRANGEMENT",
+    "name": "Royalty Arrangement",
+    "description": "Company introduces an IP royalty arrangement.",
+    "vertical_ids": [
+      "technology_ip"
+    ],
+    "keywords": [
+      "IP royalty arrangement"
+    ],
+    "semantic_description": "An actual announced business event: company introduces an ip royalty arrangement. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Founder",
+      "General Counsel",
+      "Commercial Head",
+      "Product Head"
+    ],
+    "possible_services": [
+      "IP licensing",
+      "Software licence",
+      "SaaS agreements",
+      "Cloud agreements"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: introduces an IP royalty arrangement."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "ENTERPRISE_TECH_NEGOTIATION",
+    "name": "Enterprise Tech Negotiation",
+    "description": "Company enters a major enterprise technology negotiation.",
+    "vertical_ids": [
+      "technology_ip"
+    ],
+    "keywords": [
+      "enterprise technology negotiation"
+    ],
+    "semantic_description": "An actual announced business event: company enters a major enterprise technology negotiation. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Founder",
+      "General Counsel",
+      "Commercial Head",
+      "Product Head"
+    ],
+    "possible_services": [
+      "Technology contracting desk",
+      "Software licence",
+      "SaaS agreements",
+      "Cloud agreements"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: enters a major enterprise technology negotiation."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "SAAS_PRICING_CHANGE",
+    "name": "Saas Pricing Change",
+    "description": "Company introduces a new usage-based SaaS pricing model.",
+    "vertical_ids": [
+      "technology_ip"
+    ],
+    "keywords": [
+      "usage-based SaaS pricing model"
+    ],
+    "semantic_description": "An actual announced business event: company introduces a new usage-based saas pricing model. General discussion of the topic is insufficient.",
+    "base_strength": 18,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "Founder",
+      "General Counsel",
+      "Commercial Head",
+      "Product Head"
+    ],
+    "possible_services": [
+      "SaaS agreements",
+      "Software licence",
+      "Cloud agreements"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: introduces a new usage-based SaaS pricing model."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "INDIA_SUBSIDIARY",
+    "name": "India Subsidiary",
+    "description": "Company forms an Indian subsidiary.",
+    "vertical_ids": [
+      "corporate_compliance",
+      "privacy"
+    ],
+    "keywords": [
+      "forms an Indian subsidiary"
+    ],
+    "semantic_description": "An actual announced business event: company forms an indian subsidiary. General discussion of the topic is insufficient.",
+    "base_strength": 25,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "India Country Head",
+      "CFO",
+      "Finance Head",
+      "Company Secretary"
+    ],
+    "possible_services": [
+      "Entity register",
+      "Compliance calendar",
+      "Responsibility matrix"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: forms an Indian subsidiary."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "MULTIPLE_INDIAN_ENTITIES",
+    "name": "Multiple Indian Entities",
+    "description": "Company consolidates oversight of multiple Indian entities.",
+    "vertical_ids": [
+      "corporate_compliance"
+    ],
+    "keywords": [
+      "multiple Indian entities"
+    ],
+    "semantic_description": "An actual announced business event: company consolidates oversight of multiple indian entities. General discussion of the topic is insufficient.",
+    "base_strength": 22,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "India Country Head",
+      "CFO",
+      "Finance Head",
+      "Company Secretary"
+    ],
+    "possible_services": [
+      "Entity register",
+      "Compliance calendar",
+      "Responsibility matrix"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: consolidates oversight of multiple Indian entities."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "DIRECTOR_CHANGE_PROGRAMME",
+    "name": "Director Change Programme",
+    "description": "Company coordinates director changes across several entities.",
+    "vertical_ids": [
+      "corporate_compliance"
+    ],
+    "keywords": [
+      "director changes across several entities"
+    ],
+    "semantic_description": "An actual announced business event: company coordinates director changes across several entities. General discussion of the topic is insufficient.",
+    "base_strength": 18,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "India Country Head",
+      "CFO",
+      "Finance Head",
+      "Company Secretary"
+    ],
+    "possible_services": [
+      "Responsibility matrix",
+      "Entity register",
+      "Compliance calendar"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: coordinates director changes across several entities."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "CORPORATE_RESTRUCTURING",
+    "name": "Corporate Restructuring",
+    "description": "Company announces a group entity restructuring.",
+    "vertical_ids": [
+      "corporate_compliance"
+    ],
+    "keywords": [
+      "group entity restructuring"
+    ],
+    "semantic_description": "An actual announced business event: company announces a group entity restructuring. General discussion of the topic is insufficient.",
+    "base_strength": 23,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "India Country Head",
+      "CFO",
+      "Finance Head",
+      "Company Secretary"
+    ],
+    "possible_services": [
+      "Professional coordination",
+      "Entity register",
+      "Compliance calendar",
+      "Responsibility matrix"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: announces a group entity restructuring."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "FILING_PROBLEMS",
+    "name": "Filing Problems",
+    "description": "Company reports missed corporate filing deadlines.",
+    "vertical_ids": [
+      "corporate_compliance"
+    ],
+    "keywords": [
+      "missed corporate filing deadlines"
+    ],
+    "semantic_description": "An actual announced business event: company reports missed corporate filing deadlines. General discussion of the topic is insufficient.",
+    "base_strength": 25,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "India Country Head",
+      "CFO",
+      "Finance Head",
+      "Company Secretary"
+    ],
+    "possible_services": [
+      "Filing evidence",
+      "Entity register",
+      "Compliance calendar",
+      "Responsibility matrix"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: reports missed corporate filing deadlines."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "ENTITY_RECORD_FRAGMENTATION",
+    "name": "Entity Record Fragmentation",
+    "description": "Company reports fragmented entity records.",
+    "vertical_ids": [
+      "corporate_compliance"
+    ],
+    "keywords": [
+      "fragmented entity records"
+    ],
+    "semantic_description": "An actual announced business event: company reports fragmented entity records. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "India Country Head",
+      "CFO",
+      "Finance Head",
+      "Company Secretary"
+    ],
+    "possible_services": [
+      "Entity register",
+      "Compliance calendar",
+      "Responsibility matrix"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: reports fragmented entity records."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "COMPLIANCE_HIRING",
+    "name": "Compliance Hiring",
+    "description": "Company recruits a corporate compliance manager.",
+    "vertical_ids": [
+      "corporate_compliance"
+    ],
+    "keywords": [
+      "corporate compliance manager"
+    ],
+    "semantic_description": "An actual announced business event: company recruits a corporate compliance manager. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "India Country Head",
+      "CFO",
+      "Finance Head",
+      "Company Secretary"
+    ],
+    "possible_services": [
+      "Monthly compliance reporting",
+      "Entity register",
+      "Compliance calendar",
+      "Responsibility matrix"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: recruits a corporate compliance manager."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "RAPID_ENTITY_GROWTH",
+    "name": "Rapid Entity Growth",
+    "description": "Company adds several new operating entities.",
+    "vertical_ids": [
+      "corporate_compliance"
+    ],
+    "keywords": [
+      "new operating entities"
+    ],
+    "semantic_description": "An actual announced business event: company adds several new operating entities. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "India Country Head",
+      "CFO",
+      "Finance Head",
+      "Company Secretary"
+    ],
+    "possible_services": [
+      "Entity register",
+      "Compliance calendar",
+      "Responsibility matrix"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: adds several new operating entities."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "NEW_STATE_OFFICE",
+    "name": "New State Office",
+    "description": "Company opens offices across new Indian states.",
+    "vertical_ids": [
+      "corporate_compliance"
+    ],
+    "keywords": [
+      "offices across new Indian states"
+    ],
+    "semantic_description": "An actual announced business event: company opens offices across new indian states. General discussion of the topic is insufficient.",
+    "base_strength": 18,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "India Country Head",
+      "CFO",
+      "Finance Head",
+      "Company Secretary"
+    ],
+    "possible_services": [
+      "Compliance calendar",
+      "Entity register",
+      "Responsibility matrix"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: opens offices across new Indian states."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "PARENT_REPORTING",
+    "name": "Parent Reporting",
+    "description": "Company introduces parent-company entity reporting.",
+    "vertical_ids": [
+      "corporate_compliance"
+    ],
+    "keywords": [
+      "parent-company entity reporting"
+    ],
+    "semantic_description": "An actual announced business event: company introduces parent-company entity reporting. General discussion of the topic is insufficient.",
+    "base_strength": 21,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "India Country Head",
+      "CFO",
+      "Finance Head",
+      "Company Secretary"
+    ],
+    "possible_services": [
+      "Monthly compliance reporting",
+      "Entity register",
+      "Compliance calendar",
+      "Responsibility matrix"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: introduces parent-company entity reporting."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "ADVISER_COORDINATION",
+    "name": "Adviser Coordination",
+    "description": "Company consolidates coordination of corporate advisers.",
+    "vertical_ids": [
+      "corporate_compliance"
+    ],
+    "keywords": [
+      "coordination of corporate advisers"
+    ],
+    "semantic_description": "An actual announced business event: company consolidates coordination of corporate advisers. General discussion of the topic is insufficient.",
+    "base_strength": 20,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "India Country Head",
+      "CFO",
+      "Finance Head",
+      "Company Secretary"
+    ],
+    "possible_services": [
+      "Professional coordination",
+      "Entity register",
+      "Compliance calendar",
+      "Responsibility matrix"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: consolidates coordination of corporate advisers."
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "signal_id": "COMPLIANCE_CALENDAR_GAP",
+    "name": "Compliance Calendar Gap",
+    "description": "Company acknowledges gaps in its compliance calendar.",
+    "vertical_ids": [
+      "corporate_compliance"
+    ],
+    "keywords": [
+      "gaps in its compliance calendar"
+    ],
+    "semantic_description": "An actual announced business event: company acknowledges gaps in its compliance calendar. General discussion of the topic is insufficient.",
+    "base_strength": 24,
+    "recency_decay": "standard",
+    "source_reliability_requirement": 0.7,
+    "possible_buyers": [
+      "India Country Head",
+      "CFO",
+      "Finance Head",
+      "Company Secretary"
+    ],
+    "possible_services": [
+      "Compliance calendar",
+      "Entity register",
+      "Responsibility matrix"
+    ],
+    "disqualifiers": [
+      "no operational change",
+      "has not deployed",
+      "event denied",
+      "programme already completed"
+    ],
+    "examples": [
+      "Example Co announced: acknowledges gaps in its compliance calendar."
+    ],
+    "version": "1.0.0"
+  }
+]

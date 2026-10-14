@@ -1,0 +1,116 @@
+{
+  "id": "technology_ip",
+  "name": "Technology Contracts & IP",
+  "description": "Technology commercialisation and development events need clear licensing and IP terms.",
+  "typical_client": [
+    "SaaS",
+    "Technology",
+    "Fintech",
+    "Healthtech",
+    "Edtech"
+  ],
+  "typical_problem": "Licensing, development and enterprise procurement create unclear risk and ownership terms.",
+  "buyer_roles": [
+    "Founder",
+    "General Counsel",
+    "Commercial Head",
+    "Product Head",
+    "CTO",
+    "Procurement",
+    "Sales Leadership"
+  ],
+  "services": [
+    "Software licence",
+    "SaaS agreements",
+    "Cloud agreements",
+    "IP licensing",
+    "IP assignments",
+    "Development agreements",
+    "Statements of work",
+    "Reseller agreements",
+    "Open-source licence review",
+    "Technology contracting desk"
+  ],
+  "deliverables": [
+    "Documented software licence with owners, evidence and next actions",
+    "Documented saas agreements with owners, evidence and next actions",
+    "Documented cloud agreements with owners, evidence and next actions",
+    "Documented ip licensing with owners, evidence and next actions",
+    "Documented ip assignments with owners, evidence and next actions",
+    "Documented development agreements with owners, evidence and next actions",
+    "Documented statements of work with owners, evidence and next actions",
+    "Documented reseller agreements with owners, evidence and next actions",
+    "Documented open-source licence review with owners, evidence and next actions",
+    "Documented technology contracting desk with owners, evidence and next actions"
+  ],
+  "positive_signals": [
+    "ENTERPRISE_SAAS_SALES",
+    "SOFTWARE_PRODUCT_LAUNCH",
+    "LICENSING_PROGRAMME",
+    "RESELLER_PARTNERSHIP",
+    "TECH_INTERNATIONAL_EXPANSION",
+    "DEVELOPMENT_OUTSOURCING",
+    "DEVELOPMENT_CONTRACT",
+    "IP_OWNERSHIP_REVIEW",
+    "OPEN_SOURCE_REVIEW",
+    "WHITE_LABEL_AGREEMENT",
+    "ROYALTY_ARRANGEMENT",
+    "ENTERPRISE_TECH_NEGOTIATION",
+    "SAAS_PRICING_CHANGE"
+  ],
+  "negative_signals": [
+    "Programme already completed",
+    "No operational change",
+    "Source retracts the event"
+  ],
+  "disqualifiers": [
+    "Company explicitly denies the event",
+    "Event refers to a different company"
+  ],
+  "follow_on_services": [
+    "Open-source licence review",
+    "Technology contracting desk"
+  ],
+  "related_verticals": [
+    "clm",
+    "ai_governance",
+    "transaction_integration"
+  ],
+  "keywords": [
+    "enterprise SaaS sales programme",
+    "commercial software product",
+    "software licensing programme",
+    "software reseller partnership",
+    "software licensing into foreign markets",
+    "major software development project",
+    "major custom development contract",
+    "software IP ownership",
+    "open-source licence compliance review",
+    "white-label software agreement",
+    "IP royalty arrangement",
+    "enterprise technology negotiation",
+    "usage-based SaaS pricing model"
+  ],
+  "semantic_queries": [
+    "Find companies where company launches an enterprise saas sales programme and identify primary-source evidence",
+    "Find companies where company launches a commercial software product and identify primary-source evidence",
+    "Find companies where company introduces a software licensing programme and identify primary-source evidence",
+    "Find companies where company signs a software reseller partnership and identify primary-source evidence"
+  ],
+  "default_signal_weights": {
+    "ENTERPRISE_SAAS_SALES": 23,
+    "SOFTWARE_PRODUCT_LAUNCH": 20,
+    "LICENSING_PROGRAMME": 24,
+    "RESELLER_PARTNERSHIP": 22,
+    "TECH_INTERNATIONAL_EXPANSION": 21,
+    "DEVELOPMENT_OUTSOURCING": 22,
+    "DEVELOPMENT_CONTRACT": 23,
+    "IP_OWNERSHIP_REVIEW": 24,
+    "OPEN_SOURCE_REVIEW": 22,
+    "WHITE_LABEL_AGREEMENT": 22,
+    "ROYALTY_ARRANGEMENT": 20,
+    "ENTERPRISE_TECH_NEGOTIATION": 24,
+    "SAAS_PRICING_CHANGE": 18
+  },
+  "version": "1.0.0"
+}

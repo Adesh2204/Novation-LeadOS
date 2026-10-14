@@ -1,0 +1,41 @@
+id,created_at,company_id,name,normalized_name,country,confidence,alias_domain,source
+als_e3175b6d-7187-48bc-a832-2be10b5cd34e,2026-10-07T08:30:28.335921Z,cmp_73057227-7892-447e-aa73-5d880c689c0e,Meridian Health Cloud,meridian health cloud,India,1.0,,resolution
+als_8e7427ea-1fc5-42e7-8021-001edec46236,2026-10-07T08:30:28.342377Z,cmp_62b66de5-ebf5-482d-8f1d-c6a25234e1aa,Veda Payroll,veda payroll,India,1.0,,resolution
+als_803d7657-b90d-481a-b0ea-569ed22ecc43,2026-10-07T08:30:28.348810Z,cmp_ded93ef8-4331-4e9b-a0ff-65cbfcda9c1f,Harbor Consumer Labs,harbor consumer labs,India,1.0,,resolution
+als_61791336-5c46-4505-94ee-32e611fd7a72,2026-10-07T08:30:28.354981Z,cmp_11cea18e-3aab-4bf7-9a84-877678ea7f01,Keystone Commerce,keystone commerce,India,1.0,,resolution
+als_5c5db714-4f11-495e-8567-42ce7915a96f,2026-10-07T08:30:28.361021Z,cmp_02fcf4b4-5e95-4dc3-8e3c-2d85b885f63a,Aster Manufacturing,aster manufacturing,India,1.0,,resolution
+als_6143d026-5366-4ac8-9ade-f02d4b4597c7,2026-10-07T08:30:28.367002Z,cmp_5b066d05-70f9-4791-9214-3c223a5d4f80,Summit Sales Cloud,summit sales cloud,India,1.0,,resolution
+als_1f1f7dd8-247f-4841-9c2c-ff6563b58e5b,2026-10-07T08:30:28.372991Z,cmp_9bbdf80c-804a-4be4-813b-21d16eb76e2d,Cedar Fintech,cedar fintech,India,1.0,,resolution
+als_b44a691e-8795-4741-bc34-4edf227887d6,2026-10-07T08:30:28.379080Z,cmp_c80168ac-0452-42e4-9512-184aa7c48a6c,Beacon Logistics,beacon logistics,India,1.0,,resolution
+als_8a6661ef-bdca-40cb-8fb6-fb7ab482d837,2026-10-07T08:30:28.385359Z,cmp_eb2ffa60-3ef1-4499-98f8-1372e9c53d32,Saffron Retail,saffron retail,India,1.0,,resolution
+als_b47f8d68-3add-4e2f-aa4c-4d0b12625be2,2026-10-07T08:30:28.391367Z,cmp_d7faaa4b-8554-4f2a-bae2-089b59d4a13a,Atlas AI Systems,atlas ai systems,India,1.0,,resolution
+als_6d06980a-0916-4c41-acda-e58a987c31b9,2026-10-07T08:30:28.397529Z,cmp_f96a1655-cccd-4020-ae70-24f55616b4aa,Orion Advisory,orion advisory,India,1.0,,resolution
+als_a9aef21f-b41c-4841-9324-3487047ca6c7,2026-10-07T08:30:28.403842Z,cmp_4f5ad4c9-d22a-4aa7-9746-ec500c4ebc4b,Nimbus Products,nimbus products,India,1.0,,resolution
+als_81e32e8d-4d1b-4291-b084-2f944673c160,2026-10-07T08:30:28.410496Z,cmp_f6f26bff-ee8c-461e-a146-42276089b73e,Northstar Industries,northstar industries,India,1.0,,resolution
+als_ce4441c0-7f11-4679-b83f-90c06cb38556,2026-10-07T08:30:28.417108Z,cmp_16785726-4820-4d66-a72f-212306620af0,Juniper Group,juniper group,India,1.0,,resolution
+als_50d57b43-074a-4f6c-b9a1-72a0c13ff240,2026-10-07T08:30:28.423945Z,cmp_2df6d8db-2757-41c5-99d9-c6b69763d38c,Cobalt Services,cobalt services,India,1.0,,resolution
+als_58258fb2-d43e-4208-a7c5-9960db3b92ed,2026-10-07T08:30:28.431014Z,cmp_8d46e43e-03b3-4fc7-bb9c-52e148899f3d,Clearwater Holdings,clearwater holdings,India,1.0,,resolution
+als_c4c4d23d-e60b-4509-8b81-b32df964bb0c,2026-10-07T08:30:28.438241Z,cmp_e9897cc4-afd3-427c-a89b-f145673a24c2,Tamarind Supply,tamarind supply,India,1.0,,resolution
+als_af9ad560-70e0-4c9b-9a1a-deeeedc8cee1,2026-10-07T08:30:28.445569Z,cmp_b52c6cc0-52cc-4e47-9621-ac5135c1034f,Granite Components,granite components,India,1.0,,resolution
+als_7a942e7f-642b-4e26-85b9-5de1bd051029,2026-10-07T08:30:28.453047Z,cmp_71a18a0d-a597-4f04-a6ef-aa65074c29e6,Pioneer Capital,pioneer capital,India,1.0,,resolution
+als_f714866d-0b2c-4c50-8d04-7069bef314a4,2026-10-07T08:30:28.460666Z,cmp_47084153-3a01-4d6b-a478-dd1193b41314,Maple Software,maple software,India,1.0,,resolution
+als_0a972520-57db-4190-ae75-4218f08fbe75,2026-10-07T08:30:28.468496Z,cmp_13662349-84c4-4a5b-b581-37877f1da3fc,Silverline Assets,silverline assets,India,1.0,,resolution
+als_27e6747e-cc6b-4165-9398-074b40ffbe72,2026-10-07T08:30:28.476540Z,cmp_626f799d-3100-445f-825b-216bcfa75267,Lattice Software,lattice software,India,1.0,,resolution
+als_1b310fa0-a405-4565-bf11-bbed5b436ef0,2026-10-07T08:30:28.484631Z,cmp_6074db71-68bb-4ef9-8e05-1ce931fbbd74,Prism Technologies,prism technologies,India,1.0,,resolution
+als_d1777c29-b864-4f42-8aa8-1b809ebc8006,2026-10-07T08:30:28.493052Z,cmp_187086b0-0af8-499f-ab31-edc7a02409c2,Vector Licensing,vector licensing,India,1.0,,resolution
+als_c82be6cf-7c16-4586-882e-b37ca3f908b0,2026-10-07T08:30:28.501518Z,cmp_ddb181c2-c8cb-47bf-b4f7-33d428436bc7,Bluebird Global,bluebird global,India,1.0,,resolution
+als_daf5ff38-7c05-430b-947c-4543d09984df,2026-10-07T08:30:28.510109Z,cmp_b8f1c2ba-96f0-47cf-ae64-a717b638d4b5,Horizon Entities,horizon entities,India,1.0,,resolution
+als_bed61c79-0a72-40be-980d-54bc55549cc2,2026-10-07T08:30:28.518843Z,cmp_0ee73d86-e04e-470f-83d0-a36503796284,Lotus Holdings,lotus holdings,India,1.0,,resolution
+als_b3733a24-6180-4a4e-8e85-0add36a941f3,2026-10-07T08:30:28.527862Z,cmp_8073ad2e-60ed-4deb-a554-b70925a4bdf9,Quiet AI Media,quiet ai media,India,1.0,,resolution
+als_0dde603b-4deb-4e09-9be9-3edb8bd4f7bc,2026-10-07T08:30:28.536991Z,cmp_d71f3146-523f-4409-9f6d-9002f05b5c2d,Funding Only Ventures,funding only ventures,India,1.0,,resolution
+als_9472722f-b23f-4fab-85e7-1f27651cbccd,2026-10-07T08:30:28.546286Z,cmp_1ba07bd7-c25a-47df-a0d2-193ee4b30dd3,New CFO Enterprises,new cfo enterprises,India,1.0,,resolution
+als_daf3c5af-e908-4b7c-83eb-e7798546277c,2026-10-07T08:30:28.555669Z,cmp_9f19f3f4-8903-44b5-b3ca-ff0de42ef36f,Stale Contract Works,stale contract works,India,1.0,,resolution
+als_8489ed96-7fda-4bdc-a833-5c0dce2d8b45,2026-10-07T08:30:28.565359Z,cmp_20aa1053-b77a-48b0-866e-ac9c396e3e46,Weak AI Rumors,weak ai rumors,India,1.0,,resolution
+als_76098b2a-9f94-40de-8426-05d288f61d4e,2026-10-07T08:30:28.575067Z,cmp_79f0131c-ecb8-46ba-a26a-41a6dbf61fb4,Undated Privacy Labs,undated privacy labs,India,1.0,,resolution
+als_6594fc6e-bc41-4710-9d0c-789f794d6afc,2026-10-07T08:30:28.585022Z,cmp_2a7926c7-6c12-46e4-887e-e10f6af1a031,Conflicted Vendor Co,conflicted vendor co,India,1.0,,resolution
+als_cbefe4e6-4a96-46c7-af6e-40f4f67eec7a,2026-10-07T08:30:28.595180Z,cmp_ec17402f-6933-450a-afa6-a422d775fef8,Wrong Entity News,wrong entity news,India,1.0,,resolution
+als_b681e51f-c8be-4ac3-927c-dc352af0a92d,2026-10-07T08:30:28.605522Z,cmp_8069441a-b44d-43a6-9698-2028a20b7ad5,Empty Evidence Co,empty evidence co,India,1.0,,resolution
+als_731e9500-fb2b-48ee-bb16-ab17a0169f2d,2026-10-07T08:30:28.621252Z,cmp_bde51585-9f36-4ae3-8e82-1a78fafaa2d2,Denial AI Systems,denial ai systems,India,1.0,,resolution
+als_4aa061f2-71c0-43a1-b950-c8f4296696b1,2026-10-07T08:30:28.632000Z,cmp_fb6435e2-c048-4d1e-86bf-5e7aa956f7e8,Twin Name,twin name,India,1.0,,resolution
+als_e0a1d0b9-0eca-47f5-87d4-add7e5e70bc7,2026-10-07T08:30:28.642789Z,cmp_583b5de7-285b-4ffd-860c-98ae6e8224a3,Twin Name,twin name,United Kingdom,1.0,,resolution
+als_5f139ceb-dafc-48ba-ad94-15b9a4a84822,2026-10-07T08:30:28.653664Z,cmp_86afb62c-99aa-484f-a129-028d54e32f57,Multi Signal Systems,multi signal systems,India,1.0,,resolution

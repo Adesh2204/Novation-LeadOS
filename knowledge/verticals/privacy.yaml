@@ -1,0 +1,111 @@
+{
+  "id": "privacy",
+  "name": "Privacy & Data Protection",
+  "description": "Personal-data handling creates a credible privacy readiness or implementation need.",
+  "typical_client": [
+    "SaaS",
+    "Fintech",
+    "Healthtech",
+    "Edtech",
+    "Recruitment",
+    "Payroll",
+    "E-commerce",
+    "Consumer apps"
+  ],
+  "typical_problem": "New or changing data processing outpaces privacy controls and documented data flows.",
+  "buyer_roles": [
+    "General Counsel",
+    "Privacy Head",
+    "DPO",
+    "CISO",
+    "Compliance Head",
+    "India Country Head",
+    "HR Head"
+  ],
+  "services": [
+    "Privacy readiness assessment",
+    "Data inventory",
+    "Data-flow mapping",
+    "DPDP gap assessment",
+    "Privacy implementation",
+    "Managed Privacy Desk"
+  ],
+  "deliverables": [
+    "Documented privacy readiness assessment with owners, evidence and next actions",
+    "Documented data inventory with owners, evidence and next actions",
+    "Documented data-flow mapping with owners, evidence and next actions",
+    "Documented dpdp gap assessment with owners, evidence and next actions",
+    "Documented privacy implementation with owners, evidence and next actions",
+    "Documented managed privacy desk with owners, evidence and next actions"
+  ],
+  "positive_signals": [
+    "INDIA_MARKET_ENTRY",
+    "DPO_HIRING",
+    "PRIVACY_HIRING",
+    "DATA_INTENSIVE_SERVICE",
+    "CONSUMER_APP_LAUNCH",
+    "EMPLOYEE_DATA_GROWTH",
+    "CROSS_BORDER_DATA",
+    "PRIVACY_POLICY_GAP",
+    "OUTDATED_PRIVACY_DOCUMENTS",
+    "PRIVACY_QUESTIONNAIRES",
+    "PERSONAL_DATA_INCIDENT",
+    "SENSITIVE_DATA_PROCESSOR",
+    "PRIVACY_CONTROL_PROGRAMME"
+  ],
+  "negative_signals": [
+    "Programme already completed",
+    "No operational change",
+    "Source retracts the event"
+  ],
+  "disqualifiers": [
+    "Company explicitly denies the event",
+    "Event refers to a different company"
+  ],
+  "follow_on_services": [
+    "Privacy implementation",
+    "Managed Privacy Desk"
+  ],
+  "related_verticals": [
+    "ai_governance",
+    "vendor_governance",
+    "corporate_compliance"
+  ],
+  "keywords": [
+    "India market launch",
+    "DPO vacancy",
+    "privacy implementation lead",
+    "personal-data-intensive service",
+    "consumer application collecting profiles",
+    "employee data processing footprint",
+    "cross-border customer-data processing",
+    "gaps in its published privacy policy",
+    "outdated privacy documentation",
+    "enterprise privacy questionnaires",
+    "personal-data exposure incident",
+    "new sensitive-data processor",
+    "privacy control implementation programme"
+  ],
+  "semantic_queries": [
+    "Find companies where company announces an india market launch and identify primary-source evidence",
+    "Find companies where company opens a dedicated dpo vacancy and identify primary-source evidence",
+    "Find companies where company recruits a privacy implementation lead and identify primary-source evidence",
+    "Find companies where company launches a personal-data-intensive service and identify primary-source evidence"
+  ],
+  "default_signal_weights": {
+    "INDIA_MARKET_ENTRY": 25,
+    "DPO_HIRING": 20,
+    "PRIVACY_HIRING": 20,
+    "DATA_INTENSIVE_SERVICE": 23,
+    "CONSUMER_APP_LAUNCH": 20,
+    "EMPLOYEE_DATA_GROWTH": 16,
+    "CROSS_BORDER_DATA": 23,
+    "PRIVACY_POLICY_GAP": 21,
+    "OUTDATED_PRIVACY_DOCUMENTS": 18,
+    "PRIVACY_QUESTIONNAIRES": 19,
+    "PERSONAL_DATA_INCIDENT": 25,
+    "SENSITIVE_DATA_PROCESSOR": 22,
+    "PRIVACY_CONTROL_PROGRAMME": 23
+  },
+  "version": "1.0.0"
+}

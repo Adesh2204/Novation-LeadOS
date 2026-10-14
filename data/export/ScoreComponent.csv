@@ -1,0 +1,353 @@
+id,created_at,opportunity_id,name,points,maximum,rationale
+sco_c6c8270e-3c6c-488d-946e-05711608af3f,2026-10-07T08:30:28.836592Z,opp_d9bcda58-3112-4f84-8fcd-50c2c9f17a3d,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_3588cd1d-6af8-491f-98cd-67163de49222,2026-10-07T08:30:28.836611Z,opp_d9bcda58-3112-4f84-8fcd-50c2c9f17a3d,icp_fit,20,20,Sector SaaS: core ICP
+sco_52fbfb6b-a81a-4d95-976c-b4590781ee65,2026-10-07T08:30:28.836625Z,opp_d9bcda58-3112-4f84-8fcd-50c2c9f17a3d,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_2c57974b-e47d-4ffb-b57d-8c4c459e844b,2026-10-07T08:30:28.836639Z,opp_d9bcda58-3112-4f84-8fcd-50c2c9f17a3d,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_220bf0ce-f014-494d-bc15-7b751ebdfd14,2026-10-07T08:30:28.836652Z,opp_d9bcda58-3112-4f84-8fcd-50c2c9f17a3d,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_b3c01e40-75a0-44d8-b743-a63781f2d242,2026-10-07T08:30:28.836666Z,opp_d9bcda58-3112-4f84-8fcd-50c2c9f17a3d,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_2097a959-0b01-4adc-8cbe-ede768e350e8,2026-10-07T08:30:28.836680Z,opp_d9bcda58-3112-4f84-8fcd-50c2c9f17a3d,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_207bccfc-eb70-42ce-b83b-0f6ec7767c21,2026-10-07T08:30:28.836693Z,opp_d9bcda58-3112-4f84-8fcd-50c2c9f17a3d,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_56ccc27f-9702-42da-b640-ddde7b7256ec,2026-10-07T08:30:28.845650Z,opp_85f0d6be-e567-4fcb-9256-aa712e7ac8f5,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_510e4394-b22a-4939-b807-407ca29acd83,2026-10-07T08:30:28.845666Z,opp_85f0d6be-e567-4fcb-9256-aa712e7ac8f5,icp_fit,20,20,Sector SaaS: core ICP
+sco_60dc31db-53d0-415a-a113-11b588b68f96,2026-10-07T08:30:28.845681Z,opp_85f0d6be-e567-4fcb-9256-aa712e7ac8f5,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_d198fdef-71d8-4514-b0df-09d4480c62c3,2026-10-07T08:30:28.845696Z,opp_85f0d6be-e567-4fcb-9256-aa712e7ac8f5,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_f9f540af-676a-444c-9eba-76cea843495c,2026-10-07T08:30:28.845711Z,opp_85f0d6be-e567-4fcb-9256-aa712e7ac8f5,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_985a5634-c547-43ae-81d5-14973fbcc045,2026-10-07T08:30:28.845727Z,opp_85f0d6be-e567-4fcb-9256-aa712e7ac8f5,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_c4f7d35d-d380-42c0-b718-7034019e82b1,2026-10-07T08:30:28.845743Z,opp_85f0d6be-e567-4fcb-9256-aa712e7ac8f5,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_a52dd52d-e5ea-4210-860a-c23f608a0246,2026-10-07T08:30:28.845759Z,opp_85f0d6be-e567-4fcb-9256-aa712e7ac8f5,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_c8c66ba1-765c-4579-8e89-df0febe41b52,2026-10-07T08:30:28.854942Z,opp_e7b5ac03-4925-4863-9e6a-096bdfb0dc4d,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_b343a9f2-bb30-4b38-9a79-f18813342fec,2026-10-07T08:30:28.854959Z,opp_e7b5ac03-4925-4863-9e6a-096bdfb0dc4d,icp_fit,20,20,Sector SaaS: core ICP
+sco_58fafe13-44f5-4e9c-bd6b-17d2a43e3067,2026-10-07T08:30:28.854976Z,opp_e7b5ac03-4925-4863-9e6a-096bdfb0dc4d,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_319035b6-4b70-4c95-a953-bb0adbd4ff98,2026-10-07T08:30:28.854992Z,opp_e7b5ac03-4925-4863-9e6a-096bdfb0dc4d,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_cd0ed916-61f3-48f8-9a1a-5374f2707c55,2026-10-07T08:30:28.855008Z,opp_e7b5ac03-4925-4863-9e6a-096bdfb0dc4d,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_8142bec1-c816-4e04-a93f-990be85bcd92,2026-10-07T08:30:28.855024Z,opp_e7b5ac03-4925-4863-9e6a-096bdfb0dc4d,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_7ad8d192-3061-4269-a654-29c1f7eff48f,2026-10-07T08:30:28.855040Z,opp_e7b5ac03-4925-4863-9e6a-096bdfb0dc4d,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_3351e850-b186-4c1d-9223-0a33442e4a11,2026-10-07T08:30:28.855056Z,opp_e7b5ac03-4925-4863-9e6a-096bdfb0dc4d,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_aabac624-a326-4fa6-baef-28be56f449c4,2026-10-07T08:30:28.864430Z,opp_f124f353-82df-4d8a-be32-2ba32fd9b259,identifiable_need,20,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_c73d01c1-df26-4d99-abb7-1715354d98f4,2026-10-07T08:30:28.864448Z,opp_f124f353-82df-4d8a-be32-2ba32fd9b259,icp_fit,20,20,Sector Fintech: core ICP
+sco_d6ee6cf4-15ea-465c-b7fd-221e1219c8ac,2026-10-07T08:30:28.864465Z,opp_f124f353-82df-4d8a-be32-2ba32fd9b259,trigger_strength,16,20,Signal weight 20/25 normalized to 20; never added directly
+sco_298fd05e-f2e4-40b2-80b7-e51755755d28,2026-10-07T08:30:28.864482Z,opp_f124f353-82df-4d8a-be32-2ba32fd9b259,trigger_recency,8,10,Published event age under the versioned recency decay schedule
+sco_89f9f0b7-d7d5-4797-bfe8-36ec37ad9d04,2026-10-07T08:30:28.864499Z,opp_f124f353-82df-4d8a-be32-2ba32fd9b259,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_2ed39a3c-d54f-4312-8630-79e3fae585e8,2026-10-07T08:30:28.864516Z,opp_f124f353-82df-4d8a-be32-2ba32fd9b259,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_c276e403-b9b0-48d0-bc55-b2e8665b5ab0,2026-10-07T08:30:28.864533Z,opp_f124f353-82df-4d8a-be32-2ba32fd9b259,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_1f7a857c-e648-4c79-add9-8e037a4c43e5,2026-10-07T08:30:28.864551Z,opp_f124f353-82df-4d8a-be32-2ba32fd9b259,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_be109672-7ffb-4da4-be18-a212970921af,2026-10-07T08:30:28.874336Z,opp_99e46582-dc9d-4b02-9db9-16d8d3d3b449,identifiable_need,20,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_1813d0d4-7801-4793-89e5-44a4794044b4,2026-10-07T08:30:28.874357Z,opp_99e46582-dc9d-4b02-9db9-16d8d3d3b449,icp_fit,20,20,Sector Healthtech: core ICP
+sco_91635b56-612e-4dbd-bf9c-26073f954c5d,2026-10-07T08:30:28.874376Z,opp_99e46582-dc9d-4b02-9db9-16d8d3d3b449,trigger_strength,16,20,Signal weight 20/25 normalized to 20; never added directly
+sco_e1e37b85-fd82-4387-ae7d-e42f33b6715e,2026-10-07T08:30:28.874395Z,opp_99e46582-dc9d-4b02-9db9-16d8d3d3b449,trigger_recency,5,10,Published event age under the versioned recency decay schedule
+sco_44125ab9-1a82-4b6d-b09f-d0340f7c5079,2026-10-07T08:30:28.874415Z,opp_99e46582-dc9d-4b02-9db9-16d8d3d3b449,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_31551165-2c7b-49e8-bc8f-308fbea03def,2026-10-07T08:30:28.874434Z,opp_99e46582-dc9d-4b02-9db9-16d8d3d3b449,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_88a16e64-169a-4803-90e6-964f5c51887f,2026-10-07T08:30:28.874453Z,opp_99e46582-dc9d-4b02-9db9-16d8d3d3b449,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_8576ff55-40c5-4934-a988-6f413d3655e1,2026-10-07T08:30:28.874472Z,opp_99e46582-dc9d-4b02-9db9-16d8d3d3b449,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_5572ee2d-eb48-4ae3-af07-8bc244b9c71b,2026-10-07T08:30:28.884324Z,opp_e934595a-addd-423c-854a-935ca8d533dd,identifiable_need,20,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_02d52ca3-e118-42d9-82ea-a05ef76a05bb,2026-10-07T08:30:28.884345Z,opp_e934595a-addd-423c-854a-935ca8d533dd,icp_fit,20,20,Sector SaaS: core ICP
+sco_403ea9b9-0dde-407b-8dc8-b3f70b82f5b0,2026-10-07T08:30:28.884366Z,opp_e934595a-addd-423c-854a-935ca8d533dd,trigger_strength,16,20,Signal weight 20/25 normalized to 20; never added directly
+sco_4b78a5b0-7e88-4bef-8c9f-9fd295663aed,2026-10-07T08:30:28.884387Z,opp_e934595a-addd-423c-854a-935ca8d533dd,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_fa048a17-32a2-40f4-95c4-e5af81a7927f,2026-10-07T08:30:28.884407Z,opp_e934595a-addd-423c-854a-935ca8d533dd,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_e75beb6d-8df2-4783-b99e-a5c0e180ae16,2026-10-07T08:30:28.884428Z,opp_e934595a-addd-423c-854a-935ca8d533dd,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_2a9d0d6a-a95b-43ad-8c5b-959f10381d1c,2026-10-07T08:30:28.884449Z,opp_e934595a-addd-423c-854a-935ca8d533dd,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_db5e5024-e618-4fac-aeb5-c3b9554f27b9,2026-10-07T08:30:28.884470Z,opp_e934595a-addd-423c-854a-935ca8d533dd,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_56bc7096-1fd0-4c9b-8da1-53e91d858a8a,2026-10-07T08:30:28.894644Z,opp_ed37e682-8fc9-49d8-b65f-832e1f40d833,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_ceee0729-7c47-41fa-ac89-4af4f224dd55,2026-10-07T08:30:28.894668Z,opp_ed37e682-8fc9-49d8-b65f-832e1f40d833,icp_fit,20,20,Sector Manufacturing: core ICP
+sco_e8c171cc-87fa-4386-b031-b92920e7bfb3,2026-10-07T08:30:28.894691Z,opp_ed37e682-8fc9-49d8-b65f-832e1f40d833,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_a1885726-ee72-408b-bafa-5dd6ac9b5926,2026-10-07T08:30:28.894712Z,opp_ed37e682-8fc9-49d8-b65f-832e1f40d833,trigger_recency,8,10,Published event age under the versioned recency decay schedule
+sco_6fc16d46-eec1-4375-831e-24fe5b2d6987,2026-10-07T08:30:28.894733Z,opp_ed37e682-8fc9-49d8-b65f-832e1f40d833,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_e0ec1dff-95ca-4427-9c67-fcd01bbc79b3,2026-10-07T08:30:28.894754Z,opp_ed37e682-8fc9-49d8-b65f-832e1f40d833,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_b7fe5987-b4f3-4e29-991d-f8c34064cb82,2026-10-07T08:30:28.894776Z,opp_ed37e682-8fc9-49d8-b65f-832e1f40d833,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_b9ff4d4b-baf9-40b2-ac5c-b379c1f19d7d,2026-10-07T08:30:28.894798Z,opp_ed37e682-8fc9-49d8-b65f-832e1f40d833,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_0e2daf21-0a8f-4895-997a-ce594d8266eb,2026-10-07T08:30:28.905244Z,opp_6e570f42-e7cf-48ea-9722-66465e63463b,identifiable_need,24,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_02b66b24-633c-4986-8a89-af3968f8d58f,2026-10-07T08:30:28.905271Z,opp_6e570f42-e7cf-48ea-9722-66465e63463b,icp_fit,20,20,Sector Fintech: core ICP
+sco_429f0619-9bfa-4216-8c6d-3b95c403fa1e,2026-10-07T08:30:28.905295Z,opp_6e570f42-e7cf-48ea-9722-66465e63463b,trigger_strength,19,20,Signal weight 24/25 normalized to 20; never added directly
+sco_0a9dd300-30d3-413d-a572-10d81350c20a,2026-10-07T08:30:28.905319Z,opp_6e570f42-e7cf-48ea-9722-66465e63463b,trigger_recency,5,10,Published event age under the versioned recency decay schedule
+sco_0593a9bf-ec62-40e8-95e7-eada0eba0b97,2026-10-07T08:30:28.905341Z,opp_6e570f42-e7cf-48ea-9722-66465e63463b,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_f79babac-4466-49ef-b09e-ef9de29495e9,2026-10-07T08:30:28.905364Z,opp_6e570f42-e7cf-48ea-9722-66465e63463b,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_33e6bfb4-0950-4f3a-a9c1-e97e546ff59e,2026-10-07T08:30:28.905388Z,opp_6e570f42-e7cf-48ea-9722-66465e63463b,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_b6fdd05f-b1f6-46dc-9070-9fe43bdd7b59,2026-10-07T08:30:28.905412Z,opp_6e570f42-e7cf-48ea-9722-66465e63463b,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_1f412ae4-3d17-482a-bcea-683858723fda,2026-10-07T08:30:28.916116Z,opp_b98da29b-71be-482f-bad2-e1388a58c821,identifiable_need,24,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_166c2638-a574-4092-9134-eb83daa6ff12,2026-10-07T08:30:28.916141Z,opp_b98da29b-71be-482f-bad2-e1388a58c821,icp_fit,20,20,Sector Fintech: core ICP
+sco_e20740b3-f102-41df-b40e-810bf0a01742,2026-10-07T08:30:28.916165Z,opp_b98da29b-71be-482f-bad2-e1388a58c821,trigger_strength,19,20,Signal weight 24/25 normalized to 20; never added directly
+sco_c95e1204-4baf-4e82-a43b-37b1ff80a445,2026-10-07T08:30:28.916189Z,opp_b98da29b-71be-482f-bad2-e1388a58c821,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_221c72c4-8043-49bc-91ce-8ed62964e361,2026-10-07T08:30:28.916212Z,opp_b98da29b-71be-482f-bad2-e1388a58c821,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_d2338fb3-2201-4bbf-b636-e387f479b8eb,2026-10-07T08:30:28.916236Z,opp_b98da29b-71be-482f-bad2-e1388a58c821,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_54167a15-2f6b-46ee-a2cb-3b37ed74344d,2026-10-07T08:30:28.916261Z,opp_b98da29b-71be-482f-bad2-e1388a58c821,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_353d0bfe-2df8-4b27-b259-7f0ca6fa72c4,2026-10-07T08:30:28.916285Z,opp_b98da29b-71be-482f-bad2-e1388a58c821,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_7787d323-c076-484a-b793-c59f3f97e2f5,2026-10-07T08:30:28.927191Z,opp_7b9d7699-4dd9-44ca-9cd1-8bdd35156f1b,identifiable_need,20,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_8db5be21-ae9d-453b-b257-d234363e252a,2026-10-07T08:30:28.927217Z,opp_7b9d7699-4dd9-44ca-9cd1-8bdd35156f1b,icp_fit,20,20,Sector SaaS: core ICP
+sco_9de94a69-5461-449e-a141-a79f877c0333,2026-10-07T08:30:28.927242Z,opp_7b9d7699-4dd9-44ca-9cd1-8bdd35156f1b,trigger_strength,16,20,Signal weight 20/25 normalized to 20; never added directly
+sco_91d1fb09-3459-41b6-93c3-0d4cd81f4df4,2026-10-07T08:30:28.927265Z,opp_7b9d7699-4dd9-44ca-9cd1-8bdd35156f1b,trigger_recency,8,10,Published event age under the versioned recency decay schedule
+sco_17082cd4-0ca8-4049-8670-28d1d8e1f284,2026-10-07T08:30:28.927290Z,opp_7b9d7699-4dd9-44ca-9cd1-8bdd35156f1b,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_23e6c1a0-ec83-45fc-8bcd-bad072ec6ac8,2026-10-07T08:30:28.927314Z,opp_7b9d7699-4dd9-44ca-9cd1-8bdd35156f1b,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_217b0fa4-3ba5-4b13-a3eb-f125d99c833f,2026-10-07T08:30:28.927340Z,opp_7b9d7699-4dd9-44ca-9cd1-8bdd35156f1b,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_86c620ca-bb70-4723-a82c-a13be9ad871b,2026-10-07T08:30:28.927365Z,opp_7b9d7699-4dd9-44ca-9cd1-8bdd35156f1b,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_864d209f-8f9d-43f4-b161-02d068d48897,2026-10-07T08:30:28.938453Z,opp_e2b51ffa-1425-472d-9026-0aed752641f0,identifiable_need,22,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_e6ebf41c-f6ea-475a-bfdd-dc3e47876152,2026-10-07T08:30:28.938483Z,opp_e2b51ffa-1425-472d-9026-0aed752641f0,icp_fit,20,20,Sector Healthtech: core ICP
+sco_6d362341-e0bd-45a5-929d-ab8873d7d92e,2026-10-07T08:30:28.938538Z,opp_e2b51ffa-1425-472d-9026-0aed752641f0,trigger_strength,18,20,Signal weight 22/25 normalized to 20; never added directly
+sco_942ff4fe-e22a-4957-9daa-6bcf1ece6399,2026-10-07T08:30:28.938568Z,opp_e2b51ffa-1425-472d-9026-0aed752641f0,trigger_recency,5,10,Published event age under the versioned recency decay schedule
+sco_96ed7816-37ac-42bf-8bae-53482430da93,2026-10-07T08:30:28.938596Z,opp_e2b51ffa-1425-472d-9026-0aed752641f0,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_ab4f1d25-0c0c-4276-9654-95c32f61ac5e,2026-10-07T08:30:28.938623Z,opp_e2b51ffa-1425-472d-9026-0aed752641f0,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_8e07263e-0e3a-430e-a647-aa4da81fde92,2026-10-07T08:30:28.938651Z,opp_e2b51ffa-1425-472d-9026-0aed752641f0,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_c780bee8-34f0-4c0d-ad79-c4d01f9728dd,2026-10-07T08:30:28.938678Z,opp_e2b51ffa-1425-472d-9026-0aed752641f0,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_28d4127f-d5ca-4f29-9a01-aa154554c580,2026-10-07T08:30:28.955577Z,opp_8278daeb-f371-4996-a043-32f1d606eb59,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_9c09a074-f64d-4bd7-b4ca-a858e1edae9d,2026-10-07T08:30:28.955609Z,opp_8278daeb-f371-4996-a043-32f1d606eb59,icp_fit,20,20,Sector Recruitment: core ICP
+sco_d99b7054-e5dd-4b8f-a8c6-4aa64e40be22,2026-10-07T08:30:28.955638Z,opp_8278daeb-f371-4996-a043-32f1d606eb59,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_70e8e03b-75a5-40f6-8f31-415f0f5bc860,2026-10-07T08:30:28.955665Z,opp_8278daeb-f371-4996-a043-32f1d606eb59,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_68e14fda-490d-469a-a1b3-6ac955738982,2026-10-07T08:30:28.955693Z,opp_8278daeb-f371-4996-a043-32f1d606eb59,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_91006648-0462-4952-9ceb-42b09c7daeae,2026-10-07T08:30:28.955723Z,opp_8278daeb-f371-4996-a043-32f1d606eb59,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_60da527c-f655-475b-92be-a88341da0fc6,2026-10-07T08:30:28.955752Z,opp_8278daeb-f371-4996-a043-32f1d606eb59,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_bc19d351-c309-45a6-82d6-f702a326661b,2026-10-07T08:30:28.955780Z,opp_8278daeb-f371-4996-a043-32f1d606eb59,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_1db83348-a720-4a1f-98eb-2e820a5b9268,2026-10-07T08:30:28.967718Z,opp_bca4f9b5-7f2b-4d6d-a744-a2edc75342b0,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_2e9ebfd3-4e2e-41fb-ab22-97447ce6a151,2026-10-07T08:30:28.967748Z,opp_bca4f9b5-7f2b-4d6d-a744-a2edc75342b0,icp_fit,20,20,Sector Recruitment: core ICP
+sco_856f74eb-5584-4e2e-b484-08abbbbd1593,2026-10-07T08:30:28.967777Z,opp_bca4f9b5-7f2b-4d6d-a744-a2edc75342b0,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_d1847ecc-54f0-4a06-b689-ba7ace6a15f7,2026-10-07T08:30:28.967805Z,opp_bca4f9b5-7f2b-4d6d-a744-a2edc75342b0,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_e9fab4d0-56e4-4456-be86-1712eca8f314,2026-10-07T08:30:28.967833Z,opp_bca4f9b5-7f2b-4d6d-a744-a2edc75342b0,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_38f16aa6-98af-4eb4-bb53-06fa7343cdb9,2026-10-07T08:30:28.967861Z,opp_bca4f9b5-7f2b-4d6d-a744-a2edc75342b0,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_ffe8f84e-3e6a-4529-a713-ee51f7c1ab07,2026-10-07T08:30:28.967890Z,opp_bca4f9b5-7f2b-4d6d-a744-a2edc75342b0,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_6a86c7b0-c377-4ad7-b203-7e0c660372de,2026-10-07T08:30:28.967918Z,opp_bca4f9b5-7f2b-4d6d-a744-a2edc75342b0,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_e598fd05-7172-4174-b37a-b2ad0795d2c8,2026-10-07T08:30:28.979913Z,opp_50be4ed6-2374-4849-aea2-ef5d88f4848c,identifiable_need,23,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_cc0ac120-c914-4677-8cdc-5f6d7364a5fa,2026-10-07T08:30:28.979944Z,opp_50be4ed6-2374-4849-aea2-ef5d88f4848c,icp_fit,20,20,Sector Fintech: core ICP
+sco_f3325fdd-04eb-4b72-9e38-c159c6001a86,2026-10-07T08:30:28.979973Z,opp_50be4ed6-2374-4849-aea2-ef5d88f4848c,trigger_strength,18,20,Signal weight 23/25 normalized to 20; never added directly
+sco_9dc1fb09-861c-4f7b-9ebd-9b739130ca66,2026-10-07T08:30:28.980002Z,opp_50be4ed6-2374-4849-aea2-ef5d88f4848c,trigger_recency,8,10,Published event age under the versioned recency decay schedule
+sco_99194bf8-7b6e-4a01-9178-88ee6ff6e9b5,2026-10-07T08:30:28.980032Z,opp_50be4ed6-2374-4849-aea2-ef5d88f4848c,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_b499d365-7263-4175-97c9-350cf23549ba,2026-10-07T08:30:28.980061Z,opp_50be4ed6-2374-4849-aea2-ef5d88f4848c,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_d6908ed3-2b42-4836-8546-7192c52418e6,2026-10-07T08:30:28.980090Z,opp_50be4ed6-2374-4849-aea2-ef5d88f4848c,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_fd7bae33-f5c7-4376-b032-30b2d2d9417c,2026-10-07T08:30:28.980119Z,opp_50be4ed6-2374-4849-aea2-ef5d88f4848c,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_b0f9d306-cd54-48f5-b1a9-db3b5e76674e,2026-10-07T08:30:28.992553Z,opp_b5098d2c-9ce5-4f6d-bf5d-cd71a552389f,identifiable_need,22,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_cd2bedad-2203-4020-b199-f8134ded76ad,2026-10-07T08:30:28.992586Z,opp_b5098d2c-9ce5-4f6d-bf5d-cd71a552389f,icp_fit,20,20,Sector Recruitment: core ICP
+sco_082f633c-c217-48fa-8bc2-a2c2ebdae283,2026-10-07T08:30:28.992618Z,opp_b5098d2c-9ce5-4f6d-bf5d-cd71a552389f,trigger_strength,18,20,Signal weight 22/25 normalized to 20; never added directly
+sco_6b02ed82-3f32-4a83-abb7-5e4768efb439,2026-10-07T08:30:28.992649Z,opp_b5098d2c-9ce5-4f6d-bf5d-cd71a552389f,trigger_recency,5,10,Published event age under the versioned recency decay schedule
+sco_d1281d23-2de0-4da1-a510-6529b8206a75,2026-10-07T08:30:28.992679Z,opp_b5098d2c-9ce5-4f6d-bf5d-cd71a552389f,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_2b22bb84-7a4e-4625-b30c-787168d7fdbe,2026-10-07T08:30:28.992710Z,opp_b5098d2c-9ce5-4f6d-bf5d-cd71a552389f,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_75537343-a3fe-4a95-9aa6-d950b2e868a7,2026-10-07T08:30:28.992741Z,opp_b5098d2c-9ce5-4f6d-bf5d-cd71a552389f,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_64cb1f8e-5ca4-45e6-a034-5edc7d8de6ac,2026-10-07T08:30:28.992772Z,opp_b5098d2c-9ce5-4f6d-bf5d-cd71a552389f,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_dc06e9bc-026b-407b-b538-6bbeb8d981f4,2026-10-07T08:30:29.005755Z,opp_667723fa-d37a-4f6c-9c93-9e5c1f2e4f18,identifiable_need,22,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_71036731-d50e-4017-b6df-db1c49d7c732,2026-10-07T08:30:29.005791Z,opp_667723fa-d37a-4f6c-9c93-9e5c1f2e4f18,icp_fit,20,20,Sector SaaS: core ICP
+sco_15be2d8c-829c-4190-90d0-89c3494d500d,2026-10-07T08:30:29.005826Z,opp_667723fa-d37a-4f6c-9c93-9e5c1f2e4f18,trigger_strength,18,20,Signal weight 22/25 normalized to 20; never added directly
+sco_0f407aa8-092f-4c78-920a-f41089e4133d,2026-10-07T08:30:29.005859Z,opp_667723fa-d37a-4f6c-9c93-9e5c1f2e4f18,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_0eadc46b-e70a-4340-ac80-4796355ab436,2026-10-07T08:30:29.005891Z,opp_667723fa-d37a-4f6c-9c93-9e5c1f2e4f18,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_adb81f0b-e398-4354-a5fb-21fb25b2a830,2026-10-07T08:30:29.005924Z,opp_667723fa-d37a-4f6c-9c93-9e5c1f2e4f18,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_9ddbe5e6-b0e4-48d9-9ec8-9f6dff2aad05,2026-10-07T08:30:29.005956Z,opp_667723fa-d37a-4f6c-9c93-9e5c1f2e4f18,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_64d6c859-ab18-4dcd-a1b6-a2417d7247e2,2026-10-07T08:30:29.005988Z,opp_667723fa-d37a-4f6c-9c93-9e5c1f2e4f18,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_5aee2ea4-c2b3-42a6-bff7-f9475ab038a6,2026-10-07T08:30:29.018844Z,opp_faaa9198-50d8-43f9-95e7-78cbf15c942a,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_89e97f97-ba84-4366-a851-14af7de1184f,2026-10-07T08:30:29.018882Z,opp_faaa9198-50d8-43f9-95e7-78cbf15c942a,icp_fit,20,20,Sector Manufacturing: core ICP
+sco_8a7d24bf-c832-4f03-8ed0-2fbe0ba2975f,2026-10-07T08:30:29.018917Z,opp_faaa9198-50d8-43f9-95e7-78cbf15c942a,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_5ac035c8-0a4a-4208-bcf4-278271e2c8ec,2026-10-07T08:30:29.018951Z,opp_faaa9198-50d8-43f9-95e7-78cbf15c942a,trigger_recency,8,10,Published event age under the versioned recency decay schedule
+sco_de3979a9-a54f-4bc2-814f-d8c2871c4f7d,2026-10-07T08:30:29.018984Z,opp_faaa9198-50d8-43f9-95e7-78cbf15c942a,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_5c0581e2-975b-443d-9d3d-3bd9fba54deb,2026-10-07T08:30:29.019019Z,opp_faaa9198-50d8-43f9-95e7-78cbf15c942a,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_56da1064-ee9b-41ae-ab9f-88db73d9b726,2026-10-07T08:30:29.019052Z,opp_faaa9198-50d8-43f9-95e7-78cbf15c942a,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_caf383b9-d99e-416f-b36a-4fa589866d82,2026-10-07T08:30:29.019085Z,opp_faaa9198-50d8-43f9-95e7-78cbf15c942a,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_eb6b2782-4e58-4958-9740-b08d2c27f68f,2026-10-07T08:30:29.032513Z,opp_30f164ed-d2a0-46ee-a515-50fcae70dcf5,identifiable_need,23,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_702628cf-74a4-443a-b6b4-322f78ec0929,2026-10-07T08:30:29.032550Z,opp_30f164ed-d2a0-46ee-a515-50fcae70dcf5,icp_fit,20,20,Sector Fintech: core ICP
+sco_9f81480d-ca7c-4858-906e-13cf5cb9fd6a,2026-10-07T08:30:29.032586Z,opp_30f164ed-d2a0-46ee-a515-50fcae70dcf5,trigger_strength,18,20,Signal weight 23/25 normalized to 20; never added directly
+sco_c195929d-d100-4a68-8e66-97d45da80685,2026-10-07T08:30:29.032621Z,opp_30f164ed-d2a0-46ee-a515-50fcae70dcf5,trigger_recency,5,10,Published event age under the versioned recency decay schedule
+sco_eb9214b7-d9b1-494b-916a-d8cb1cb8826c,2026-10-07T08:30:29.032656Z,opp_30f164ed-d2a0-46ee-a515-50fcae70dcf5,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_bb73408c-b16a-4078-bfba-3fca7b4f5cf7,2026-10-07T08:30:29.032690Z,opp_30f164ed-d2a0-46ee-a515-50fcae70dcf5,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_7d894959-7291-4f3b-97be-fc81967a454c,2026-10-07T08:30:29.032726Z,opp_30f164ed-d2a0-46ee-a515-50fcae70dcf5,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_7735c7e4-6033-415d-b927-6caa494ca035,2026-10-07T08:30:29.032761Z,opp_30f164ed-d2a0-46ee-a515-50fcae70dcf5,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_2df4bede-1e64-4198-9e3d-212f0acdec07,2026-10-07T08:30:29.046033Z,opp_910f66f1-39a3-4d45-a831-c02992491323,identifiable_need,22,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_2d82790e-6849-4622-a5b6-665553db72d5,2026-10-07T08:30:29.046074Z,opp_910f66f1-39a3-4d45-a831-c02992491323,icp_fit,20,20,Sector Manufacturing: core ICP
+sco_2cd80fee-60fc-4706-baef-83960d1c7b41,2026-10-07T08:30:29.046112Z,opp_910f66f1-39a3-4d45-a831-c02992491323,trigger_strength,18,20,Signal weight 22/25 normalized to 20; never added directly
+sco_a93fb008-92c7-44eb-b01b-36c5b3d371e4,2026-10-07T08:30:29.046149Z,opp_910f66f1-39a3-4d45-a831-c02992491323,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_e9063004-5d42-4524-a3bd-d4661ac813d7,2026-10-07T08:30:29.046186Z,opp_910f66f1-39a3-4d45-a831-c02992491323,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_cbc11722-b0dc-4180-9fb3-8acd5b02c950,2026-10-07T08:30:29.046224Z,opp_910f66f1-39a3-4d45-a831-c02992491323,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_ed383c62-0af4-4bec-8c16-5556253b6cb7,2026-10-07T08:30:29.046261Z,opp_910f66f1-39a3-4d45-a831-c02992491323,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_c74098e4-e1b3-4b4b-93e2-fccee9e901d9,2026-10-07T08:30:29.046299Z,opp_910f66f1-39a3-4d45-a831-c02992491323,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_8626371c-33f1-461f-87ba-1fa684fae8bd,2026-10-07T08:30:29.059741Z,opp_56138163-f2a9-425d-8ad0-b5dcc6ff26d5,identifiable_need,22,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_040f24e6-045b-4303-b40b-acd6f88816b7,2026-10-07T08:30:29.059788Z,opp_56138163-f2a9-425d-8ad0-b5dcc6ff26d5,icp_fit,20,20,Sector Fintech: core ICP
+sco_8c28408c-ae15-4410-8623-c054e29a560d,2026-10-07T08:30:29.059829Z,opp_56138163-f2a9-425d-8ad0-b5dcc6ff26d5,trigger_strength,18,20,Signal weight 22/25 normalized to 20; never added directly
+sco_6771a826-1722-4204-b448-4934b54bbb77,2026-10-07T08:30:29.059868Z,opp_56138163-f2a9-425d-8ad0-b5dcc6ff26d5,trigger_recency,8,10,Published event age under the versioned recency decay schedule
+sco_eb9bd730-1657-40e1-99c2-877d35758658,2026-10-07T08:30:29.059907Z,opp_56138163-f2a9-425d-8ad0-b5dcc6ff26d5,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_70c80b26-a2fd-4a0f-8560-4fd8b26b1818,2026-10-07T08:30:29.059944Z,opp_56138163-f2a9-425d-8ad0-b5dcc6ff26d5,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_c02550c6-3b6d-471c-bd19-b533ab2487da,2026-10-07T08:30:29.059983Z,opp_56138163-f2a9-425d-8ad0-b5dcc6ff26d5,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_abf231cf-33aa-403f-929f-283d6cb667b4,2026-10-07T08:30:29.060021Z,opp_56138163-f2a9-425d-8ad0-b5dcc6ff26d5,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_c5b27ef4-dc80-4c7b-ba98-c951bce9e361,2026-10-07T08:30:29.073638Z,opp_382df302-32b9-419f-bac3-06b4cbf474e5,identifiable_need,24,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_f5a1d986-a994-49a9-9124-c387922a9fe1,2026-10-07T08:30:29.073681Z,opp_382df302-32b9-419f-bac3-06b4cbf474e5,icp_fit,20,20,Sector SaaS: core ICP
+sco_b50f6e6a-54d1-4aff-a42e-289de524097d,2026-10-07T08:30:29.073721Z,opp_382df302-32b9-419f-bac3-06b4cbf474e5,trigger_strength,19,20,Signal weight 24/25 normalized to 20; never added directly
+sco_2cb39036-8a04-4daa-8a77-2697759b010d,2026-10-07T08:30:29.073759Z,opp_382df302-32b9-419f-bac3-06b4cbf474e5,trigger_recency,5,10,Published event age under the versioned recency decay schedule
+sco_6b36b929-094b-4942-8077-47f3ec17acd4,2026-10-07T08:30:29.073798Z,opp_382df302-32b9-419f-bac3-06b4cbf474e5,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_af5811d5-4ae5-4f40-be09-7b9bbdcf5c42,2026-10-07T08:30:29.073836Z,opp_382df302-32b9-419f-bac3-06b4cbf474e5,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_ed474f46-f096-4c37-bef1-95e6d8ccd44f,2026-10-07T08:30:29.073875Z,opp_382df302-32b9-419f-bac3-06b4cbf474e5,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_eadcdd1d-9466-46e3-a501-cb2b473b7a01,2026-10-07T08:30:29.073915Z,opp_382df302-32b9-419f-bac3-06b4cbf474e5,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_f3fef5ec-6582-4a19-a6b9-3dbfda9147fb,2026-10-07T08:30:29.087877Z,opp_a64baa74-ae2b-4a21-bb0e-9a299c043e40,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_db8ca57e-a880-4e4a-aeb9-5c0930d5d4fe,2026-10-07T08:30:29.087922Z,opp_a64baa74-ae2b-4a21-bb0e-9a299c043e40,icp_fit,20,20,Sector SaaS: core ICP
+sco_469c4491-8c4e-4308-a560-bde24059d565,2026-10-07T08:30:29.087965Z,opp_a64baa74-ae2b-4a21-bb0e-9a299c043e40,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_506dfb19-2f18-4d27-a245-1f1dadc49829,2026-10-07T08:30:29.088006Z,opp_a64baa74-ae2b-4a21-bb0e-9a299c043e40,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_4cec0efa-1b6d-4ea0-abd3-068396a160ee,2026-10-07T08:30:29.088047Z,opp_a64baa74-ae2b-4a21-bb0e-9a299c043e40,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_50f3e9b5-8242-4dc2-b12d-9678ba1d616f,2026-10-07T08:30:29.088087Z,opp_a64baa74-ae2b-4a21-bb0e-9a299c043e40,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_ed0de3b7-9fb8-499b-936b-56908615c9f4,2026-10-07T08:30:29.088127Z,opp_a64baa74-ae2b-4a21-bb0e-9a299c043e40,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_83cea649-ed77-4ac1-a2a9-740e44c6bcaa,2026-10-07T08:30:29.088168Z,opp_a64baa74-ae2b-4a21-bb0e-9a299c043e40,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_67742ec8-0483-4272-9a08-a1aac51b9c8a,2026-10-07T08:30:29.102472Z,opp_5cc801a9-ea94-4a2a-8738-804a4d9759d6,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_c10b17c0-ea42-4e7c-8d83-b5f204b12f6f,2026-10-07T08:30:29.102520Z,opp_5cc801a9-ea94-4a2a-8738-804a4d9759d6,icp_fit,20,20,Sector Manufacturing: core ICP
+sco_99a5eb01-b741-4b24-803f-282f17b42991,2026-10-07T08:30:29.102563Z,opp_5cc801a9-ea94-4a2a-8738-804a4d9759d6,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_74ed656f-f763-4154-a545-44e1d367182e,2026-10-07T08:30:29.102605Z,opp_5cc801a9-ea94-4a2a-8738-804a4d9759d6,trigger_recency,8,10,Published event age under the versioned recency decay schedule
+sco_c6a9d946-6355-4fd7-bd5c-1ad864d6fd5b,2026-10-07T08:30:29.102647Z,opp_5cc801a9-ea94-4a2a-8738-804a4d9759d6,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_fccdb1f6-ca88-448d-ad07-b97114629e8e,2026-10-07T08:30:29.102688Z,opp_5cc801a9-ea94-4a2a-8738-804a4d9759d6,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_84cfb7e6-87fb-42b4-a213-26757af4b48d,2026-10-07T08:30:29.102730Z,opp_5cc801a9-ea94-4a2a-8738-804a4d9759d6,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_79e57b9c-3640-4d02-a22d-4d3e82a4bd7f,2026-10-07T08:30:29.102773Z,opp_5cc801a9-ea94-4a2a-8738-804a4d9759d6,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_24609e0c-75b0-40cf-b2ed-47cbef1fd331,2026-10-07T08:30:29.117102Z,opp_7325d271-0b53-406c-9e65-854106ccd9a8,identifiable_need,24,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_600f2ba0-6132-4630-9e1a-1f46866d448f,2026-10-07T08:30:29.117148Z,opp_7325d271-0b53-406c-9e65-854106ccd9a8,icp_fit,20,20,Sector Fintech: core ICP
+sco_7157ea6d-b186-4df8-a663-ef3f711c6499,2026-10-07T08:30:29.117192Z,opp_7325d271-0b53-406c-9e65-854106ccd9a8,trigger_strength,19,20,Signal weight 24/25 normalized to 20; never added directly
+sco_4c75eb97-839a-4d48-99ac-3c4dedf09c7d,2026-10-07T08:30:29.117234Z,opp_7325d271-0b53-406c-9e65-854106ccd9a8,trigger_recency,5,10,Published event age under the versioned recency decay schedule
+sco_b08ef318-93f4-4d57-a15a-1004b7cb684f,2026-10-07T08:30:29.117277Z,opp_7325d271-0b53-406c-9e65-854106ccd9a8,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_2d057afd-1f3d-4c5f-bb71-97b95c10bf89,2026-10-07T08:30:29.117319Z,opp_7325d271-0b53-406c-9e65-854106ccd9a8,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_6bc93daf-37e9-4066-af43-05049d669e2d,2026-10-07T08:30:29.117361Z,opp_7325d271-0b53-406c-9e65-854106ccd9a8,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_8f3257bd-ee59-47a7-9c30-08064f6da9e0,2026-10-07T08:30:29.117405Z,opp_7325d271-0b53-406c-9e65-854106ccd9a8,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_a56e4236-aa7b-4067-b743-5b903388cc6e,2026-10-07T08:30:29.132108Z,opp_b15b3035-e879-401e-bf5c-098e5ca1247d,identifiable_need,23,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_99d1ae13-cc00-4083-8dc7-8a552e1850b5,2026-10-07T08:30:29.132161Z,opp_b15b3035-e879-401e-bf5c-098e5ca1247d,icp_fit,20,20,Sector SaaS: core ICP
+sco_fccad2ec-c8e7-4110-b77f-e75808539b75,2026-10-07T08:30:29.132207Z,opp_b15b3035-e879-401e-bf5c-098e5ca1247d,trigger_strength,18,20,Signal weight 23/25 normalized to 20; never added directly
+sco_7ea21d47-0884-47ed-b5d4-decc9da8c7e8,2026-10-07T08:30:29.132252Z,opp_b15b3035-e879-401e-bf5c-098e5ca1247d,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_3969f032-2e08-49ee-b42c-b00d8cd1979f,2026-10-07T08:30:29.132296Z,opp_b15b3035-e879-401e-bf5c-098e5ca1247d,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_0306181f-e2ca-43af-9ac2-677e032dc2c8,2026-10-07T08:30:29.132341Z,opp_b15b3035-e879-401e-bf5c-098e5ca1247d,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_b334a59e-e11b-4772-8095-f8d650735c6d,2026-10-07T08:30:29.132385Z,opp_b15b3035-e879-401e-bf5c-098e5ca1247d,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_9b9db1cf-c7b2-46eb-b0c9-a362a69640d5,2026-10-07T08:30:29.132430Z,opp_b15b3035-e879-401e-bf5c-098e5ca1247d,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_96e233c7-cdb0-4bb9-bae8-7bab0cf55db3,2026-10-07T08:30:29.147766Z,opp_1ec09ec6-cf23-4f1e-953a-4e939434cf68,identifiable_need,20,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_51d2f9c5-6ab8-4ed3-93c8-6d1c1be92dda,2026-10-07T08:30:29.147817Z,opp_1ec09ec6-cf23-4f1e-953a-4e939434cf68,icp_fit,20,20,Sector Technology: core ICP
+sco_39c9bdb8-4182-4c1f-ae7c-b59903adea1f,2026-10-07T08:30:29.147864Z,opp_1ec09ec6-cf23-4f1e-953a-4e939434cf68,trigger_strength,16,20,Signal weight 20/25 normalized to 20; never added directly
+sco_2505c17a-597d-4b34-a2da-b76cba332aa5,2026-10-07T08:30:29.147911Z,opp_1ec09ec6-cf23-4f1e-953a-4e939434cf68,trigger_recency,8,10,Published event age under the versioned recency decay schedule
+sco_46117ead-a0ca-488f-9f94-ab5d254ede88,2026-10-07T08:30:29.147956Z,opp_1ec09ec6-cf23-4f1e-953a-4e939434cf68,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_1267dbc7-c391-4825-aa45-4a4f9ab5f032,2026-10-07T08:30:29.148002Z,opp_1ec09ec6-cf23-4f1e-953a-4e939434cf68,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_3c579b9c-4c11-44d3-9df2-77544bc83bb3,2026-10-07T08:30:29.148048Z,opp_1ec09ec6-cf23-4f1e-953a-4e939434cf68,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_f110b42b-7464-4f57-aad9-42e3b471cb47,2026-10-07T08:30:29.148094Z,opp_1ec09ec6-cf23-4f1e-953a-4e939434cf68,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_b1ee75fb-5f0d-44b3-8238-dc38530423e9,2026-10-07T08:30:29.163302Z,opp_fd88e50a-e58b-497e-a95a-30f8bcfc45fb,identifiable_need,24,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_22131c39-09e4-4f27-8c12-56e170141a90,2026-10-07T08:30:29.163354Z,opp_fd88e50a-e58b-497e-a95a-30f8bcfc45fb,icp_fit,20,20,Sector Fintech: core ICP
+sco_42512333-eb22-4eb7-a794-92fb7b0632d9,2026-10-07T08:30:29.163408Z,opp_fd88e50a-e58b-497e-a95a-30f8bcfc45fb,trigger_strength,19,20,Signal weight 24/25 normalized to 20; never added directly
+sco_9e9c592d-498e-42c3-b3c7-6e65169cb3c4,2026-10-07T08:30:29.163456Z,opp_fd88e50a-e58b-497e-a95a-30f8bcfc45fb,trigger_recency,5,10,Published event age under the versioned recency decay schedule
+sco_95bba8bf-c894-401e-8077-7aea50838df6,2026-10-07T08:30:29.163506Z,opp_fd88e50a-e58b-497e-a95a-30f8bcfc45fb,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_f3dd610d-82f4-4567-86e2-33c4f03c8a99,2026-10-07T08:30:29.163559Z,opp_fd88e50a-e58b-497e-a95a-30f8bcfc45fb,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_b8754f9d-2d8f-4dab-a0f8-f44dda41df60,2026-10-07T08:30:29.163605Z,opp_fd88e50a-e58b-497e-a95a-30f8bcfc45fb,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_233d80c6-f969-4ecb-863a-0be830b59472,2026-10-07T08:30:29.163652Z,opp_fd88e50a-e58b-497e-a95a-30f8bcfc45fb,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_6821d5ee-64df-468d-abd1-12f575ad1d84,2026-10-07T08:30:29.179324Z,opp_5caaa108-7b03-4f0c-8c12-ac404f310b0b,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_2347a332-0e0c-44be-a087-9498a9e9b30d,2026-10-07T08:30:29.179379Z,opp_5caaa108-7b03-4f0c-8c12-ac404f310b0b,icp_fit,20,20,Sector SaaS: core ICP
+sco_176261d7-2335-4693-889f-69630c5ff982,2026-10-07T08:30:29.179430Z,opp_5caaa108-7b03-4f0c-8c12-ac404f310b0b,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_1df6a6f5-84c5-4a8c-931e-0c19346a4880,2026-10-07T08:30:29.179478Z,opp_5caaa108-7b03-4f0c-8c12-ac404f310b0b,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_95398454-c403-4b6d-a1d0-93d2f906ffb9,2026-10-07T08:30:29.179526Z,opp_5caaa108-7b03-4f0c-8c12-ac404f310b0b,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_d928c497-dce8-4ff2-9fab-a1453e45e8ea,2026-10-07T08:30:29.179574Z,opp_5caaa108-7b03-4f0c-8c12-ac404f310b0b,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_6a323234-cc04-4cc7-8ac8-1fac212ff7dc,2026-10-07T08:30:29.179622Z,opp_5caaa108-7b03-4f0c-8c12-ac404f310b0b,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_304df83a-cb03-4fc3-9d7f-b0d7513c2fe4,2026-10-07T08:30:29.179670Z,opp_5caaa108-7b03-4f0c-8c12-ac404f310b0b,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_b1313270-e198-41c1-90d8-0245a2432e76,2026-10-07T08:30:29.195588Z,opp_98cd0093-6936-4fde-88a6-5f70bafd3bf8,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_4b8dedc8-d922-43d7-a8ad-1bc0ee971854,2026-10-07T08:30:29.195640Z,opp_98cd0093-6936-4fde-88a6-5f70bafd3bf8,icp_fit,20,20,Sector SaaS: core ICP
+sco_832e91cb-839e-4d10-907d-a91480c3c6a6,2026-10-07T08:30:29.195691Z,opp_98cd0093-6936-4fde-88a6-5f70bafd3bf8,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_9c81fc81-18bb-4d0b-ba0f-b9a0d13035b8,2026-10-07T08:30:29.195740Z,opp_98cd0093-6936-4fde-88a6-5f70bafd3bf8,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_6bde37ff-2d72-47b7-9888-742567ce6212,2026-10-07T08:30:29.195789Z,opp_98cd0093-6936-4fde-88a6-5f70bafd3bf8,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_23257126-fd34-4963-97ff-a6c7cf71f018,2026-10-07T08:30:29.195840Z,opp_98cd0093-6936-4fde-88a6-5f70bafd3bf8,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_66bb0dcf-b055-4fe3-92b8-39cc4c647660,2026-10-07T08:30:29.195890Z,opp_98cd0093-6936-4fde-88a6-5f70bafd3bf8,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_acef3744-24c7-43b6-9248-d247699a9108,2026-10-07T08:30:29.195940Z,opp_98cd0093-6936-4fde-88a6-5f70bafd3bf8,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_edb55d78-f37e-4bb2-8793-39ff71d1a024,2026-10-07T08:30:29.217598Z,opp_585c868a-9f32-4c95-ad46-6b7514281c25,identifiable_need,22,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_85cbd0ca-34f9-42d6-b2b7-3752631597bc,2026-10-07T08:30:29.217656Z,opp_585c868a-9f32-4c95-ad46-6b7514281c25,icp_fit,20,20,Sector Fintech: core ICP
+sco_f4b9bd1d-6796-42f9-85ec-e22faa29937c,2026-10-07T08:30:29.217708Z,opp_585c868a-9f32-4c95-ad46-6b7514281c25,trigger_strength,18,20,Signal weight 22/25 normalized to 20; never added directly
+sco_a1256add-9c7f-4912-b8cc-d5b794b7f4e7,2026-10-07T08:30:29.217758Z,opp_585c868a-9f32-4c95-ad46-6b7514281c25,trigger_recency,8,10,Published event age under the versioned recency decay schedule
+sco_0646fa3a-8698-449b-88d8-1d59f6783081,2026-10-07T08:30:29.217808Z,opp_585c868a-9f32-4c95-ad46-6b7514281c25,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_61e960e4-6a75-4d34-b85c-a08f564ae3f2,2026-10-07T08:30:29.217858Z,opp_585c868a-9f32-4c95-ad46-6b7514281c25,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_57e0e7f5-b7bf-461e-b921-6b35c3b5943c,2026-10-07T08:30:29.217908Z,opp_585c868a-9f32-4c95-ad46-6b7514281c25,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_cdab1e43-6537-4717-a541-0014b011697b,2026-10-07T08:30:29.217959Z,opp_585c868a-9f32-4c95-ad46-6b7514281c25,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_416d2a1b-d8e8-4be6-b989-b845ecefaafd,2026-10-07T08:30:29.234256Z,opp_8b59c043-129b-4536-bec6-62e0bf68ae41,identifiable_need,18,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_f4726bc5-cb79-4735-ac50-d8d5740cd051,2026-10-07T08:30:29.234312Z,opp_8b59c043-129b-4536-bec6-62e0bf68ae41,icp_fit,20,20,Sector Manufacturing: core ICP
+sco_123d9213-5a45-4848-8fcf-748afbd47db0,2026-10-07T08:30:29.234365Z,opp_8b59c043-129b-4536-bec6-62e0bf68ae41,trigger_strength,14,20,Signal weight 18/25 normalized to 20; never added directly
+sco_afb5f7c5-27b3-404d-8237-408aae3f1faa,2026-10-07T08:30:29.234416Z,opp_8b59c043-129b-4536-bec6-62e0bf68ae41,trigger_recency,5,10,Published event age under the versioned recency decay schedule
+sco_306fba5e-59fa-4064-aad5-b4ce98c47689,2026-10-07T08:30:29.234467Z,opp_8b59c043-129b-4536-bec6-62e0bf68ae41,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_553a8974-0312-45d5-8804-bb9bfc28a4f1,2026-10-07T08:30:29.234519Z,opp_8b59c043-129b-4536-bec6-62e0bf68ae41,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_07ebd9e4-359a-41a6-a111-99b90c8ba087,2026-10-07T08:30:29.234571Z,opp_8b59c043-129b-4536-bec6-62e0bf68ae41,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_74ee32d2-1069-4c83-af56-998d338bb565,2026-10-07T08:30:29.234623Z,opp_8b59c043-129b-4536-bec6-62e0bf68ae41,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_6eab64f2-7b94-495a-9e21-aaf826161ba0,2026-10-07T08:30:29.251142Z,opp_1ed67353-9b50-476c-aa28-7526c3b70c01,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_6f394abf-2450-4d0d-9d8a-49fb70914f64,2026-10-07T08:30:29.251202Z,opp_1ed67353-9b50-476c-aa28-7526c3b70c01,icp_fit,20,20,Sector SaaS: core ICP
+sco_f98b1641-aeab-4ae9-bc89-667a32a89152,2026-10-07T08:30:29.251257Z,opp_1ed67353-9b50-476c-aa28-7526c3b70c01,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_9cbad902-8ccf-4a0d-a26d-9530206cdf65,2026-10-07T08:30:29.251310Z,opp_1ed67353-9b50-476c-aa28-7526c3b70c01,trigger_recency,0,10,Published event age under the versioned recency decay schedule
+sco_3d2377de-a04e-454f-ad50-ad81c0b085df,2026-10-07T08:30:29.251362Z,opp_1ed67353-9b50-476c-aa28-7526c3b70c01,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_bf446f68-158d-4b58-9c80-5094cb88bba4,2026-10-07T08:30:29.251414Z,opp_1ed67353-9b50-476c-aa28-7526c3b70c01,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_9ab5ae71-16cb-48fe-8a84-94bff7acca73,2026-10-07T08:30:29.251465Z,opp_1ed67353-9b50-476c-aa28-7526c3b70c01,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_45f1a231-a1b0-4821-8435-445126a849ba,2026-10-07T08:30:29.251517Z,opp_1ed67353-9b50-476c-aa28-7526c3b70c01,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_3f192ab9-3860-4587-a7f1-1f0569e6e6f6,2026-10-07T08:30:29.268189Z,opp_dd1f3d0b-7bc9-434e-805e-5d46c671aa5b,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_8c84b9db-0111-436d-abcc-b5d412662621,2026-10-07T08:30:29.268256Z,opp_dd1f3d0b-7bc9-434e-805e-5d46c671aa5b,icp_fit,20,20,Sector SaaS: core ICP
+sco_6bebced4-059d-4dee-b86e-0e05f0b991f3,2026-10-07T08:30:29.268314Z,opp_dd1f3d0b-7bc9-434e-805e-5d46c671aa5b,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_15896708-4886-4ec1-89aa-f67572d03080,2026-10-07T08:30:29.268369Z,opp_dd1f3d0b-7bc9-434e-805e-5d46c671aa5b,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_f6fae681-4b53-4bde-8cb2-f2514297bb48,2026-10-07T08:30:29.268424Z,opp_dd1f3d0b-7bc9-434e-805e-5d46c671aa5b,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_3c3f858c-6498-46ee-bd3f-9c220dd78311,2026-10-07T08:30:29.268479Z,opp_dd1f3d0b-7bc9-434e-805e-5d46c671aa5b,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_d53a2103-cddf-4419-ac58-a9d59d66a90c,2026-10-07T08:30:29.268532Z,opp_dd1f3d0b-7bc9-434e-805e-5d46c671aa5b,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_871a93d6-1de7-47e1-8d54-ebc20cd7875e,2026-10-07T08:30:29.268586Z,opp_dd1f3d0b-7bc9-434e-805e-5d46c671aa5b,evidence_quality,2,5,"Best non-conflicting, company-matched source confidence"
+sco_3bc7ae7d-e6ca-4c5f-bac1-170079d0482f,2026-10-07T08:30:29.285935Z,opp_00d8e671-0b19-4a96-8887-f8063c41cea2,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_9d5ef275-0701-4e71-bc03-0d4c2f3fb9b4,2026-10-07T08:30:29.286001Z,opp_00d8e671-0b19-4a96-8887-f8063c41cea2,icp_fit,20,20,Sector SaaS: core ICP
+sco_bae455a3-5b29-434b-93a0-a5767c7fbd56,2026-10-07T08:30:29.286061Z,opp_00d8e671-0b19-4a96-8887-f8063c41cea2,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_22a98845-5d30-4ac6-a3f5-50ae1a24cd5e,2026-10-07T08:30:29.286117Z,opp_00d8e671-0b19-4a96-8887-f8063c41cea2,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_1d50c130-fe2b-4a0c-8e68-77ad1876f87c,2026-10-07T08:30:29.286173Z,opp_00d8e671-0b19-4a96-8887-f8063c41cea2,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_1f0d9ffe-0ec0-46ed-8d33-bd6f4222c7a2,2026-10-07T08:30:29.286228Z,opp_00d8e671-0b19-4a96-8887-f8063c41cea2,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_69bd0f5c-c67c-4fa8-b2f0-9de4d3d13505,2026-10-07T08:30:29.286284Z,opp_00d8e671-0b19-4a96-8887-f8063c41cea2,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_c79e6f69-25ca-42ae-be2a-f11c7cf0ee01,2026-10-07T08:30:29.286339Z,opp_00d8e671-0b19-4a96-8887-f8063c41cea2,evidence_quality,2,5,"Best non-conflicting, company-matched source confidence"
+sco_54a6065e-b04f-46b8-a320-88e109a7ee6e,2026-10-07T08:30:29.303746Z,opp_0e739188-23bf-4195-9f24-cb958e28b46e,identifiable_need,20,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_6088ae82-d67f-471d-bdb6-6db95c475c72,2026-10-07T08:30:29.303807Z,opp_0e739188-23bf-4195-9f24-cb958e28b46e,icp_fit,20,20,Sector SaaS: core ICP
+sco_9aa616dd-c54e-4b21-8351-83f6a39bc6f1,2026-10-07T08:30:29.303864Z,opp_0e739188-23bf-4195-9f24-cb958e28b46e,trigger_strength,16,20,Signal weight 20/25 normalized to 20; never added directly
+sco_ba980c2b-90f1-4b78-a379-85ad57e75e97,2026-10-07T08:30:29.303920Z,opp_0e739188-23bf-4195-9f24-cb958e28b46e,trigger_recency,0,10,Published event age under the versioned recency decay schedule
+sco_de3ef02c-a194-4c2d-bf13-05237682af37,2026-10-07T08:30:29.303976Z,opp_0e739188-23bf-4195-9f24-cb958e28b46e,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_5673d896-3e98-4cae-9b6e-cd9a32df9c73,2026-10-07T08:30:29.304032Z,opp_0e739188-23bf-4195-9f24-cb958e28b46e,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_5a67f71d-4e70-49a1-a2f6-d8950aa85f16,2026-10-07T08:30:29.304087Z,opp_0e739188-23bf-4195-9f24-cb958e28b46e,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_5b93f051-6ef5-495c-b03a-32d1cf0877fd,2026-10-07T08:30:29.304143Z,opp_0e739188-23bf-4195-9f24-cb958e28b46e,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_5d23d1ab-e469-402c-9915-780f5c58a41c,2026-10-07T08:30:29.321410Z,opp_c06f326d-fae9-4998-9288-f1f34c93a31a,identifiable_need,24,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_06addfd1-370f-4da0-983c-fd1748b12aee,2026-10-07T08:30:29.321470Z,opp_c06f326d-fae9-4998-9288-f1f34c93a31a,icp_fit,20,20,Sector SaaS: core ICP
+sco_eb1aa4b0-cbb6-4bb7-90d1-c5621cece2c8,2026-10-07T08:30:29.321529Z,opp_c06f326d-fae9-4998-9288-f1f34c93a31a,trigger_strength,19,20,Signal weight 24/25 normalized to 20; never added directly
+sco_db4662b4-3ce9-4217-b984-b64aa483bead,2026-10-07T08:30:29.321586Z,opp_c06f326d-fae9-4998-9288-f1f34c93a31a,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_3ea0bf50-d4c9-464d-812d-7e50275feb5e,2026-10-07T08:30:29.321644Z,opp_c06f326d-fae9-4998-9288-f1f34c93a31a,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_e2759983-12be-4c09-adaf-474eff107ed7,2026-10-07T08:30:29.321701Z,opp_c06f326d-fae9-4998-9288-f1f34c93a31a,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_5227ca6c-71b2-47a0-881a-27ab7fcd7b24,2026-10-07T08:30:29.321758Z,opp_c06f326d-fae9-4998-9288-f1f34c93a31a,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_659cf524-88b7-4d00-a6d9-fc490d8405ba,2026-10-07T08:30:29.321820Z,opp_c06f326d-fae9-4998-9288-f1f34c93a31a,evidence_quality,0,5,"Best non-conflicting, company-matched source confidence"
+sco_bdca0372-fbda-4981-a489-2e12907cf378,2026-10-07T08:30:29.339356Z,opp_e1c270fa-f882-4626-bb6f-5bd63f1d07a3,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_69ac95b3-f22c-412c-a098-f87871aca41e,2026-10-07T08:30:29.339424Z,opp_e1c270fa-f882-4626-bb6f-5bd63f1d07a3,icp_fit,20,20,Sector SaaS: core ICP
+sco_f7e7d736-6b7c-4aa9-a468-8fc22da6e401,2026-10-07T08:30:29.339487Z,opp_e1c270fa-f882-4626-bb6f-5bd63f1d07a3,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_fa4d3796-dc9a-43cb-a936-e7e9b31ca177,2026-10-07T08:30:29.339546Z,opp_e1c270fa-f882-4626-bb6f-5bd63f1d07a3,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_3d16591e-96b8-4b20-8799-09c763fed8b3,2026-10-07T08:30:29.339605Z,opp_e1c270fa-f882-4626-bb6f-5bd63f1d07a3,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_27993731-2790-4f93-824b-4abb5f375c31,2026-10-07T08:30:29.339664Z,opp_e1c270fa-f882-4626-bb6f-5bd63f1d07a3,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_2d9fd433-87aa-4506-b9cc-f8aa81153049,2026-10-07T08:30:29.339723Z,opp_e1c270fa-f882-4626-bb6f-5bd63f1d07a3,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_22aa69ed-6584-4f46-9bcd-137197c5ab49,2026-10-07T08:30:29.339782Z,opp_e1c270fa-f882-4626-bb6f-5bd63f1d07a3,evidence_quality,0,5,"Best non-conflicting, company-matched source confidence"
+sco_c58129ab-4031-479c-bce8-7ee6c73efe25,2026-10-07T08:30:29.357667Z,opp_1f844c61-8f1a-42c7-81c8-664121246db1,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_44fa67a8-91d1-4d31-9858-2edb8acb9374,2026-10-07T08:30:29.357730Z,opp_1f844c61-8f1a-42c7-81c8-664121246db1,icp_fit,20,20,Sector SaaS: core ICP
+sco_4cb809e9-ae20-452e-9b0f-79a1de4c3f65,2026-10-07T08:30:29.357791Z,opp_1f844c61-8f1a-42c7-81c8-664121246db1,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_fdb343a6-7c29-4cf9-bbb1-218648337fec,2026-10-07T08:30:29.357850Z,opp_1f844c61-8f1a-42c7-81c8-664121246db1,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_f0da25ad-d10d-43dd-8ef2-2cc2dd9bd57a,2026-10-07T08:30:29.357909Z,opp_1f844c61-8f1a-42c7-81c8-664121246db1,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_27d1098e-08bc-4d0b-a97c-cd3e5bb6cd13,2026-10-07T08:30:29.357969Z,opp_1f844c61-8f1a-42c7-81c8-664121246db1,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_815af7ea-ef3c-414f-8359-6d27c1dd1c29,2026-10-07T08:30:29.358029Z,opp_1f844c61-8f1a-42c7-81c8-664121246db1,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_ed6d0d42-89a2-4df3-94f3-110f221f8450,2026-10-07T08:30:29.358089Z,opp_1f844c61-8f1a-42c7-81c8-664121246db1,evidence_quality,0,5,"Best non-conflicting, company-matched source confidence"
+sco_e97e8559-47e3-454a-8191-f23f71f4f334,2026-10-07T08:30:29.375928Z,opp_2da64b8d-7f03-449e-ad5a-507248d922e1,identifiable_need,24,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_784d4e84-25e3-4b3e-932e-3f9fb1c208dc,2026-10-07T08:30:29.375994Z,opp_2da64b8d-7f03-449e-ad5a-507248d922e1,icp_fit,20,20,Sector SaaS: core ICP
+sco_f2f2ac81-697b-4a17-b2b5-f8854c61d14c,2026-10-07T08:30:29.376058Z,opp_2da64b8d-7f03-449e-ad5a-507248d922e1,trigger_strength,19,20,Signal weight 24/25 normalized to 20; never added directly
+sco_21c93f12-8db7-401d-b9bc-e74a5d27bb29,2026-10-07T08:30:29.376118Z,opp_2da64b8d-7f03-449e-ad5a-507248d922e1,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_7b076f57-306e-4baa-aa90-afdb511ce567,2026-10-07T08:30:29.376179Z,opp_2da64b8d-7f03-449e-ad5a-507248d922e1,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_6f0ff5c8-71b3-4029-8029-a2f0e43ddd34,2026-10-07T08:30:29.376239Z,opp_2da64b8d-7f03-449e-ad5a-507248d922e1,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_2afdadc2-20df-4f6e-8191-83ba7458cf02,2026-10-07T08:30:29.376299Z,opp_2da64b8d-7f03-449e-ad5a-507248d922e1,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_78d4bdd9-6bec-456e-a070-9cd10ac7d441,2026-10-07T08:30:29.376360Z,opp_2da64b8d-7f03-449e-ad5a-507248d922e1,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_fe71161e-b350-402b-97b8-86abbeae471e,2026-10-07T08:30:29.394815Z,opp_f27dbbe7-458f-4221-a4c2-8e7ba45b5f43,identifiable_need,24,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_ec884c82-5e65-4e45-9b8e-aa1b92b5f675,2026-10-07T08:30:29.394882Z,opp_f27dbbe7-458f-4221-a4c2-8e7ba45b5f43,icp_fit,20,20,Sector SaaS: core ICP
+sco_598b2f5d-6634-4c40-bb11-5d193e926e51,2026-10-07T08:30:29.394945Z,opp_f27dbbe7-458f-4221-a4c2-8e7ba45b5f43,trigger_strength,19,20,Signal weight 24/25 normalized to 20; never added directly
+sco_e67f220f-f277-49ec-a4dc-b62eafa1c106,2026-10-07T08:30:29.395008Z,opp_f27dbbe7-458f-4221-a4c2-8e7ba45b5f43,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_17e435b5-c399-441d-929d-ab1a2ab289fa,2026-10-07T08:30:29.395070Z,opp_f27dbbe7-458f-4221-a4c2-8e7ba45b5f43,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_75be7962-3bcb-4cd6-bc8d-63119a4fe1c9,2026-10-07T08:30:29.395132Z,opp_f27dbbe7-458f-4221-a4c2-8e7ba45b5f43,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_2c8db9a7-d77d-4ee8-a769-eec081b5f4e0,2026-10-07T08:30:29.395195Z,opp_f27dbbe7-458f-4221-a4c2-8e7ba45b5f43,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_8bca7d67-9f06-42d6-afa6-714cb2d01644,2026-10-07T08:30:29.395258Z,opp_f27dbbe7-458f-4221-a4c2-8e7ba45b5f43,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_ca340f9c-7795-4ee6-82e7-2182e697f4dd,2026-10-07T08:30:29.413806Z,opp_44bf223b-05e6-43e8-8d19-4473614eacaa,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_c7fa305c-f9b9-405f-90ac-557ad629f386,2026-10-07T08:30:29.413879Z,opp_44bf223b-05e6-43e8-8d19-4473614eacaa,icp_fit,20,20,Sector SaaS: core ICP
+sco_be2306ab-3e71-444a-bdd9-aa88ddab214d,2026-10-07T08:30:29.413948Z,opp_44bf223b-05e6-43e8-8d19-4473614eacaa,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_ab1b56c6-e6ee-4c82-a466-1ccabd49fcc3,2026-10-07T08:30:29.414013Z,opp_44bf223b-05e6-43e8-8d19-4473614eacaa,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_d32c1e7a-a3ee-4db3-91b8-52cca8954084,2026-10-07T08:30:29.414077Z,opp_44bf223b-05e6-43e8-8d19-4473614eacaa,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_af90f557-95b7-4a89-93a8-e9fb0c766fc0,2026-10-07T08:30:29.414142Z,opp_44bf223b-05e6-43e8-8d19-4473614eacaa,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_98ca6590-86cc-42bb-9d5c-df8d11b7ea5c,2026-10-07T08:30:29.414207Z,opp_44bf223b-05e6-43e8-8d19-4473614eacaa,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_9a665ba1-aec6-480c-81a2-63841fe5b7dc,2026-10-07T08:30:29.414271Z,opp_44bf223b-05e6-43e8-8d19-4473614eacaa,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_a28355d4-4720-4dcd-9ab8-9913da9ae3f4,2026-10-07T08:30:29.433167Z,opp_4b854351-711c-443a-ac24-ee5c2554c946,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_c06a9497-d7b2-49e8-bf7e-632799e6472b,2026-10-07T08:30:29.433238Z,opp_4b854351-711c-443a-ac24-ee5c2554c946,icp_fit,20,20,Sector SaaS: core ICP
+sco_0778749e-e788-47e7-925e-93b048901344,2026-10-07T08:30:29.433306Z,opp_4b854351-711c-443a-ac24-ee5c2554c946,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_7384708e-3fe0-4a5a-9166-e1e81511e7c4,2026-10-07T08:30:29.433371Z,opp_4b854351-711c-443a-ac24-ee5c2554c946,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_b86578c9-0ef6-44be-a779-e2ad3e36b4a2,2026-10-07T08:30:29.433436Z,opp_4b854351-711c-443a-ac24-ee5c2554c946,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_0e29b01e-9270-4245-a8ce-42219814b985,2026-10-07T08:30:29.433501Z,opp_4b854351-711c-443a-ac24-ee5c2554c946,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_b75d8ca0-6d16-4975-a1c5-509e63341dbc,2026-10-07T08:30:29.433566Z,opp_4b854351-711c-443a-ac24-ee5c2554c946,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_756a370e-470b-4f05-b546-18a69782deb4,2026-10-07T08:30:29.433631Z,opp_4b854351-711c-443a-ac24-ee5c2554c946,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_e1dbfe3d-b23d-4fd6-8c01-a434f731d914,2026-10-07T08:30:29.452601Z,opp_8d31c6a2-63f1-446c-890a-b317b415c58e,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_89d8e527-2f92-4551-827b-31e72ec17870,2026-10-07T08:30:29.452673Z,opp_8d31c6a2-63f1-446c-890a-b317b415c58e,icp_fit,20,20,Sector SaaS: core ICP
+sco_ab90f1ee-e024-4d0a-b7be-ebc1579e834d,2026-10-07T08:30:29.452740Z,opp_8d31c6a2-63f1-446c-890a-b317b415c58e,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_be8c8bbf-0400-4b4f-8d36-45001e328d30,2026-10-07T08:30:29.452807Z,opp_8d31c6a2-63f1-446c-890a-b317b415c58e,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_4d08a737-476a-4743-9e61-5a87a5890796,2026-10-07T08:30:29.452873Z,opp_8d31c6a2-63f1-446c-890a-b317b415c58e,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_e05203de-deac-4367-9d37-9fdd1fe75fc7,2026-10-07T08:30:29.452938Z,opp_8d31c6a2-63f1-446c-890a-b317b415c58e,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_2c7e8cd4-50f6-4be4-86bc-2a52adbf437d,2026-10-07T08:30:29.453006Z,opp_8d31c6a2-63f1-446c-890a-b317b415c58e,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_27adba06-e050-472b-b799-b6411dfa948c,2026-10-07T08:30:29.453072Z,opp_8d31c6a2-63f1-446c-890a-b317b415c58e,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
+sco_7498773e-24cf-4a9b-b4be-4fad4e4ea2f4,2026-10-07T08:30:29.472357Z,opp_80b3da48-7daf-4bcd-b17f-5603580c6686,identifiable_need,25,25,"Catalog need intensity; a hypothesis, not confirmed demand"
+sco_a88b8248-0554-45e6-9b85-92ff8e71f738,2026-10-07T08:30:29.472430Z,opp_80b3da48-7daf-4bcd-b17f-5603580c6686,icp_fit,20,20,Sector SaaS: core ICP
+sco_e85954c7-f92f-4dc1-9a2f-355f4cac7f2e,2026-10-07T08:30:29.472499Z,opp_80b3da48-7daf-4bcd-b17f-5603580c6686,trigger_strength,20,20,Signal weight 25/25 normalized to 20; never added directly
+sco_ecc36008-62aa-4f61-9d88-4c300a270304,2026-10-07T08:30:29.472568Z,opp_80b3da48-7daf-4bcd-b17f-5603580c6686,trigger_recency,10,10,Published event age under the versioned recency decay schedule
+sco_50bc5175-a2c1-4847-b6d6-f2da5366575f,2026-10-07T08:30:29.472635Z,opp_80b3da48-7daf-4bcd-b17f-5603580c6686,mandate_value,8,10,Mock scope assessment; no confirmed budget
+sco_36db167d-c939-42bd-afcd-cb19e9bc5cf8,2026-10-07T08:30:29.472703Z,opp_80b3da48-7daf-4bcd-b17f-5603580c6686,buyer_reachability,3,5,Role mapped only; no verified personal contact
+sco_042ebec5-8f8a-43a3-8e26-4aa214872d7c,2026-10-07T08:30:29.472770Z,opp_80b3da48-7daf-4bcd-b17f-5603580c6686,expertise_match,5,5,Event maps to a defined Novation vertical
+sco_ec2b60ff-e893-450b-b716-21d188e00255,2026-10-07T08:30:29.472838Z,opp_80b3da48-7daf-4bcd-b17f-5603580c6686,evidence_quality,5,5,"Best non-conflicting, company-matched source confidence"
