@@ -213,7 +213,7 @@ export default function Dashboard() {
           <button
             className="secondary"
             style={{ borderColor: "#8bb674", background: "#f2f7ec", color: "#284b30", fontWeight: 600 }}
-            onClick={() => { setLiveDryRun(false); void triggerLiveDiscovery(false); }}
+            onClick={() => { setLiveDryRun(false); void openLiveDiscoveryModal(); }}
             disabled={liveRunning || running || loading || !readiness?.ready || dataMode === "MOCK"}
           >
             {liveRunning ? "Running Live Discovery…" : "⚡ Run Live Discovery (Exa + Firecrawl)"}
