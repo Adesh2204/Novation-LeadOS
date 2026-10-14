@@ -181,7 +181,6 @@ export function formatSearchDate(isoDate: string | null | undefined): string {
 
 export function resolveSearchDate(result: DiscoveryResult, liveJobDate?: string | null): string {
   if (result.search_date) return result.search_date;
-  if (liveJobDate) return liveJobDate.slice(0, 10);
   if (RUN_12_OCT_IDS.has(result.id)) return "2026-10-12";
   if (RUN_09_OCT_VPPL_IDS.has(result.id)) return "2026-10-09";
 
@@ -197,5 +196,6 @@ export function resolveSearchDate(result: DiscoveryResult, liveJobDate?: string 
   if (c.includes("sbi card") || c.includes("protean")) {
     return "2026-10-08";
   }
-  return "2026-10-12";
+  if (liveJobDate) return liveJobDate.slice(0, 10);
+  return "2026-10-14";
 }

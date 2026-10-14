@@ -911,6 +911,8 @@ def live_discovery_results(db: StorageProvider = Depends(get_db, scope="function
                 continue
 
             row = dict(saved)
+            if not row.get("search_date") and run.created_at:
+                row["search_date"] = str(run.created_at)[:10]
             prospect = prospects.get(row.get("source_url", ""))
             if prospect:
                 row["prospect"] = {

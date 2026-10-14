@@ -108,7 +108,8 @@ export default function DiscoveryResults({
     .sort((a, b) => b[0].localeCompare(a[0]))
     .map(([d, count]) => {
       let runLabel = formatSearchDate(d);
-      if (d === "2026-10-12") runLabel += " · Latest Run";
+      if (d === "2026-10-14") runLabel += " · Latest Live Run";
+      else if (d === "2026-10-12") runLabel += " · Privacy Baseline";
       else if (d === "2026-10-09") runLabel += " · VPPL Run";
       return { date: d, label: runLabel, count };
     });
@@ -145,7 +146,7 @@ export default function DiscoveryResults({
   });
 
   return (
-    <section className="discovery-results" aria-label="Live research results">
+    <section className="discovery-results" id="live-discovery-table" aria-label="Live research results">
       <div className="connections-heading">
         <div>
           <h3>Live research results & Opportunity Desk</h3>

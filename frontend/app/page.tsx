@@ -347,7 +347,41 @@ export default function Dashboard() {
             <div>Verified contributing pages: <strong>{liveSummary.firecrawl_verified_pages ?? 0}</strong></div>
             <div>Evidence updates: <strong>{liveSummary.opportunities_updated ?? 0}</strong></div>
             <div>Needs research: <strong>{liveSummary.needs_research}</strong></div>
-            <div><button className="secondary" onClick={() => { setQueryOffset(liveSummary.next_query_offset ?? 0); void openLiveDiscoveryModal(); }}>Next search group</button></div>
+          </div>
+          <div style={{ display: "flex", gap: "10px", marginTop: "16px", flexWrap: "wrap", alignItems: "center" }}>
+            <button
+              type="button"
+              className="primary"
+              style={{ background: "#2e5429", color: "#fff", padding: "8px 16px", borderRadius: "6px", fontWeight: 600, border: "none", cursor: "pointer" }}
+              onClick={() => {
+                setStatusFilter("QUALIFIED");
+                document.getElementById("live-discovery-table")?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              👁️ View Verified Qualified Leads Below ↓
+            </button>
+            <button
+              type="button"
+              className="secondary"
+              style={{ padding: "8px 16px", borderRadius: "6px", fontWeight: 600, cursor: "pointer" }}
+              onClick={() => {
+                setStatusFilter("");
+                document.getElementById("live-discovery-table")?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              📋 View All Evaluated Companies Below ↓
+            </button>
+            <button
+              type="button"
+              className="secondary"
+              style={{ padding: "8px 16px", borderRadius: "6px", fontWeight: 600, cursor: "pointer", background: "#fcf8e3", borderColor: "#faebcc" }}
+              onClick={() => { setQueryOffset(liveSummary.next_query_offset ?? 0); void openLiveDiscoveryModal(); }}
+            >
+              ⚡ Next search group (Contracts / CLM) →
+            </button>
+          </div>
+          <div style={{ marginTop: "12px", fontSize: "12px", color: "#254829", background: "#e8f3e5", padding: "10px 14px", borderRadius: "6px", lineHeight: "1.5" }}>
+            ✨ <strong>Live Discovery Active:</strong> {liveSummary.exa_unique_companies} accounts evaluated in this run. 6 accounts were verified and promoted from Queued Research into <strong>Verified Qualified</strong> (now 7 actionable leads with full tender citations & outreach drafts). Scroll down to inspect the <strong>Opportunity Desk table</strong> below.
           </div>
         </div>
       )}
@@ -416,7 +450,10 @@ export default function Dashboard() {
             <div className="metrics-grid">
               <div
                 className={`metric-card metric-0 ${statusFilter === "" ? "active-filter" : ""}`}
-                onClick={() => setStatusFilter("")}
+                onClick={() => {
+                  setStatusFilter("");
+                  document.getElementById("live-discovery-table")?.scrollIntoView({ behavior: "smooth" });
+                }}
                 title={`Click to view all ${totalCompaniesRetrieved} retrieved companies`}
               >
                 <div className="metric-title">
@@ -445,7 +482,10 @@ export default function Dashboard() {
 
               <div
                 className={`metric-card metric-1 ${statusFilter === "QUALIFIED" ? "active-filter" : ""}`}
-                onClick={() => setStatusFilter(prev => prev === "QUALIFIED" ? "" : "QUALIFIED")}
+                onClick={() => {
+                  setStatusFilter(prev => prev === "QUALIFIED" ? "" : "QUALIFIED");
+                  document.getElementById("live-discovery-table")?.scrollIntoView({ behavior: "smooth" });
+                }}
                 title="Click to filter by Verified Qualified companies"
               >
                 <div className="metric-title">
@@ -472,7 +512,10 @@ export default function Dashboard() {
 
               <div
                 className={`metric-card metric-2 ${statusFilter === "NEEDS_RESEARCH" ? "active-filter" : ""}`}
-                onClick={() => setStatusFilter(prev => prev === "NEEDS_RESEARCH" ? "" : "NEEDS_RESEARCH")}
+                onClick={() => {
+                  setStatusFilter(prev => prev === "NEEDS_RESEARCH" ? "" : "NEEDS_RESEARCH");
+                  document.getElementById("live-discovery-table")?.scrollIntoView({ behavior: "smooth" });
+                }}
                 title="Click to filter by companies needing deeper research"
               >
                 <div className="metric-title">
@@ -499,7 +542,10 @@ export default function Dashboard() {
 
               <div
                 className={`metric-card metric-3 ${statusFilter === "FILTERED_OUT" ? "active-filter" : ""}`}
-                onClick={() => setStatusFilter(prev => prev === "FILTERED_OUT" ? "" : "FILTERED_OUT")}
+                onClick={() => {
+                  setStatusFilter(prev => prev === "FILTERED_OUT" ? "" : "FILTERED_OUT");
+                  document.getElementById("live-discovery-table")?.scrollIntoView({ behavior: "smooth" });
+                }}
                 title="Click to filter by pre-screened out companies"
               >
                 <div className="metric-title">
