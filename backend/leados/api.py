@@ -202,6 +202,7 @@ def opportunity_output(db: StorageProvider, opportunity: Opportunity) -> Opportu
 
 
 @app.get("/health")
+@app.get("/healthz")
 def health(db: StorageProvider = Depends(get_db, scope="function")):
     db.health()
     return {

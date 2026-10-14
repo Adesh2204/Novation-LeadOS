@@ -26,10 +26,12 @@ node_modules/
 *.tsbuildinfo
 .DS_Store
 
-# Local SQLite databases & locks
+# Local SQLite databases & data locks
 *.db
 *.db-*
-*.lock
+data/*.lock
+!requirements.lock
+!uv.lock
 
 # Local runtime data & caches (keeps data directory tracked)
 data/archives/
