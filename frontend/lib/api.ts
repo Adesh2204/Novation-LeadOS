@@ -126,17 +126,36 @@ export type LiveReadiness = { ready: boolean; enabled: boolean; stop_active: boo
 export type DashboardState = { prospects: Prospect[]; verticals: Vertical[]; opportunities: OpportunitySummary[]; metrics: Metrics; discovery_results: DiscoveryResult[] };
 
 const BASE = process.env.NEXT_PUBLIC_API_URL || "/api/backend";
-export async function api<T>(path: string, body?: unknown): Promise<T> {
-  const signal = AbortSignal.timeout(path === "/pipeline/discover/live" ? 480000 : 45000);
-  const response = await fetch(BASE + path, body === undefined ? { cache: "no-store", signal } : {
-    method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body),
-    signal,
-  });
-  if (!response.ok) {
-    const data = await response.json().catch(() => ({}));
-    throw new Error(typeof data.detail === "string" ? data.detail : `Request failed (${response.status}). Check the supplied fields.`);
+export async function api<T>(path: string, body?: unknown, retries = 2): Promise<T> {
+  const isLongRunning = path === "/pipeline/discover/live" || path.includes("/jobs");
+  const timeoutMs = isLongRunning ? 480000 : 90000;
+
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const signal = AbortSignal.timeout(timeoutMs);
+      const response = await fetch(BASE + path, body === undefined ? { cache: "no-store", signal } : {
+        method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body),
+        signal,
+      });
+      if (!response.ok) {
+        const data = await response.json().catch(() => ({}));
+        throw new Error(typeof data.detail === "string" ? data.detail : `Request failed (${response.status}).`);
+      }
+      return await response.json();
+    } catch (err: unknown) {
+      const isLast = attempt === retries;
+      const isAbortOrTimeout = err instanceof Error && (err.name === "AbortError" || err.name === "TimeoutError" || err.message.toLowerCase().includes("timed out") || err.message.toLowerCase().includes("signal"));
+      if (isLast || isLongRunning) {
+        if (isAbortOrTimeout) {
+          throw new Error("Backend connection timed out. Service may be warming up — reconnecting...");
+        }
+        throw err;
+      }
+      // Brief exponential backoff before retry (1s, 2s)
+      await new Promise(r => setTimeout(r, 1000 * (attempt + 1)));
+    }
   }
-  return response.json();
+  throw new Error("Backend connection timed out. Click Retry to reconnect.");
 }
 export function label(value: string) { return value.replaceAll("_", " ").toLowerCase().replace(/\b\w/g, c => c.toUpperCase()); }
 export function day(value: string | null) { return value ? new Date(value + (value.length === 10 ? "T00:00:00" : "")).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" }) : "Date unavailable"; }

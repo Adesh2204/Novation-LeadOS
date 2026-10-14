@@ -91,11 +91,20 @@ export default function Dashboard() {
 
   useEffect(() => {
     let active = true;
-    const refresh = () => api<LiveReadiness>("/pipeline/discover/live/status").then(status => { if (active) setReadiness(status); }).catch(e => { if (active) setError(e instanceof Error ? e.message : "Live readiness unavailable"); });
+    const refresh = () => api<LiveReadiness>("/pipeline/discover/live/status").then(status => { if (active) setReadiness(status); }).catch(() => {});
     void refresh();
-    const timer = setInterval(() => void refresh(), 15000);
+    const timer = setInterval(() => void refresh(), 25000);
     return () => { active = false; clearInterval(timer); };
   }, []);
+
+  // Self-heal on error: automatically retry loading state if temporarily disconnected
+  useEffect(() => {
+    if (!error) return;
+    const timer = setTimeout(() => {
+      void load();
+    }, 3500);
+    return () => clearTimeout(timer);
+  }, [error, load]);
 
   useEffect(() => {
     let active = true;
@@ -726,7 +735,19 @@ export default function Dashboard() {
               </div>
             )}
 
-            {error && <div className="error" role="alert">{error} <button onClick={load}>Retry connection</button><p>Start the backend on port 8000 after running the database migration.</p></div>}
+            {error && (
+              <div className="error" role="alert" style={{ background: "#fff5f5", borderColor: "#fed7d7", color: "#9b2c2c", padding: "16px 20px", borderRadius: "8px", margin: "16px 0" }}>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "12px" }}>
+                  <div>
+                    <strong>Connection notice:</strong> {error}
+                    <p style={{ margin: "4px 0 0", fontSize: "12px", color: "#742a2a" }}>Reconnecting automatically in the background, or click to retry immediately.</p>
+                  </div>
+                  <button className="primary" onClick={load} style={{ background: "#2e5429", color: "#fff", padding: "8px 16px", borderRadius: "6px", cursor: "pointer", border: "none", fontWeight: 600 }}>
+                    ↻ Reconnect now
+                  </button>
+                </div>
+              </div>
+            )}
             {run && <div className="run-result" role="status">Discovery {run.status.toLowerCase()}: {run.metrics?.opportunities_created ?? 0} opportunities created · {run.metrics?.duplicates_avoided ?? 0} duplicates avoided · {run.metrics?.errors ?? 0} invalid records skipped · {run.duration_ms} ms</div>}
 
             {/* MAIN TABLE: Companies retrieved in Live Discovery with 8-Factor Inspection & Outreach Mail */}

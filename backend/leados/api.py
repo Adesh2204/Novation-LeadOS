@@ -594,13 +594,14 @@ def dashboard_state(db: StorageProvider = Depends(get_db, scope="function"), dat
                 "suppressed": is_suppressed(db, company.id),
             }
         )
+    prospects = live_prospects(db) if data_mode == "LIVE" else []
     return {
         "verticals": list(knowledge.verticals.values()),
         "opportunities": rows,
         "metrics": dashboard_metrics(db, data_mode),
         "data_mode": data_mode,
-        "discovery_results": live_discovery_results(db) if data_mode == "LIVE" else [],
-        "prospects": live_prospects(db) if data_mode == "LIVE" else [],
+        "discovery_results": live_discovery_results(db, prospects_list=prospects) if data_mode == "LIVE" else [],
+        "prospects": prospects,
     }
 
 
@@ -866,10 +867,18 @@ async def retry_discovery_sync(job_id: str):
     return updated
 
 
+_search_intel_cache: dict[str, dict] = {}
+
+
 @app.get("/pipeline/discover/live/results")
-def live_discovery_results(db: StorageProvider = Depends(get_db, scope="function"), limit: int = 50):
+def live_discovery_results(
+    db: StorageProvider = Depends(get_db, scope="function"),
+    limit: int = 50,
+    prospects_list: list[dict] | None = None,
+):
     runs = sorted(db.list(ProviderRun), key=lambda run: run.created_at, reverse=True)
-    prospects = {s["url"]: p for p in live_prospects(db) for s in p["sources"]}
+    p_list = prospects_list if prospects_list is not None else live_prospects(db)
+    prospects = {s["url"]: p for p in p_list for s in p["sources"]}
     db_companies = {c.id: company_dedup_key(c.canonical_name) for c in db.list(Company)}
     db_opps_by_comp_key: dict[str, list[str]] = {}
     for o in db.list(Opportunity):
@@ -931,12 +940,18 @@ def live_discovery_results(db: StorageProvider = Depends(get_db, scope="function
             row["opportunity_ids"] = opp_ids[:1]
             si = row.get("search_intelligence")
             if not si or not isinstance(si, dict) or not si.get("total_factor_score"):
-                row["search_intelligence"] = compute_search_intelligence(
-                    db=db,
-                    candidate=row,
-                    qualification=row.get("qualification"),
-                    opportunity_ids=row["opportunity_ids"],
-                )
+                cache_key = f"{ckey}:{row.get('source_url', '')}"
+                if cache_key in _search_intel_cache:
+                    row["search_intelligence"] = _search_intel_cache[cache_key]
+                else:
+                    computed = compute_search_intelligence(
+                        db=db,
+                        candidate=row,
+                        qualification=row.get("qualification"),
+                        opportunity_ids=row["opportunity_ids"],
+                    )
+                    _search_intel_cache[cache_key] = computed
+                    row["search_intelligence"] = computed
             seen_company_map[ckey] = row
             results.append(row)
             if len(results) >= limit:
